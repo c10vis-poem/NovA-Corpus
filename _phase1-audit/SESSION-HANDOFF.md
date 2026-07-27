@@ -39,9 +39,12 @@
 
 ## Not yet done (next session should pick up here)
 1. Actually populate the AESOP folder per the structure above (copy Drive files + repo READMEs in)
-2. Apply the same "repo folder + defined + components + wiki" pattern to the other 8 master
-   folders (only #AGENTS got a full pass: Harness & Orchestration / Runtimes & Inference Engines /
-   Hardware Backends / Networking & Cloud Fallback / Voice Engine)
+2. Work out subsections for the other 8 master folders individually, based on each folder's
+   actual content — NOT a copy-paste of AESOP's repo/defined/components/wiki structure. User
+   explicitly said this pattern was never meant to apply universally. #AGENTS already got its
+   own bespoke breakdown (Harness & Orchestration / Runtimes & Inference Engines / Hardware
+   Backends / Networking & Cloud Fallback / Voice Engine) grounded in its actual docs — that's
+   the model for *how* to do it per-folder, not the specific subsection names to reuse.
 3. Execute the actual mirror-copy of deduped Drive content into the new structure
 4. Download + reorganize into this git repo, push real vault content (this audit folder is
    scaffolding, not final content — remove once real content lands)
