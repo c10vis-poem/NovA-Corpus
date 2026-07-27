@@ -28,9 +28,11 @@
 
 ## AESOP folder structure — agreed, ready to build
 - `AESOP repo/` — the 6 real repo files above, straight from GitHub
-- `AESOP Defined/` — deep-dive conceptual docs (distinct from repo files)
+- `AESOP Defined/` — deep-dive conceptual docs, one of the ~4 core docs defining what AESOP is:
+  `final-memory-layer-p2p-pipeline.md` (peer-to-peer pipeline = inference between models/devices,
+  directly matches user's own definition of what AESOP covers). NOT a Components item.
 - `Components/` — one subfolder per forked tool repo, each with that repo's real README:
-  `OB1/`, `MemO/` (clovis-mem0-vingian + DUAL.AGENT.MEMORY.LAYER + final-memory-layer-p2p-pipeline.md),
+  `OB1/`, `MemO/` (clovis-mem0-vingian + DUAL.AGENT.MEMORY.LAYER),
   `reasoning-bank/`, `LLM Wiki/`, `OpenWiki/`, `Graphify/`, `obsidian-skills/`, `notebooklm-py/`
 - `AESOP Wiki/` — current-issues/troubleshooting docs (LangSmith 403s, Graphify Termux compile
   failures — found in "AESOP Vault setup, OPEN WIKI, GRAPHIFY NBLM" doc)
