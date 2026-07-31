@@ -43,8 +43,8 @@ MASTER_REPO_WIKI_VAULT/
 4. `(BUILD.it)_JHA/SOTU-2026-07-27.md` — most recent state of the union
 5. [[CRASH-ANALYSIS-2026-07-31]] — current boot-stability investigation
 6. [[ROUTER-STEREO-STACK-SPEC]] — Router tile UI direction (stereo stack)
-
 7. [[MONITOR-ARCADE-CABINET-SPEC]] — Monitor tile UI direction (arcade cabinet)
+
 ## The core law
 
 > **Daemons stay dumb, the user is the loader.**
