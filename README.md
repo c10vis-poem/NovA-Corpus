@@ -44,6 +44,7 @@ MASTER_REPO_WIKI_VAULT/
 5. [[CRASH-ANALYSIS-2026-07-31]] — current boot-stability investigation
 6. [[ROUTER-STEREO-STACK-SPEC]] — Router tile UI direction (stereo stack)
 7. [[MONITOR-ARCADE-CABINET-SPEC]] — Monitor tile UI direction (arcade cabinet)
+8. [[TERMINAL-SPEC]] — Terminal tile UI direction (matrix cascade)
 
 ## The core law
 
