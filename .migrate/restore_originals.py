@@ -7,7 +7,7 @@ _DUPLICATES_REVIEW/, untouched)."""
 import subprocess, os, sys
 
 SOURCE_COMMIT = "c9d23da"
-CONVERTIBLE = {".docx", ".doc", ".pdf", ".mht", ".mhtml"}
+CONVERTIBLE = {".docx", ".doc", ".pdf", ".mht", ".mhtml", ".txt"}
 
 def sniff_ext(commit, relpath):
     r = subprocess.run(["git", "show", f"{commit}:{relpath}"], capture_output=True)
