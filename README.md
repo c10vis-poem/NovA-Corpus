@@ -41,7 +41,8 @@ MASTER_REPO_WIKI_VAULT/
 2. `.../The Horizons Workflow From Storage to Switch.md` — Landing → Verification → Activation
 3. `.../The Horizons Workbench A Guide to Your Modular Intelligence Engine.md`
 4. `(BUILD.it)_JHA/SOTU-2026-07-27.md` — most recent state of the union
-5. `[[CRASH-ANALYSIS-2026-07-31]]` — current boot-stability investigation
+5. [[CRASH-ANALYSIS-2026-07-31]] — current boot-stability investigation
+5. [[ROUTER-STEREO-STACK-SPEC]] — Router tile UI direction (stereo stack)
 
 ## The core law
 
