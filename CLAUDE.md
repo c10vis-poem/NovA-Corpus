@@ -6,9 +6,17 @@ A migration of a personal Google Drive knowledge vault (`(MASTER_REPO).&WIKI.MD_
 into this GitHub repo as a clean, Obsidian-compatible Markdown vault, plus a
 JSONL chunk library for RAG retrieval over the large reference docs.
 
-**Everything currently lives on branch `claude/drive-obsidian-migration-th115b`,
-NOT `main`.** `main` is still empty — this branch has not been merged. If you
-don't see content in the repo, check you're on the right branch.
+**STATUS 2026-07-31: the migration has been MERGED** into
+`claude/app-crash-landing-yc955p` — the active branch for both this repo and
+`c10vis-poem/Horizons-UI`. It originated on
+`claude/drive-obsidian-migration-th115b`.
+
+`main` is **still an empty tree** and must not be used as a base. Four
+`docs/mirror-*` chunk branches also exist carrying only 82 files between them
+(`chunk3`'s head is a *Revert*) — they are superseded, ignore them.
+
+**Always `git branch -a` before choosing a base.** In these repos more real
+work sits on unmerged branches than on `main`.
 
 ## Repo structure
 
@@ -88,3 +96,48 @@ again for future Drive content) is documented as a skill:
   nothing auto-removes it.
 - The six `.EXCLUDED.md` stubs point at binaries not stored in this repo.
 - This branch has not been merged to `main`.
+
+
+---
+
+## Session 20 handoff — 2026-07-31
+
+### What landed
+
+The full migration (1,300 files) was merged after being found sitting unmerged
+while `main` was empty and a competing 82-file partial mirror was in use. Vault
+is now **1,305 files · 363 md · 96 jsonl**, plus `RAG_LIBRARY` (46 docs / 1,786
+chunks) and its BM25 index.
+
+New docs at the vault root:
+
+| File | What |
+|---|---|
+| `CRASH-ANALYSIS-2026-07-31.md` | the Horizons boot-crash investigation, with the on-device procedure to get the missing stack trace |
+| `ROUTER-STEREO-STACK-SPEC.md` | Router tile = component stereo stack (CD=models, tuner=params, cassettes=runtimes) |
+| `MONITOR-ARCADE-CABINET-SPEC.md` | Monitor tile = arcade cabinet, CRT screen, pop-out tabs |
+| `TERMINAL-SPEC.md` | Terminal = fakesteak matrix cascade + in-shell saved-command drop-down |
+
+All three UI specs are **direction only — not to be built yet.**
+
+### The authority model (operator, LAW)
+
+Series circuit. **Settings** supplies and may hand a config to the Router but has
+**no authority to run it**. **Monitor is the switch in the loop** — stores
+nothing, dispatches, and holds the verdict. **Router** is fuse box + breaker:
+carries current, doesn't argue. Validation is **live at flip time** but the check
+is the **Monitor's**. The operator explicitly rejected Router-as-gatekeeper.
+
+### Source-trust
+
+Two data-bank documents are AI transcripts, not specs — the "Gemini duel" doc
+retracts its own central claim mid-document, and `2. 2026-07-17.md` is one the
+operator calls a snow job. Architecture in them is canon; implementation claims
+are not.
+
+### Getting more from Drive
+
+Drive is the **source of truth** and is directly reachable via
+`mcp__Google_Drive__*`. Never conclude something doesn't exist from the git
+repos alone. Use the `drive-to-obsidian-migration` skill to pull more — do not
+hand-sync file by file.
