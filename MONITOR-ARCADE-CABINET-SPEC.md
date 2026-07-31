@@ -60,14 +60,28 @@ A **pop-out panel** for finer adjustment, called up when needed rather than
 occupying the face permanently. Keeps the default view clean — the cabinet
 reads as a screen, not a control panel, until you ask it for more.
 
-### Terminal tile → full-screen terminal
+### Pop-out tabs on the screen
 
-A **terminal tile in the corner** of the screen. Tap it and **the whole
-screen pops out into a terminal view**. This is the shortcut-to-Terminal
-that canon already specifies ("a shortcut for the browser inside the
-terminal, but the main browser inside the console" — the same relationship,
-read from the other side). Terminal remains its own tile at 6:00 on the
-home dock; this is an express lane, not a relocation.
+The screen carries a set of **pop-out full-screen views, each one a tab**.
+You are in the Monitor, you hit a tab, it takes over the screen, and you
+come back to the console face. Confirmed set:
+
+| Tab | Pops out to |
+|---|---|
+| **CONSOLE** | the default face — library, green lights, status |
+| **TERMINAL** | full-screen terminal view |
+| **BROWSER** | full-screen browser |
+
+Terminal remains its own tile at 6:00 on the home dock and the browser's
+home is still the Monitor — these are **express lanes, not relocations**.
+This is the shortcut relationship canon already specifies ("a shortcut for
+the browser inside the terminal, but the main browser inside the console"),
+read from the Monitor's side.
+
+**Status: BUILT (functionally).** `MonitorPane` now carries a
+`MonitorPopout` enum — Console / Terminal / Browser — with both tabs in the
+console header and ← to return. Adding a future view is one enum entry. The
+cabinet styling is still to come; the behavior is in.
 
 ### Tabs and toggles
 
