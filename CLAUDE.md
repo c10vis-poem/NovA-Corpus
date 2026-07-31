@@ -173,3 +173,63 @@ Drive is the **source of truth** and is directly reachable via
 `mcp__Google_Drive__*`. Never conclude something doesn't exist from the git
 repos alone. Use the `drive-to-obsidian-migration` skill to pull more — do not
 hand-sync file by file.
+
+
+---
+
+## Session 21 handoff — 2026-07-31 (vault repair)
+
+### What was broken
+
+**37 PDFs were in the vault as raw bytes nobody could reach.** Drive exports
+arrive with no file extension; the migration dispatches on extension, so they
+were never converted, never chunked, never indexed, and invisible to any
+`*.pdf` search. Among them: the **193k-character QAIRT HTP manual** (several
+copies), `backend (Markor)` (the QairtBackend section, never converted at all),
+QairtTensor, the Scaling-LLM-NPU paper, EdgeAI CLIP+QNN, qcom-build-utils.
+
+Fixed: extensions restored, 49 converted with PyMuPDF using the vault's
+`{name}.pdf.md` convention, re-chunked. **RAG_LIBRARY: 46 docs / 1,786 chunks
+→ 60 docs / 2,211 chunks**, BM25 index rebuilt.
+
+### Still broken — do not assume these are fine
+
+- **`.migrate/build_rag_index.py` self-poisons.** `load_chunks` walks all of
+  `RAG_LIBRARY` including its own `_index/meta.jsonl` (different schema), so it
+  works once and KeyErrors on `text` on every rebuild. Exclude `_index`.
+- **Markdown extraction discards ALL images.** Diagrams in the Qualcomm PDFs
+  are unreachable by text search. Embedded rasters need `page.get_images()`;
+  vector diagrams need `page.get_drawings()` + a page render. Neither is in the
+  pipeline. This is the next real gap.
+- **Some captures kept chrome and dropped content.** The vault's GenieX `.md`
+  is the GitHub repo *file tree*; the README body — carrying the runtime table
+  that answers "what will GenieX actually load" — is only in the 7-page PDF in
+  Drive. `c10vis-poem／llama.cpp-npu` is **44 bytes** here and **345 KB** in
+  Drive. Check size against Drive before trusting a converted doc.
+- Two extensionless `.mht` files remain unnamed.
+
+### Corrected in place
+
+`aesop-wiki.md` (both copies) said "**NOT on the ladder: Hexagon DSP**". False,
+and it misled multiple sessions into reading GGUF/ggml as a CPU path. The
+compiled `libggml-hexagon.so` + `libggml-htp-v73/v75/v79/v81.so` in
+`##LLM-WIKI_OPEN-WIKI.main_/llm-wiki/` disprove it. Corrected with a retraction
+note so a half-memory of the old line doesn't resurrect it.
+
+### The runtime answer, finally sourced
+
+From the **GenieX README** (Drive, `#QAIRT_main/#GenieX/`, 7-page PDF, pages 3
+and 6) — not from any summary in this vault:
+
+GenieX is ONE runtime with TWO backends. `llama_cpp` takes ~any Hugging Face
+GGUF and runs on NPU/GPU/CPU. `qairt` takes a per-chipset Qualcomm AI Hub
+bundle and is NPU-only. Q4_0 is recommended: "best Hexagon NPU support."
+**The magic sauce is the ggml/HTP kernels** — the format is inert, the wrapper
+is plumbing; what puts a GGUF on the NPU is ggml ops that execute on Hexagon,
+which is why the libs are built per DSP arch.
+
+### Open items carried forward
+
+- `_DUPLICATES_REVIEW/` (15 files) still needs a human delete pass.
+- Six `.EXCLUDED.md` stubs point at binaries not stored here.
+- Image/diagram extraction is unsolved.
