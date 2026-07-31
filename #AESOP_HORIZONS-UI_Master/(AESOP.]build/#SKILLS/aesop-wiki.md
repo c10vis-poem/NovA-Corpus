@@ -32,7 +32,22 @@ llama-server on port 8081, supervised by runit.
 
 **Memory:** mmap ON (reclaimable pages), `-fa -ctk q8_0 -ctv q8_0`, `-t 6` (big cores only). Resident: ~7GB model + ~0.5-1GB KV cache.
 
-**Backend ladder:** Adreno 830 via OpenCL → CPU big cores. **NOT on the ladder: Hexagon DSP.**
+**Backend ladder:** Hexagon HTP → Adreno 830 via OpenCL → CPU big cores.
+
+> **CORRECTED 2026-07-31.** This line previously read "NOT on the ladder: Hexagon
+> DSP." That was wrong and it misled at least two sessions into treating GGUF/ggml
+> as a CPU-only path. ggml HAS a Hexagon backend, and the compiled libraries for it
+> are in this vault: `##LLM-WIKI_OPEN-WIKI.main_/llm-wiki/libggml-hexagon.so` plus
+> `libggml-htp-v73/v75/v79/v81.so` (this device is v79). DEVICE-INVENTORY.md agrees:
+> GenieX ships dual backends, llama.cpp (ggml, **HTP v68-v81** + CPU + OpenCL) and
+> QAIRT (HTP v79/v81). BOTH end at HTP.
+>
+> The rule for this project: everything targets the NPU via HTP. AI Hub precompiled
+> → QAIRT → HTP for nearly everything; Unsloth-quantized GGUF → llama.cpp/ggml → the
+> same HTP for the rest. Nothing needs compiling. The voice layer is a separate
+> plane (ORT/ONNX, in-process). For any backend claim, the QAIRT manual outranks
+> this file — see `#QAIRT_main/` (seven sections) and Horizons-UI
+> `knowledge/qairt-sdk/`.
 
 ## aesopd — The Bridge
 

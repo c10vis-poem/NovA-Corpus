@@ -135,6 +135,38 @@ retracts its own central claim mid-document, and `2. 2026-07-17.md` is one the
 operator calls a snow job. Architecture in them is canon; implementation claims
 are not.
 
+### How to read this vault (learned the hard way, 2026-07-31)
+
+**Read the FOLDER, not the file.** Siblings are not copies — they go deeper on
+different parts of the same subject. A folder like `Personal Agentic Operating
+Stack/` is a numbered conversation series (1-9), not nine standalone notes;
+pulling `3.` alone gets you a third of the picture. Same-named files ACROSS
+folders *are* byte-identical (verified) — that is deliberate cross-filing, so
+the depth you're missing is always in the siblings BESIDE the file, never in
+the copy of it two folders over.
+
+**Artifact kinds are never redundant.** `foo.md` (prose), `foo.jsonl` (chunks),
+`foo-urls.md` (sources) are three different things about one subject.
+
+**QAIRT: the manual outranks every summary in here — including this file.**
+The operator has essentially every piece of QAIRT/HTP/model information
+somewhere in these documents or in a forked repo. Never conclude it isn't
+documented; go find it.
+- Seven manual sections live in `#AESOP_HORIZONS-UI_Master/(AESOP.]build/#QAIRT_main/#QAIRT/`
+  — Overview, QairtApi, QairtBackend, QairtContext, QairtGraph, QairtTensor, HTP
+  — each in `.mht` / `.pdf` / `.md`. Horizons-UI `knowledge/qairt-sdk/` carries
+  five of them plus `htp.jsonl`. **Do not stop at the first QAIRT file.**
+- FraQAT is old prior-art research. Never reach for it over the QAIRT SDK.
+
+**The runtime fact that keeps getting broken:** everything targets the NPU via
+HTP. AI Hub precompiled → QAIRT → HTP for nearly everything; Unsloth-quantized
+GGUF → llama.cpp/ggml → **the same HTP** for the rest. ggml has a Hexagon
+backend and the compiled libraries are in this vault
+(`##LLM-WIKI_OPEN-WIKI.main_/llm-wiki/libggml-hexagon.so`, `libggml-htp-v73/
+v75/v79/v81.so`; device is v79). Nothing needs compiling. Reading "ggml" as
+"CPU path" is the single most repeated error in this project — `aesop-wiki.md`
+asserted it and has now been corrected in place.
+
 ### Getting more from Drive
 
 Drive is the **source of truth** and is directly reachable via
