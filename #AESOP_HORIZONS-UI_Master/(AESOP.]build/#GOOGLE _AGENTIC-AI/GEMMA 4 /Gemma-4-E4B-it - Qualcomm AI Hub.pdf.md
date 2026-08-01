@@ -110,3 +110,17 @@ including our QCT semiconductor business.
 Materials that are as of a specific date, including but not limited to press releases, presentations, blog posts and
 webcasts, may have been superseded by subsequent events or disclosures.
 Nothing in these materials is an offer to sell any of the components or devices referenced herein.
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `Gemma-4-E4B-it - Qualcomm AI Hub.pdf_images/`)
+
+- ![embedded raster](Gemma-4-E4B-it - Qualcomm AI Hub.pdf_images/image-0013.png) -- embedded raster
+- ![embedded raster](Gemma-4-E4B-it - Qualcomm AI Hub.pdf_images/image-0054.jpg) -- embedded raster
+- ![embedded raster](Gemma-4-E4B-it - Qualcomm AI Hub.pdf_images/image-0060.png) -- embedded raster
+- ![embedded raster](Gemma-4-E4B-it - Qualcomm AI Hub.pdf_images/image-0061.png) -- embedded raster
+- ![page 1 render (42 vector ops)](Gemma-4-E4B-it - Qualcomm AI Hub.pdf_images/page-1-diagram.png) -- page 1 render (42 vector ops)
+- ![page 2 render (148 vector ops)](Gemma-4-E4B-it - Qualcomm AI Hub.pdf_images/page-2-diagram.png) -- page 2 render (148 vector ops)
+- ![page 3 render (194 vector ops)](Gemma-4-E4B-it - Qualcomm AI Hub.pdf_images/page-3-diagram.png) -- page 3 render (194 vector ops)
+- ![page 4 render (196 vector ops)](Gemma-4-E4B-it - Qualcomm AI Hub.pdf_images/page-4-diagram.png) -- page 4 render (196 vector ops)
+- ![page 5 render (22 vector ops)](Gemma-4-E4B-it - Qualcomm AI Hub.pdf_images/page-5-diagram.png) -- page 5 render (22 vector ops)

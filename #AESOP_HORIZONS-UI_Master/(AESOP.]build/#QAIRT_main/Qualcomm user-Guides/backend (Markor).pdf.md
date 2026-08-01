@@ -891,3 +891,18 @@ Consent Leg.Interest
 checkbox label label
 checkbox label label
 checkbox label label
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `backend (Markor).pdf_images/`)
+
+- ![page 1 render (10 vector ops)](backend (Markor).pdf_images/page-1-diagram.png) -- page 1 render (10 vector ops)
+- ![page 10 render (28 vector ops)](backend (Markor).pdf_images/page-10-diagram.png) -- page 10 render (28 vector ops)
+- ![page 11 render (28 vector ops)](backend (Markor).pdf_images/page-11-diagram.png) -- page 11 render (28 vector ops)
+- ![page 12 render (20 vector ops)](backend (Markor).pdf_images/page-12-diagram.png) -- page 12 render (20 vector ops)
+- ![page 13 render (28 vector ops)](backend (Markor).pdf_images/page-13-diagram.png) -- page 13 render (28 vector ops)
+- ![page 14 render (20 vector ops)](backend (Markor).pdf_images/page-14-diagram.png) -- page 14 render (20 vector ops)
+- ![page 15 render (18 vector ops)](backend (Markor).pdf_images/page-15-diagram.png) -- page 15 render (18 vector ops)
+- ![page 16 render (18 vector ops)](backend (Markor).pdf_images/page-16-diagram.png) -- page 16 render (18 vector ops)
+- ![page 18 render (10 vector ops)](backend (Markor).pdf_images/page-18-diagram.png) -- page 18 render (10 vector ops)
+- ![page 20 render (12 vector ops)](backend (Markor).pdf_images/page-20-diagram.png) -- page 20 render (12 vector ops)

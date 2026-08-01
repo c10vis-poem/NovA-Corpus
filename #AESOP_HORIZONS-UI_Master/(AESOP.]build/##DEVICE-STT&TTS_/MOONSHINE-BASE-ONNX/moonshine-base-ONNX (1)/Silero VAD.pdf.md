@@ -104,3 +104,22 @@ simplicity we provided just the 16k model)
   commit = {insert_some_commit_here},
   email = {hello@silero.ai}
 }
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `Silero VAD.pdf_images/`)
+
+- ![embedded raster](Silero VAD.pdf_images/image-0019.png) -- embedded raster
+- ![embedded raster](Silero VAD.pdf_images/image-0020.png) -- embedded raster
+- ![embedded raster](Silero VAD.pdf_images/image-0021.png) -- embedded raster
+- ![embedded raster](Silero VAD.pdf_images/image-0022.png) -- embedded raster
+- ![embedded raster](Silero VAD.pdf_images/image-0028.png) -- embedded raster
+- ![embedded raster](Silero VAD.pdf_images/image-0029.png) -- embedded raster
+- ![embedded raster](Silero VAD.pdf_images/image-0030.png) -- embedded raster
+- ![embedded raster](Silero VAD.pdf_images/image-0031.png) -- embedded raster
+- ![embedded raster](Silero VAD.pdf_images/image-0032.png) -- embedded raster
+- ![embedded raster](Silero VAD.pdf_images/image-0035.png) -- embedded raster
+- ![page 1 render (52 vector ops)](Silero VAD.pdf_images/page-1-diagram.png) -- page 1 render (52 vector ops)
+- ![page 2 render (24 vector ops)](Silero VAD.pdf_images/page-2-diagram.png) -- page 2 render (24 vector ops)
+- ![page 3 render (70 vector ops)](Silero VAD.pdf_images/page-3-diagram.png) -- page 3 render (70 vector ops)
+- ![page 4 render (48 vector ops)](Silero VAD.pdf_images/page-4-diagram.png) -- page 4 render (48 vector ops)

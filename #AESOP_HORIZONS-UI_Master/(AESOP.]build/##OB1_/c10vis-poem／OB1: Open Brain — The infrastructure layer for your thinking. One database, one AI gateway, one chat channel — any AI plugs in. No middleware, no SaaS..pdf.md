@@ -526,3 +526,24 @@ Publishes a Node.js package to GitHub Packages.
 By GitHub Actions
 Configure
 More workflows
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `c10vis-poem／OB1: Open Brain — The infrastructure layer for your thinking. One database, one AI gateway, one chat channel — any AI plugs in. No middleware, no SaaS..pdf_images/`)
+
+- ![embedded raster](c10vis-poem／OB1: Open Brain — The infrastructure layer for your thinking. One database, one AI gateway, one chat channel — any AI plugs in. No middleware, no SaaS..pdf_images/image-0013.jpg) -- embedded raster
+- ![embedded raster](c10vis-poem／OB1: Open Brain — The infrastructure layer for your thinking. One database, one AI gateway, one chat channel — any AI plugs in. No middleware, no SaaS..pdf_images/image-0018.jpg) -- embedded raster
+- ![embedded raster](c10vis-poem／OB1: Open Brain — The infrastructure layer for your thinking. One database, one AI gateway, one chat channel — any AI plugs in. No middleware, no SaaS..pdf_images/image-0024.jpg) -- embedded raster
+- ![embedded raster](c10vis-poem／OB1: Open Brain — The infrastructure layer for your thinking. One database, one AI gateway, one chat channel — any AI plugs in. No middleware, no SaaS..pdf_images/image-0027.png) -- embedded raster
+- ![embedded raster](c10vis-poem／OB1: Open Brain — The infrastructure layer for your thinking. One database, one AI gateway, one chat channel — any AI plugs in. No middleware, no SaaS..pdf_images/image-0028.png) -- embedded raster
+- ![embedded raster](c10vis-poem／OB1: Open Brain — The infrastructure layer for your thinking. One database, one AI gateway, one chat channel — any AI plugs in. No middleware, no SaaS..pdf_images/image-0139.png) -- embedded raster
+- ![embedded raster](c10vis-poem／OB1: Open Brain — The infrastructure layer for your thinking. One database, one AI gateway, one chat channel — any AI plugs in. No middleware, no SaaS..pdf_images/image-0140.png) -- embedded raster
+- ![embedded raster](c10vis-poem／OB1: Open Brain — The infrastructure layer for your thinking. One database, one AI gateway, one chat channel — any AI plugs in. No middleware, no SaaS..pdf_images/image-0336.png) -- embedded raster
+- ![embedded raster](c10vis-poem／OB1: Open Brain — The infrastructure layer for your thinking. One database, one AI gateway, one chat channel — any AI plugs in. No middleware, no SaaS..pdf_images/image-0337.png) -- embedded raster
+- ![page 1 render (392 vector ops)](c10vis-poem／OB1: Open Brain — The infrastructure layer for your thinking. One database, one AI gateway, one chat channel — any AI plugs in. No middleware, no SaaS..pdf_images/page-1-diagram.png) -- page 1 render (392 vector ops)
+- ![page 2 render (250 vector ops)](c10vis-poem／OB1: Open Brain — The infrastructure layer for your thinking. One database, one AI gateway, one chat channel — any AI plugs in. No middleware, no SaaS..pdf_images/page-2-diagram.png) -- page 2 render (250 vector ops)
+- ![page 3 render (670 vector ops)](c10vis-poem／OB1: Open Brain — The infrastructure layer for your thinking. One database, one AI gateway, one chat channel — any AI plugs in. No middleware, no SaaS..pdf_images/page-3-diagram.png) -- page 3 render (670 vector ops)
+- ![page 4 render (574 vector ops)](c10vis-poem／OB1: Open Brain — The infrastructure layer for your thinking. One database, one AI gateway, one chat channel — any AI plugs in. No middleware, no SaaS..pdf_images/page-4-diagram.png) -- page 4 render (574 vector ops)
+- ![page 5 render (506 vector ops)](c10vis-poem／OB1: Open Brain — The infrastructure layer for your thinking. One database, one AI gateway, one chat channel — any AI plugs in. No middleware, no SaaS..pdf_images/page-5-diagram.png) -- page 5 render (506 vector ops)
+- ![page 6 render (220 vector ops)](c10vis-poem／OB1: Open Brain — The infrastructure layer for your thinking. One database, one AI gateway, one chat channel — any AI plugs in. No middleware, no SaaS..pdf_images/page-6-diagram.png) -- page 6 render (220 vector ops)
+- ![page 7 render (92 vector ops)](c10vis-poem／OB1: Open Brain — The infrastructure layer for your thinking. One database, one AI gateway, one chat channel — any AI plugs in. No middleware, no SaaS..pdf_images/page-7-diagram.png) -- page 7 render (92 vector ops)

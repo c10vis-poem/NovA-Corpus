@@ -296,3 +296,21 @@ Tab 2
 
 
  
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `QWEN 3.5 9B COMPILATION AND QUANTIZATION .pdf_images/`)
+
+- ![embedded raster](QWEN 3.5 9B COMPILATION AND QUANTIZATION .pdf_images/image-0310.png) -- embedded raster
+- ![embedded raster](QWEN 3.5 9B COMPILATION AND QUANTIZATION .pdf_images/image-0311.png) -- embedded raster
+- ![embedded raster](QWEN 3.5 9B COMPILATION AND QUANTIZATION .pdf_images/image-0316.png) -- embedded raster
+- ![embedded raster](QWEN 3.5 9B COMPILATION AND QUANTIZATION .pdf_images/image-0317.png) -- embedded raster
+- ![embedded raster](QWEN 3.5 9B COMPILATION AND QUANTIZATION .pdf_images/image-0321.png) -- embedded raster
+- ![embedded raster](QWEN 3.5 9B COMPILATION AND QUANTIZATION .pdf_images/image-0322.png) -- embedded raster
+- ![page 2 render (12 vector ops)](QWEN 3.5 9B COMPILATION AND QUANTIZATION .pdf_images/page-2-diagram.png) -- page 2 render (12 vector ops)
+- ![page 3 render (42 vector ops)](QWEN 3.5 9B COMPILATION AND QUANTIZATION .pdf_images/page-3-diagram.png) -- page 3 render (42 vector ops)
+- ![page 4 render (10 vector ops)](QWEN 3.5 9B COMPILATION AND QUANTIZATION .pdf_images/page-4-diagram.png) -- page 4 render (10 vector ops)
+- ![page 5 render (34 vector ops)](QWEN 3.5 9B COMPILATION AND QUANTIZATION .pdf_images/page-5-diagram.png) -- page 5 render (34 vector ops)
+- ![page 6 render (42 vector ops)](QWEN 3.5 9B COMPILATION AND QUANTIZATION .pdf_images/page-6-diagram.png) -- page 6 render (42 vector ops)
+- ![page 7 render (30 vector ops)](QWEN 3.5 9B COMPILATION AND QUANTIZATION .pdf_images/page-7-diagram.png) -- page 7 render (30 vector ops)
+- ![page 8 render (20 vector ops)](QWEN 3.5 9B COMPILATION AND QUANTIZATION .pdf_images/page-8-diagram.png) -- page 8 render (20 vector ops)

@@ -81,3 +81,35 @@ For commercial licensing, please contact dev@nexa.ai.
       year={2025},
       url={https://huggingface.co/NexaAI/OmniNeural-4B}, 
 }
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `README (Markor).pdf_images/`)
+
+- ![embedded raster](README (Markor).pdf_images/image-0004.png) -- embedded raster
+- ![embedded raster](README (Markor).pdf_images/image-0006.png) -- embedded raster
+- ![embedded raster](README (Markor).pdf_images/image-0014.png) -- embedded raster
+- ![embedded raster](README (Markor).pdf_images/image-0021.jpg) -- embedded raster
+- ![embedded raster](README (Markor).pdf_images/image-0028.jpg) -- embedded raster
+- ![embedded raster](README (Markor).pdf_images/image-0043.png) -- embedded raster
+- ![embedded raster](README (Markor).pdf_images/image-0044.png) -- embedded raster
+- ![embedded raster](README (Markor).pdf_images/image-0045.png) -- embedded raster
+- ![embedded raster](README (Markor).pdf_images/image-0046.png) -- embedded raster
+- ![embedded raster](README (Markor).pdf_images/image-0053.png) -- embedded raster
+- ![embedded raster](README (Markor).pdf_images/image-0054.png) -- embedded raster
+- ![embedded raster](README (Markor).pdf_images/image-0065.png) -- embedded raster
+- ![embedded raster](README (Markor).pdf_images/image-0066.png) -- embedded raster
+- ![embedded raster](README (Markor).pdf_images/image-0068.png) -- embedded raster
+- ![embedded raster](README (Markor).pdf_images/image-0069.png) -- embedded raster
+- ![embedded raster](README (Markor).pdf_images/image-0075.png) -- embedded raster
+- ![embedded raster](README (Markor).pdf_images/image-0076.png) -- embedded raster
+- ![embedded raster](README (Markor).pdf_images/image-0077.png) -- embedded raster
+- ![embedded raster](README (Markor).pdf_images/image-0078.png) -- embedded raster
+- ![embedded raster](README (Markor).pdf_images/image-0084.png) -- embedded raster
+- ![embedded raster](README (Markor).pdf_images/image-0085.png) -- embedded raster
+- ![embedded raster](README (Markor).pdf_images/image-0086.png) -- embedded raster
+- ![embedded raster](README (Markor).pdf_images/image-0087.png) -- embedded raster
+- ![page 1 render (44 vector ops)](README (Markor).pdf_images/page-1-diagram.png) -- page 1 render (44 vector ops)
+- ![page 2 render (46 vector ops)](README (Markor).pdf_images/page-2-diagram.png) -- page 2 render (46 vector ops)
+- ![page 3 render (52 vector ops)](README (Markor).pdf_images/page-3-diagram.png) -- page 3 render (52 vector ops)
+- ![page 4 render (56 vector ops)](README (Markor).pdf_images/page-4-diagram.png) -- page 4 render (56 vector ops)

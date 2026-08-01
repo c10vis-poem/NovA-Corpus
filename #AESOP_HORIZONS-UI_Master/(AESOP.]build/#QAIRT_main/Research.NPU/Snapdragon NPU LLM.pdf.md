@@ -165,3 +165,11 @@ Galaxy S22 NPU LLM, Xiaomi 12 NPU LLM, on-device LLM Qualcomm Hexagon, ExecuTorc
 
 QNN context binary Hexagon v69, Qwen3 Hexagon NPU, Snapdragon NPU inference older chips, Hexagon v69
 ExecuTorch, K9FxNa Qwen3 SM8450, mobile LLM 8 Gen 1, Android NPU LLM runner.
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `Snapdragon NPU LLM.pdf_images/`)
+
+- ![page 1 render (184 vector ops)](Snapdragon NPU LLM.pdf_images/page-1-diagram.png) -- page 1 render (184 vector ops)
+- ![page 2 render (26 vector ops)](Snapdragon NPU LLM.pdf_images/page-2-diagram.png) -- page 2 render (26 vector ops)
+- ![page 3 render (134 vector ops)](Snapdragon NPU LLM.pdf_images/page-3-diagram.png) -- page 3 render (134 vector ops)

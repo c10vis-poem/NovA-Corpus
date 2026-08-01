@@ -1131,3 +1131,207 @@ Images
 Shopping
 Videos
 More
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/`)
+
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0004.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0013.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0016.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0017.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0019.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0020.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0021.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0036.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0037.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0038.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0237.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0238.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0239.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0240.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0241.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0242.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0243.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0249.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0250.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0251.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0457.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0458.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0459.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0460.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0461.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0462.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0463.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0665.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0666.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0667.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0668.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0669.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0670.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0672.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0673.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0674.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0676.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0677.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0678.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0884.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0885.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-0886.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-1089.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-1090.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-1091.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-1092.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-1093.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-1094.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-1095.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-1297.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-1298.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-1300.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-1301.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-1302.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-1507.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-1508.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-1509.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-1511.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-1512.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-1513.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-1514.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-1714.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-1716.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-1717.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-1718.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-1920.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-1921.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-1923.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-1924.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-1925.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-1926.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-2128.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-2129.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-2130.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-2131.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-2332.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-2333.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-2334.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-2335.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-2336.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-2337.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-2338.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-2339.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-2340.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-2341.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-2342.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-2343.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-2545.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-2554.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-2555.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-2556.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-2752.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-2753.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-2754.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-2950.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-2951.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-2952.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-3149.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-3150.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-3151.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-3348.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-3349.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-3350.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-3546.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-3555.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-3556.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-3557.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-3753.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-3761.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-3762.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-3763.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-3959.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-3960.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-3961.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-4157.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-4158.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-4159.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-4355.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-4356.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-4357.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-4554.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-4555.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-4556.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-4753.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-4754.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-4755.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-4951.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-4952.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-4953.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-5149.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-5150.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-5151.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-5347.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-5355.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-5356.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-5357.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-5554.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-5555.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-5556.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-5753.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-5754.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-5755.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-5951.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-5952.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-5953.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-6150.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-6151.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-6152.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-6348.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-6349.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-6350.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-6546.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-6547.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-6548.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-6745.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-6746.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-6747.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-6943.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-6944.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-6945.jpg) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-7141.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-7142.png) -- embedded raster
+- ![embedded raster](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/image-7143.jpg) -- embedded raster
+- ![page 1 render (76 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-1-diagram.png) -- page 1 render (76 vector ops)
+- ![page 2 render (90 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-2-diagram.png) -- page 2 render (90 vector ops)
+- ![page 3 render (98 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-3-diagram.png) -- page 3 render (98 vector ops)
+- ![page 4 render (122 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-4-diagram.png) -- page 4 render (122 vector ops)
+- ![page 5 render (138 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-5-diagram.png) -- page 5 render (138 vector ops)
+- ![page 6 render (104 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-6-diagram.png) -- page 6 render (104 vector ops)
+- ![page 7 render (102 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-7-diagram.png) -- page 7 render (102 vector ops)
+- ![page 8 render (88 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-8-diagram.png) -- page 8 render (88 vector ops)
+- ![page 9 render (74 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-9-diagram.png) -- page 9 render (74 vector ops)
+- ![page 10 render (104 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-10-diagram.png) -- page 10 render (104 vector ops)
+- ![page 11 render (76 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-11-diagram.png) -- page 11 render (76 vector ops)
+- ![page 12 render (118 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-12-diagram.png) -- page 12 render (118 vector ops)
+- ![page 13 render (102 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-13-diagram.png) -- page 13 render (102 vector ops)
+- ![page 14 render (78 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-14-diagram.png) -- page 14 render (78 vector ops)
+- ![page 15 render (106 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-15-diagram.png) -- page 15 render (106 vector ops)
+- ![page 16 render (76 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-16-diagram.png) -- page 16 render (76 vector ops)
+- ![page 17 render (84 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-17-diagram.png) -- page 17 render (84 vector ops)
+- ![page 18 render (90 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-18-diagram.png) -- page 18 render (90 vector ops)
+- ![page 19 render (92 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-19-diagram.png) -- page 19 render (92 vector ops)
+- ![page 20 render (86 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-20-diagram.png) -- page 20 render (86 vector ops)
+- ![page 21 render (124 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-21-diagram.png) -- page 21 render (124 vector ops)
+- ![page 22 render (82 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-22-diagram.png) -- page 22 render (82 vector ops)
+- ![page 23 render (86 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-23-diagram.png) -- page 23 render (86 vector ops)
+- ![page 24 render (102 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-24-diagram.png) -- page 24 render (102 vector ops)
+- ![page 25 render (78 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-25-diagram.png) -- page 25 render (78 vector ops)
+- ![page 26 render (136 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-26-diagram.png) -- page 26 render (136 vector ops)
+- ![page 27 render (90 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-27-diagram.png) -- page 27 render (90 vector ops)
+- ![page 28 render (82 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-28-diagram.png) -- page 28 render (82 vector ops)
+- ![page 29 render (112 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-29-diagram.png) -- page 29 render (112 vector ops)
+- ![page 30 render (66 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-30-diagram.png) -- page 30 render (66 vector ops)
+- ![page 31 render (96 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-31-diagram.png) -- page 31 render (96 vector ops)
+- ![page 32 render (96 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-32-diagram.png) -- page 32 render (96 vector ops)
+- ![page 33 render (108 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-33-diagram.png) -- page 33 render (108 vector ops)
+- ![page 34 render (110 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-34-diagram.png) -- page 34 render (110 vector ops)
+- ![page 35 render (114 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-35-diagram.png) -- page 35 render (114 vector ops)
+- ![page 36 render (30 vector ops)](Qwen3-4B-Thinking-2507-IQ4_NL.gguf - Google Search.pdf_images/page-36-diagram.png) -- page 36 render (30 vector ops)

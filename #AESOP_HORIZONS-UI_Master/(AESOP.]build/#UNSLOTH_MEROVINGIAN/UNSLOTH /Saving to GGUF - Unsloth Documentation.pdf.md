@@ -194,3 +194,61 @@ Events
 This site uses cookies to deliver its
 service and to analyze traffic. By browsing
 this site, you accept the privacy policy.
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `Saving to GGUF - Unsloth Documentation.pdf_images/`)
+
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0005.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0013.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0017.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0021.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0024.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0029.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0032.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0051.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0054.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0059.png) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0060.png) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0065.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0069.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0072.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0075.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0078.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0093.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0096.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0099.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0102.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0105.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0122.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0126.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0129.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0132.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0135.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0151.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0154.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0157.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0160.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0163.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0166.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0186.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0189.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0193.png) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0194.png) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0195.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0198.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0201.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0204.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0258.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0261.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0264.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0267.jpg) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0428.png) -- embedded raster
+- ![embedded raster](Saving to GGUF - Unsloth Documentation.pdf_images/image-0429.png) -- embedded raster
+- ![page 1 render (62 vector ops)](Saving to GGUF - Unsloth Documentation.pdf_images/page-1-diagram.png) -- page 1 render (62 vector ops)
+- ![page 2 render (68 vector ops)](Saving to GGUF - Unsloth Documentation.pdf_images/page-2-diagram.png) -- page 2 render (68 vector ops)
+- ![page 3 render (78 vector ops)](Saving to GGUF - Unsloth Documentation.pdf_images/page-3-diagram.png) -- page 3 render (78 vector ops)
+- ![page 4 render (58 vector ops)](Saving to GGUF - Unsloth Documentation.pdf_images/page-4-diagram.png) -- page 4 render (58 vector ops)
+- ![page 5 render (70 vector ops)](Saving to GGUF - Unsloth Documentation.pdf_images/page-5-diagram.png) -- page 5 render (70 vector ops)
+- ![page 6 render (86 vector ops)](Saving to GGUF - Unsloth Documentation.pdf_images/page-6-diagram.png) -- page 6 render (86 vector ops)
+- ![page 7 render (58 vector ops)](Saving to GGUF - Unsloth Documentation.pdf_images/page-7-diagram.png) -- page 7 render (58 vector ops)

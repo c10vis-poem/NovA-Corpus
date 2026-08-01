@@ -3898,3 +3898,185 @@ referenced herein.
 Language:
 English (US)
 Provide Feedback
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/`)
+
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0004.jpg) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0216.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0221.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0255.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0259.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0260.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0313.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0350.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0356.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0363.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0376.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0388.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0398.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0403.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0429.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0434.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0439.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0443.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0454.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0459.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0460.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0468.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0566.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0613.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0614.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0643.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0650.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0676.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0686.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0690.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0705.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0706.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0710.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0711.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0725.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0742.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0754.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0765.png) -- embedded raster
+- ![embedded raster](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0766.png) -- embedded raster
+- ![page 1 render (68 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-1-diagram.png) -- page 1 render (68 vector ops)
+- ![page 2 render (64 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-2-diagram.png) -- page 2 render (64 vector ops)
+- ![page 3 render (54 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-3-diagram.png) -- page 3 render (54 vector ops)
+- ![page 4 render (26 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-4-diagram.png) -- page 4 render (26 vector ops)
+- ![page 5 render (58 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-5-diagram.png) -- page 5 render (58 vector ops)
+- ![page 6 render (36 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-6-diagram.png) -- page 6 render (36 vector ops)
+- ![page 7 render (112 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-7-diagram.png) -- page 7 render (112 vector ops)
+- ![page 8 render (64 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-8-diagram.png) -- page 8 render (64 vector ops)
+- ![page 9 render (56 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-9-diagram.png) -- page 9 render (56 vector ops)
+- ![page 10 render (72 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-10-diagram.png) -- page 10 render (72 vector ops)
+- ![page 11 render (102 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-11-diagram.png) -- page 11 render (102 vector ops)
+- ![page 12 render (128 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-12-diagram.png) -- page 12 render (128 vector ops)
+- ![page 13 render (82 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-13-diagram.png) -- page 13 render (82 vector ops)
+- ![page 14 render (114 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-14-diagram.png) -- page 14 render (114 vector ops)
+- ![page 15 render (116 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-15-diagram.png) -- page 15 render (116 vector ops)
+- ![page 16 render (44 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-16-diagram.png) -- page 16 render (44 vector ops)
+- ![page 17 render (122 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-17-diagram.png) -- page 17 render (122 vector ops)
+- ![page 18 render (86 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-18-diagram.png) -- page 18 render (86 vector ops)
+- ![page 19 render (80 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-19-diagram.png) -- page 19 render (80 vector ops)
+- ![page 20 render (78 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-20-diagram.png) -- page 20 render (78 vector ops)
+- ![page 21 render (68 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-21-diagram.png) -- page 21 render (68 vector ops)
+- ![page 22 render (70 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-22-diagram.png) -- page 22 render (70 vector ops)
+- ![page 23 render (214 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-23-diagram.png) -- page 23 render (214 vector ops)
+- ![page 24 render (164 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-24-diagram.png) -- page 24 render (164 vector ops)
+- ![page 25 render (122 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-25-diagram.png) -- page 25 render (122 vector ops)
+- ![page 26 render (336 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-26-diagram.png) -- page 26 render (336 vector ops)
+- ![page 27 render (130 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-27-diagram.png) -- page 27 render (130 vector ops)
+- ![page 28 render (192 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-28-diagram.png) -- page 28 render (192 vector ops)
+- ![page 29 render (226 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-29-diagram.png) -- page 29 render (226 vector ops)
+- ![page 30 render (28 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-30-diagram.png) -- page 30 render (28 vector ops)
+- ![page 31 render (26 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-31-diagram.png) -- page 31 render (26 vector ops)
+- ![page 32 render (54 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-32-diagram.png) -- page 32 render (54 vector ops)
+- ![page 33 render (82 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-33-diagram.png) -- page 33 render (82 vector ops)
+- ![page 34 render (54 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-34-diagram.png) -- page 34 render (54 vector ops)
+- ![page 35 render (82 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-35-diagram.png) -- page 35 render (82 vector ops)
+- ![page 36 render (54 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-36-diagram.png) -- page 36 render (54 vector ops)
+- ![page 37 render (34 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-37-diagram.png) -- page 37 render (34 vector ops)
+- ![page 38 render (26 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-38-diagram.png) -- page 38 render (26 vector ops)
+- ![page 39 render (42 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-39-diagram.png) -- page 39 render (42 vector ops)
+- ![page 40 render (82 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-40-diagram.png) -- page 40 render (82 vector ops)
+- ![page 41 render (70 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-41-diagram.png) -- page 41 render (70 vector ops)
+- ![page 42 render (84 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-42-diagram.png) -- page 42 render (84 vector ops)
+- ![page 43 render (138 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-43-diagram.png) -- page 43 render (138 vector ops)
+- ![page 44 render (134 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-44-diagram.png) -- page 44 render (134 vector ops)
+- ![page 45 render (56 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-45-diagram.png) -- page 45 render (56 vector ops)
+- ![page 46 render (136 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-46-diagram.png) -- page 46 render (136 vector ops)
+- ![page 47 render (324 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-47-diagram.png) -- page 47 render (324 vector ops)
+- ![page 48 render (28 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-48-diagram.png) -- page 48 render (28 vector ops)
+- ![page 49 render (44 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-49-diagram.png) -- page 49 render (44 vector ops)
+- ![page 50 render (102 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-50-diagram.png) -- page 50 render (102 vector ops)
+- ![page 51 render (56 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-51-diagram.png) -- page 51 render (56 vector ops)
+- ![page 52 render (42 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-52-diagram.png) -- page 52 render (42 vector ops)
+- ![page 53 render (68 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-53-diagram.png) -- page 53 render (68 vector ops)
+- ![page 54 render (26 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-54-diagram.png) -- page 54 render (26 vector ops)
+- ![page 55 render (38 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-55-diagram.png) -- page 55 render (38 vector ops)
+- ![page 56 render (32 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-56-diagram.png) -- page 56 render (32 vector ops)
+- ![page 57 render (38 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-57-diagram.png) -- page 57 render (38 vector ops)
+- ![page 58 render (32 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-58-diagram.png) -- page 58 render (32 vector ops)
+- ![page 59 render (38 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-59-diagram.png) -- page 59 render (38 vector ops)
+- ![page 60 render (58 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-60-diagram.png) -- page 60 render (58 vector ops)
+- ![page 61 render (16 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-61-diagram.png) -- page 61 render (16 vector ops)
+- ![page 62 render (44 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-62-diagram.png) -- page 62 render (44 vector ops)
+- ![page 63 render (16 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-63-diagram.png) -- page 63 render (16 vector ops)
+- ![page 64 render (48 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-64-diagram.png) -- page 64 render (48 vector ops)
+- ![page 65 render (120 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-65-diagram.png) -- page 65 render (120 vector ops)
+- ![page 66 render (122 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-66-diagram.png) -- page 66 render (122 vector ops)
+- ![page 67 render (76 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-67-diagram.png) -- page 67 render (76 vector ops)
+- ![page 68 render (54 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-68-diagram.png) -- page 68 render (54 vector ops)
+- ![page 69 render (16 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-69-diagram.png) -- page 69 render (16 vector ops)
+- ![page 70 render (20 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-70-diagram.png) -- page 70 render (20 vector ops)
+- ![page 71 render (50 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-71-diagram.png) -- page 71 render (50 vector ops)
+- ![page 72 render (44 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-72-diagram.png) -- page 72 render (44 vector ops)
+- ![page 73 render (66 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-73-diagram.png) -- page 73 render (66 vector ops)
+- ![page 74 render (16 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-74-diagram.png) -- page 74 render (16 vector ops)
+- ![page 75 render (28 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-75-diagram.png) -- page 75 render (28 vector ops)
+- ![page 76 render (52 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-76-diagram.png) -- page 76 render (52 vector ops)
+- ![page 77 render (30 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-77-diagram.png) -- page 77 render (30 vector ops)
+- ![page 78 render (198 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-78-diagram.png) -- page 78 render (198 vector ops)
+- ![page 79 render (122 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-79-diagram.png) -- page 79 render (122 vector ops)
+- ![page 80 render (34 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-80-diagram.png) -- page 80 render (34 vector ops)
+- ![page 81 render (26 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-81-diagram.png) -- page 81 render (26 vector ops)
+- ![page 82 render (40 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-82-diagram.png) -- page 82 render (40 vector ops)
+- ![page 83 render (56 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-83-diagram.png) -- page 83 render (56 vector ops)
+- ![page 84 render (172 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-84-diagram.png) -- page 84 render (172 vector ops)
+- ![page 85 render (52 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-85-diagram.png) -- page 85 render (52 vector ops)
+- ![page 86 render (34 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-86-diagram.png) -- page 86 render (34 vector ops)
+- ![page 87 render (68 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-87-diagram.png) -- page 87 render (68 vector ops)
+- ![page 88 render (82 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-88-diagram.png) -- page 88 render (82 vector ops)
+- ![page 89 render (34 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-89-diagram.png) -- page 89 render (34 vector ops)
+- ![page 90 render (70 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-90-diagram.png) -- page 90 render (70 vector ops)
+- ![page 91 render (82 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-91-diagram.png) -- page 91 render (82 vector ops)
+- ![page 92 render (28 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-92-diagram.png) -- page 92 render (28 vector ops)
+- ![page 93 render (58 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-93-diagram.png) -- page 93 render (58 vector ops)
+- ![page 94 render (36 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-94-diagram.png) -- page 94 render (36 vector ops)
+- ![page 95 render (54 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-95-diagram.png) -- page 95 render (54 vector ops)
+- ![page 96 render (76 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-96-diagram.png) -- page 96 render (76 vector ops)
+- ![page 97 render (36 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-97-diagram.png) -- page 97 render (36 vector ops)
+- ![page 98 render (28 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-98-diagram.png) -- page 98 render (28 vector ops)
+- ![page 99 render (56 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-99-diagram.png) -- page 99 render (56 vector ops)
+- ![page 100 render (58 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-100-diagram.png) -- page 100 render (58 vector ops)
+- ![page 101 render (40 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-101-diagram.png) -- page 101 render (40 vector ops)
+- ![page 102 render (40 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-102-diagram.png) -- page 102 render (40 vector ops)
+- ![page 103 render (16 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-103-diagram.png) -- page 103 render (16 vector ops)
+- ![page 104 render (32 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-104-diagram.png) -- page 104 render (32 vector ops)
+- ![page 105 render (34 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-105-diagram.png) -- page 105 render (34 vector ops)
+- ![page 106 render (24 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-106-diagram.png) -- page 106 render (24 vector ops)
+- ![page 107 render (24 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-107-diagram.png) -- page 107 render (24 vector ops)
+- ![page 108 render (36 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-108-diagram.png) -- page 108 render (36 vector ops)
+- ![page 109 render (46 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-109-diagram.png) -- page 109 render (46 vector ops)
+- ![page 110 render (58 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-110-diagram.png) -- page 110 render (58 vector ops)
+- ![page 111 render (88 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-111-diagram.png) -- page 111 render (88 vector ops)
+- ![page 112 render (30 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-112-diagram.png) -- page 112 render (30 vector ops)
+- ![page 113 render (50 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-113-diagram.png) -- page 113 render (50 vector ops)
+- ![page 114 render (28 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-114-diagram.png) -- page 114 render (28 vector ops)
+- ![page 115 render (20 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-115-diagram.png) -- page 115 render (20 vector ops)
+- ![page 116 render (24 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-116-diagram.png) -- page 116 render (24 vector ops)
+- ![page 117 render (54 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-117-diagram.png) -- page 117 render (54 vector ops)
+- ![page 118 render (46 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-118-diagram.png) -- page 118 render (46 vector ops)
+- ![page 119 render (16 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-119-diagram.png) -- page 119 render (16 vector ops)
+- ![page 120 render (16 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-120-diagram.png) -- page 120 render (16 vector ops)
+- ![page 121 render (56 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-121-diagram.png) -- page 121 render (56 vector ops)
+- ![page 122 render (54 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-122-diagram.png) -- page 122 render (54 vector ops)
+- ![page 123 render (58 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-123-diagram.png) -- page 123 render (58 vector ops)
+- ![page 124 render (144 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-124-diagram.png) -- page 124 render (144 vector ops)
+- ![page 125 render (36 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-125-diagram.png) -- page 125 render (36 vector ops)
+- ![page 126 render (48 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-126-diagram.png) -- page 126 render (48 vector ops)
+- ![page 127 render (62 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-127-diagram.png) -- page 127 render (62 vector ops)
+- ![page 128 render (26 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-128-diagram.png) -- page 128 render (26 vector ops)
+- ![page 129 render (34 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-129-diagram.png) -- page 129 render (34 vector ops)
+- ![page 130 render (38 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-130-diagram.png) -- page 130 render (38 vector ops)
+- ![page 131 render (36 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-131-diagram.png) -- page 131 render (36 vector ops)
+- ![page 132 render (28 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-132-diagram.png) -- page 132 render (28 vector ops)
+- ![page 133 render (54 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-133-diagram.png) -- page 133 render (54 vector ops)
+- ![page 134 render (68 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-134-diagram.png) -- page 134 render (68 vector ops)
+- ![page 135 render (62 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-135-diagram.png) -- page 135 render (62 vector ops)
+- ![page 136 render (80 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-136-diagram.png) -- page 136 render (80 vector ops)
+- ![page 137 render (68 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-137-diagram.png) -- page 137 render (68 vector ops)
+- ![page 138 render (20 vector ops)](HTP - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-138-diagram.png) -- page 138 render (20 vector ops)

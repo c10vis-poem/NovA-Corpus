@@ -157,3 +157,19 @@ Nothing in these materials is an offer to sell or license any of the services or
 Language:
 English (US)
 Feedback
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `Qualcomm AI Engine Direct SDK | Qualcomm Developer.pdf_images/`)
+
+- ![embedded raster](Qualcomm AI Engine Direct SDK | Qualcomm Developer.pdf_images/image-0052.png) -- embedded raster
+- ![embedded raster](Qualcomm AI Engine Direct SDK | Qualcomm Developer.pdf_images/image-0054.png) -- embedded raster
+- ![embedded raster](Qualcomm AI Engine Direct SDK | Qualcomm Developer.pdf_images/image-0071.jpg) -- embedded raster
+- ![embedded raster](Qualcomm AI Engine Direct SDK | Qualcomm Developer.pdf_images/image-0081.png) -- embedded raster
+- ![embedded raster](Qualcomm AI Engine Direct SDK | Qualcomm Developer.pdf_images/image-0082.png) -- embedded raster
+- ![page 1 render (120 vector ops)](Qualcomm AI Engine Direct SDK | Qualcomm Developer.pdf_images/page-1-diagram.png) -- page 1 render (120 vector ops)
+- ![page 2 render (60 vector ops)](Qualcomm AI Engine Direct SDK | Qualcomm Developer.pdf_images/page-2-diagram.png) -- page 2 render (60 vector ops)
+- ![page 3 render (38 vector ops)](Qualcomm AI Engine Direct SDK | Qualcomm Developer.pdf_images/page-3-diagram.png) -- page 3 render (38 vector ops)
+- ![page 4 render (64 vector ops)](Qualcomm AI Engine Direct SDK | Qualcomm Developer.pdf_images/page-4-diagram.png) -- page 4 render (64 vector ops)
+- ![page 5 render (70 vector ops)](Qualcomm AI Engine Direct SDK | Qualcomm Developer.pdf_images/page-5-diagram.png) -- page 5 render (70 vector ops)
+- ![page 6 render (34 vector ops)](Qualcomm AI Engine Direct SDK | Qualcomm Developer.pdf_images/page-6-diagram.png) -- page 6 render (34 vector ops)

@@ -244,3 +244,35 @@ Support
 
 💬 Discussions: GitHub Discussions
 Made with ❤️ for the AI community
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `EdgeAI - CLIP with ExecuTorch + QNN.pdf_images/`)
+
+- ![embedded raster](EdgeAI - CLIP with ExecuTorch + QNN.pdf_images/image-0010.png) -- embedded raster
+- ![embedded raster](EdgeAI - CLIP with ExecuTorch + QNN.pdf_images/image-0011.png) -- embedded raster
+- ![embedded raster](EdgeAI - CLIP with ExecuTorch + QNN.pdf_images/image-0014.png) -- embedded raster
+- ![embedded raster](EdgeAI - CLIP with ExecuTorch + QNN.pdf_images/image-0015.png) -- embedded raster
+- ![embedded raster](EdgeAI - CLIP with ExecuTorch + QNN.pdf_images/image-0021.png) -- embedded raster
+- ![embedded raster](EdgeAI - CLIP with ExecuTorch + QNN.pdf_images/image-0022.png) -- embedded raster
+- ![embedded raster](EdgeAI - CLIP with ExecuTorch + QNN.pdf_images/image-0023.png) -- embedded raster
+- ![embedded raster](EdgeAI - CLIP with ExecuTorch + QNN.pdf_images/image-0024.png) -- embedded raster
+- ![embedded raster](EdgeAI - CLIP with ExecuTorch + QNN.pdf_images/image-0030.png) -- embedded raster
+- ![embedded raster](EdgeAI - CLIP with ExecuTorch + QNN.pdf_images/image-0031.png) -- embedded raster
+- ![embedded raster](EdgeAI - CLIP with ExecuTorch + QNN.pdf_images/image-0032.png) -- embedded raster
+- ![embedded raster](EdgeAI - CLIP with ExecuTorch + QNN.pdf_images/image-0033.png) -- embedded raster
+- ![embedded raster](EdgeAI - CLIP with ExecuTorch + QNN.pdf_images/image-0039.png) -- embedded raster
+- ![embedded raster](EdgeAI - CLIP with ExecuTorch + QNN.pdf_images/image-0040.png) -- embedded raster
+- ![embedded raster](EdgeAI - CLIP with ExecuTorch + QNN.pdf_images/image-0041.png) -- embedded raster
+- ![embedded raster](EdgeAI - CLIP with ExecuTorch + QNN.pdf_images/image-0042.png) -- embedded raster
+- ![embedded raster](EdgeAI - CLIP with ExecuTorch + QNN.pdf_images/image-0048.png) -- embedded raster
+- ![embedded raster](EdgeAI - CLIP with ExecuTorch + QNN.pdf_images/image-0049.png) -- embedded raster
+- ![embedded raster](EdgeAI - CLIP with ExecuTorch + QNN.pdf_images/image-0050.png) -- embedded raster
+- ![embedded raster](EdgeAI - CLIP with ExecuTorch + QNN.pdf_images/image-0051.png) -- embedded raster
+- ![page 1 render (138 vector ops)](EdgeAI - CLIP with ExecuTorch + QNN.pdf_images/page-1-diagram.png) -- page 1 render (138 vector ops)
+- ![page 2 render (44 vector ops)](EdgeAI - CLIP with ExecuTorch + QNN.pdf_images/page-2-diagram.png) -- page 2 render (44 vector ops)
+- ![page 3 render (54 vector ops)](EdgeAI - CLIP with ExecuTorch + QNN.pdf_images/page-3-diagram.png) -- page 3 render (54 vector ops)
+- ![page 4 render (24 vector ops)](EdgeAI - CLIP with ExecuTorch + QNN.pdf_images/page-4-diagram.png) -- page 4 render (24 vector ops)
+- ![page 5 render (40 vector ops)](EdgeAI - CLIP with ExecuTorch + QNN.pdf_images/page-5-diagram.png) -- page 5 render (40 vector ops)
+- ![page 6 render (52 vector ops)](EdgeAI - CLIP with ExecuTorch + QNN.pdf_images/page-6-diagram.png) -- page 6 render (52 vector ops)
+- ![page 7 render (16 vector ops)](EdgeAI - CLIP with ExecuTorch + QNN.pdf_images/page-7-diagram.png) -- page 7 render (16 vector ops)

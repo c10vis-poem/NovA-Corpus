@@ -474,3 +474,58 @@ implementing generative AI
 to transform their
 businesses.
 Learn more
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/`)
+
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0011.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0012.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0017.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0018.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0035.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0036.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0064.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0065.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0074.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0075.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0078.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0079.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0080.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0081.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0093.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0094.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0095.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0096.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0097.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0098.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0109.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0110.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0111.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0112.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0124.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0125.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0126.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0127.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0161.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0162.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0163.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0164.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0165.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0166.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0167.png) -- embedded raster
+- ![embedded raster](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/image-0168.png) -- embedded raster
+- ![page 1 render (40 vector ops)](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/page-1-diagram.png) -- page 1 render (40 vector ops)
+- ![page 2 render (12 vector ops)](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/page-2-diagram.png) -- page 2 render (12 vector ops)
+- ![page 3 render (30 vector ops)](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/page-3-diagram.png) -- page 3 render (30 vector ops)
+- ![page 4 render (30 vector ops)](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/page-4-diagram.png) -- page 4 render (30 vector ops)
+- ![page 5 render (32 vector ops)](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/page-5-diagram.png) -- page 5 render (32 vector ops)
+- ![page 6 render (34 vector ops)](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/page-6-diagram.png) -- page 6 render (34 vector ops)
+- ![page 7 render (38 vector ops)](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/page-7-diagram.png) -- page 7 render (38 vector ops)
+- ![page 8 render (38 vector ops)](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/page-8-diagram.png) -- page 8 render (38 vector ops)
+- ![page 9 render (30 vector ops)](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/page-9-diagram.png) -- page 9 render (30 vector ops)
+- ![page 10 render (82 vector ops)](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/page-10-diagram.png) -- page 10 render (82 vector ops)
+- ![page 11 render (72 vector ops)](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/page-11-diagram.png) -- page 11 render (72 vector ops)
+- ![page 12 render (42 vector ops)](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/page-12-diagram.png) -- page 12 render (42 vector ops)
+- ![page 13 render (18 vector ops)](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/page-13-diagram.png) -- page 13 render (18 vector ops)
+- ![page 14 render (22 vector ops)](Gemini Enterprise Agent Platform (formerly Vertex AI) - Google Cloud.pdf_images/page-14-diagram.png) -- page 14 render (22 vector ops)

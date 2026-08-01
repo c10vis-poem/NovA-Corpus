@@ -197,3 +197,12 @@ storage_without_mtp_c_daemon/)
 https://www.reddit.com 
  
  
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `mote july 5th genini.pdf_images/`)
+
+- ![page 2 render (12 vector ops)](mote july 5th genini.pdf_images/page-2-diagram.png) -- page 2 render (12 vector ops)
+- ![page 3 render (6 vector ops)](mote july 5th genini.pdf_images/page-3-diagram.png) -- page 3 render (6 vector ops)
+- ![page 4 render (18 vector ops)](mote july 5th genini.pdf_images/page-4-diagram.png) -- page 4 render (18 vector ops)
+- ![page 5 render (14 vector ops)](mote july 5th genini.pdf_images/page-5-diagram.png) -- page 5 render (14 vector ops)

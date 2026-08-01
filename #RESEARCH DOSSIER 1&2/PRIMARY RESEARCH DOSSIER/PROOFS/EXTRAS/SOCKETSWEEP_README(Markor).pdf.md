@@ -178,3 +178,38 @@ SocketSweep is released under the GNU General Public License v3.0. See the LICEN
 👋 Author
 Built by Vishnu Srivatsava. Inspired by the architecture of scrcpy. Currently looking for Backend / Systems
 Engineering roles. Feel free to reach out on LinkedIn or via email.
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `SOCKETSWEEP_README(Markor).pdf_images/`)
+
+- ![embedded raster](SOCKETSWEEP_README(Markor).pdf_images/image-0004.png) -- embedded raster
+- ![embedded raster](SOCKETSWEEP_README(Markor).pdf_images/image-0006.png) -- embedded raster
+- ![embedded raster](SOCKETSWEEP_README(Markor).pdf_images/image-0015.png) -- embedded raster
+- ![embedded raster](SOCKETSWEEP_README(Markor).pdf_images/image-0016.png) -- embedded raster
+- ![embedded raster](SOCKETSWEEP_README(Markor).pdf_images/image-0018.png) -- embedded raster
+- ![embedded raster](SOCKETSWEEP_README(Markor).pdf_images/image-0019.png) -- embedded raster
+- ![embedded raster](SOCKETSWEEP_README(Markor).pdf_images/image-0025.png) -- embedded raster
+- ![embedded raster](SOCKETSWEEP_README(Markor).pdf_images/image-0026.png) -- embedded raster
+- ![embedded raster](SOCKETSWEEP_README(Markor).pdf_images/image-0027.png) -- embedded raster
+- ![embedded raster](SOCKETSWEEP_README(Markor).pdf_images/image-0028.png) -- embedded raster
+- ![embedded raster](SOCKETSWEEP_README(Markor).pdf_images/image-0034.png) -- embedded raster
+- ![embedded raster](SOCKETSWEEP_README(Markor).pdf_images/image-0035.png) -- embedded raster
+- ![embedded raster](SOCKETSWEEP_README(Markor).pdf_images/image-0036.png) -- embedded raster
+- ![embedded raster](SOCKETSWEEP_README(Markor).pdf_images/image-0037.png) -- embedded raster
+- ![embedded raster](SOCKETSWEEP_README(Markor).pdf_images/image-0043.png) -- embedded raster
+- ![embedded raster](SOCKETSWEEP_README(Markor).pdf_images/image-0044.png) -- embedded raster
+- ![embedded raster](SOCKETSWEEP_README(Markor).pdf_images/image-0045.png) -- embedded raster
+- ![embedded raster](SOCKETSWEEP_README(Markor).pdf_images/image-0046.png) -- embedded raster
+- ![embedded raster](SOCKETSWEEP_README(Markor).pdf_images/image-0052.png) -- embedded raster
+- ![embedded raster](SOCKETSWEEP_README(Markor).pdf_images/image-0053.png) -- embedded raster
+- ![embedded raster](SOCKETSWEEP_README(Markor).pdf_images/image-0054.png) -- embedded raster
+- ![embedded raster](SOCKETSWEEP_README(Markor).pdf_images/image-0055.png) -- embedded raster
+- ![embedded raster](SOCKETSWEEP_README(Markor).pdf_images/image-0057.jpg) -- embedded raster
+- ![page 1 render (74 vector ops)](SOCKETSWEEP_README(Markor).pdf_images/page-1-diagram.png) -- page 1 render (74 vector ops)
+- ![page 2 render (94 vector ops)](SOCKETSWEEP_README(Markor).pdf_images/page-2-diagram.png) -- page 2 render (94 vector ops)
+- ![page 3 render (16 vector ops)](SOCKETSWEEP_README(Markor).pdf_images/page-3-diagram.png) -- page 3 render (16 vector ops)
+- ![page 4 render (76 vector ops)](SOCKETSWEEP_README(Markor).pdf_images/page-4-diagram.png) -- page 4 render (76 vector ops)
+- ![page 5 render (168 vector ops)](SOCKETSWEEP_README(Markor).pdf_images/page-5-diagram.png) -- page 5 render (168 vector ops)
+- ![page 6 render (54 vector ops)](SOCKETSWEEP_README(Markor).pdf_images/page-6-diagram.png) -- page 6 render (54 vector ops)
+- ![page 7 render (24 vector ops)](SOCKETSWEEP_README(Markor).pdf_images/page-7-diagram.png) -- page 7 render (24 vector ops)

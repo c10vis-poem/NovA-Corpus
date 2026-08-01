@@ -251,3 +251,19 @@ Lint a Python application with pylint.
 By GitHub Actions
 Configure
 More workflows
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `c10vis-poem／claude-android-skill: Claude Code skill for building modern Android apps following best practices..pdf_images/`)
+
+- ![embedded raster](c10vis-poem／claude-android-skill: Claude Code skill for building modern Android apps following best practices..pdf_images/image-0012.jpg) -- embedded raster
+- ![embedded raster](c10vis-poem／claude-android-skill: Claude Code skill for building modern Android apps following best practices..pdf_images/image-0017.jpg) -- embedded raster
+- ![embedded raster](c10vis-poem／claude-android-skill: Claude Code skill for building modern Android apps following best practices..pdf_images/image-0023.jpg) -- embedded raster
+- ![embedded raster](c10vis-poem／claude-android-skill: Claude Code skill for building modern Android apps following best practices..pdf_images/image-0026.png) -- embedded raster
+- ![embedded raster](c10vis-poem／claude-android-skill: Claude Code skill for building modern Android apps following best practices..pdf_images/image-0027.png) -- embedded raster
+- ![page 1 render (304 vector ops)](c10vis-poem／claude-android-skill: Claude Code skill for building modern Android apps following best practices..pdf_images/page-1-diagram.png) -- page 1 render (304 vector ops)
+- ![page 2 render (52 vector ops)](c10vis-poem／claude-android-skill: Claude Code skill for building modern Android apps following best practices..pdf_images/page-2-diagram.png) -- page 2 render (52 vector ops)
+- ![page 3 render (184 vector ops)](c10vis-poem／claude-android-skill: Claude Code skill for building modern Android apps following best practices..pdf_images/page-3-diagram.png) -- page 3 render (184 vector ops)
+- ![page 4 render (62 vector ops)](c10vis-poem／claude-android-skill: Claude Code skill for building modern Android apps following best practices..pdf_images/page-4-diagram.png) -- page 4 render (62 vector ops)
+- ![page 5 render (80 vector ops)](c10vis-poem／claude-android-skill: Claude Code skill for building modern Android apps following best practices..pdf_images/page-5-diagram.png) -- page 5 render (80 vector ops)
+- ![page 6 render (78 vector ops)](c10vis-poem／claude-android-skill: Claude Code skill for building modern Android apps following best practices..pdf_images/page-6-diagram.png) -- page 6 render (78 vector ops)

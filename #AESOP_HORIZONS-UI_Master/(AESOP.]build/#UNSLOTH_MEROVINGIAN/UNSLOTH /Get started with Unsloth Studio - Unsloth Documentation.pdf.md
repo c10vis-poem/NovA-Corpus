@@ -701,3 +701,218 @@ this site, you accept the privacy policy.
 This site uses cookies to deliver its
 service and to analyze traffic. By browsing
 this site, you accept the privacy policy.
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `Get started with Unsloth Studio - Unsloth Documentation.pdf_images/`)
+
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0005.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0014.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0017.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0020.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0023.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0027.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0031.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0035.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0038.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0041.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0045.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0048.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0092.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0095.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0096.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0098.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0101.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0104.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0107.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0139.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0140.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0142.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0145.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0148.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0151.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0183.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0184.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0186.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0187.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0188.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0191.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0194.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0197.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0228.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0229.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0230.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0231.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0232.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0233.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0234.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0237.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0240.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0243.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0278.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0279.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0280.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0283.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0286.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0289.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0324.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0325.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0329.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0332.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0335.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0338.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0369.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0372.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0375.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0378.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0409.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0410.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0411.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0414.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0417.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0420.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0453.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0456.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0459.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0462.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0497.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0500.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0503.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0506.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0539.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0542.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0545.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0548.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0580.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0581.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0582.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0585.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0588.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0591.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0622.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0623.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0624.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0627.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0630.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0633.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0664.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0667.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0670.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0673.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0704.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0705.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0706.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0709.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0712.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0715.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0746.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0750.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0751.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0752.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0755.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0756.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0757.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0760.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0763.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0766.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0797.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0835.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0838.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0841.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0844.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0876.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0877.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0878.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0881.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0884.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0887.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0920.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0921.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0922.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0925.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0928.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0931.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0963.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0964.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0966.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0967.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0968.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0969.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0971.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0994.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0996.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-0997.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1003.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1004.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1005.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1006.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1008.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1029.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1030.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1031.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1036.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1039.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1042.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1045.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1048.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1087.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1092.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1093.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1099.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1100.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1106.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1107.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1108.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1114.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1115.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1121.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1122.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1134.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1137.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1140.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1143.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1174.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1177.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1180.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1183.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1186.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1217.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1220.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1223.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1226.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1259.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1260.png) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1261.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1264.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1267.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1270.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1347.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1350.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1353.jpg) -- embedded raster
+- ![embedded raster](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/image-1356.jpg) -- embedded raster
+- ![page 1 render (106 vector ops)](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/page-1-diagram.png) -- page 1 render (106 vector ops)
+- ![page 2 render (40 vector ops)](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/page-2-diagram.png) -- page 2 render (40 vector ops)
+- ![page 3 render (22 vector ops)](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/page-3-diagram.png) -- page 3 render (22 vector ops)
+- ![page 4 render (24 vector ops)](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/page-4-diagram.png) -- page 4 render (24 vector ops)
+- ![page 5 render (36 vector ops)](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/page-5-diagram.png) -- page 5 render (36 vector ops)
+- ![page 6 render (28 vector ops)](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/page-6-diagram.png) -- page 6 render (28 vector ops)
+- ![page 7 render (36 vector ops)](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/page-7-diagram.png) -- page 7 render (36 vector ops)
+- ![page 8 render (44 vector ops)](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/page-8-diagram.png) -- page 8 render (44 vector ops)
+- ![page 9 render (44 vector ops)](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/page-9-diagram.png) -- page 9 render (44 vector ops)
+- ![page 10 render (88 vector ops)](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/page-10-diagram.png) -- page 10 render (88 vector ops)
+- ![page 11 render (146 vector ops)](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/page-11-diagram.png) -- page 11 render (146 vector ops)
+- ![page 12 render (76 vector ops)](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/page-12-diagram.png) -- page 12 render (76 vector ops)
+- ![page 13 render (20 vector ops)](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/page-13-diagram.png) -- page 13 render (20 vector ops)
+- ![page 14 render (18 vector ops)](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/page-14-diagram.png) -- page 14 render (18 vector ops)
+- ![page 15 render (34 vector ops)](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/page-15-diagram.png) -- page 15 render (34 vector ops)
+- ![page 16 render (20 vector ops)](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/page-16-diagram.png) -- page 16 render (20 vector ops)
+- ![page 17 render (70 vector ops)](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/page-17-diagram.png) -- page 17 render (70 vector ops)
+- ![page 18 render (70 vector ops)](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/page-18-diagram.png) -- page 18 render (70 vector ops)
+- ![page 19 render (22 vector ops)](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/page-19-diagram.png) -- page 19 render (22 vector ops)
+- ![page 20 render (32 vector ops)](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/page-20-diagram.png) -- page 20 render (32 vector ops)
+- ![page 21 render (106 vector ops)](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/page-21-diagram.png) -- page 21 render (106 vector ops)
+- ![page 22 render (78 vector ops)](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/page-22-diagram.png) -- page 22 render (78 vector ops)
+- ![page 23 render (24 vector ops)](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/page-23-diagram.png) -- page 23 render (24 vector ops)
+- ![page 24 render (214 vector ops)](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/page-24-diagram.png) -- page 24 render (214 vector ops)
+- ![page 25 render (64 vector ops)](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/page-25-diagram.png) -- page 25 render (64 vector ops)
+- ![page 26 render (58 vector ops)](Get started with Unsloth Studio - Unsloth Documentation.pdf_images/page-26-diagram.png) -- page 26 render (58 vector ops)

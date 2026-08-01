@@ -253,3 +253,25 @@ Build and test a CMake based project on a single-platform.
 By GitHub Actions
 Configure
 More workflows
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `c10vis-poem／fakesteak: All I see is blonde, brunette, red head. — Matrix Rain for your terminal, CC0..pdf_images/`)
+
+- ![embedded raster](c10vis-poem／fakesteak: All I see is blonde, brunette, red head. — Matrix Rain for your terminal, CC0..pdf_images/image-0013.jpg) -- embedded raster
+- ![embedded raster](c10vis-poem／fakesteak: All I see is blonde, brunette, red head. — Matrix Rain for your terminal, CC0..pdf_images/image-0018.jpg) -- embedded raster
+- ![embedded raster](c10vis-poem／fakesteak: All I see is blonde, brunette, red head. — Matrix Rain for your terminal, CC0..pdf_images/image-0024.png) -- embedded raster
+- ![embedded raster](c10vis-poem／fakesteak: All I see is blonde, brunette, red head. — Matrix Rain for your terminal, CC0..pdf_images/image-0027.png) -- embedded raster
+- ![embedded raster](c10vis-poem／fakesteak: All I see is blonde, brunette, red head. — Matrix Rain for your terminal, CC0..pdf_images/image-0028.png) -- embedded raster
+- ![embedded raster](c10vis-poem／fakesteak: All I see is blonde, brunette, red head. — Matrix Rain for your terminal, CC0..pdf_images/image-0090.png) -- embedded raster
+- ![embedded raster](c10vis-poem／fakesteak: All I see is blonde, brunette, red head. — Matrix Rain for your terminal, CC0..pdf_images/image-0093.png) -- embedded raster
+- ![embedded raster](c10vis-poem／fakesteak: All I see is blonde, brunette, red head. — Matrix Rain for your terminal, CC0..pdf_images/image-0094.png) -- embedded raster
+- ![embedded raster](c10vis-poem／fakesteak: All I see is blonde, brunette, red head. — Matrix Rain for your terminal, CC0..pdf_images/image-0118.png) -- embedded raster
+- ![embedded raster](c10vis-poem／fakesteak: All I see is blonde, brunette, red head. — Matrix Rain for your terminal, CC0..pdf_images/image-0119.png) -- embedded raster
+- ![embedded raster](c10vis-poem／fakesteak: All I see is blonde, brunette, red head. — Matrix Rain for your terminal, CC0..pdf_images/image-0126.png) -- embedded raster
+- ![embedded raster](c10vis-poem／fakesteak: All I see is blonde, brunette, red head. — Matrix Rain for your terminal, CC0..pdf_images/image-0127.png) -- embedded raster
+- ![page 1 render (300 vector ops)](c10vis-poem／fakesteak: All I see is blonde, brunette, red head. — Matrix Rain for your terminal, CC0..pdf_images/page-1-diagram.png) -- page 1 render (300 vector ops)
+- ![page 2 render (42 vector ops)](c10vis-poem／fakesteak: All I see is blonde, brunette, red head. — Matrix Rain for your terminal, CC0..pdf_images/page-2-diagram.png) -- page 2 render (42 vector ops)
+- ![page 3 render (100 vector ops)](c10vis-poem／fakesteak: All I see is blonde, brunette, red head. — Matrix Rain for your terminal, CC0..pdf_images/page-3-diagram.png) -- page 3 render (100 vector ops)
+- ![page 4 render (310 vector ops)](c10vis-poem／fakesteak: All I see is blonde, brunette, red head. — Matrix Rain for your terminal, CC0..pdf_images/page-4-diagram.png) -- page 4 render (310 vector ops)
+- ![page 5 render (94 vector ops)](c10vis-poem／fakesteak: All I see is blonde, brunette, red head. — Matrix Rain for your terminal, CC0..pdf_images/page-5-diagram.png) -- page 5 render (94 vector ops)

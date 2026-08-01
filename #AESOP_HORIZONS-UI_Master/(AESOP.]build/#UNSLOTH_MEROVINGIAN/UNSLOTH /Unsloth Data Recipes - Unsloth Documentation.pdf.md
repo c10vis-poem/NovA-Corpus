@@ -278,3 +278,93 @@ Events
 This site uses cookies to deliver its
 service and to analyze traffic. By browsing
 this site, you accept the privacy policy.
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `Unsloth Data Recipes - Unsloth Documentation.pdf_images/`)
+
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0005.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0014.png) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0015.png) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0018.png) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0019.png) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0024.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0028.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0032.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0036.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0039.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0043.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0046.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0069.png) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0070.png) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0071.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0074.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0077.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0080.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0099.png) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0100.png) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0101.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0104.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0107.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0110.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0130.png) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0131.png) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0132.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0135.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0138.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0141.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0158.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0161.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0164.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0167.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0183.png) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0184.png) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0185.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0188.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0191.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0194.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0213.png) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0214.png) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0215.png) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0216.png) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0217.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0220.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0223.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0226.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0242.png) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0243.png) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0244.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0247.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0250.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0253.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0269.png) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0270.png) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0272.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0275.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0278.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0281.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0298.png) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0299.png) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0301.png) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0302.png) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0303.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0306.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0309.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0312.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0368.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0371.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0374.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0377.jpg) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0517.png) -- embedded raster
+- ![embedded raster](Unsloth Data Recipes - Unsloth Documentation.pdf_images/image-0518.png) -- embedded raster
+- ![page 1 render (80 vector ops)](Unsloth Data Recipes - Unsloth Documentation.pdf_images/page-1-diagram.png) -- page 1 render (80 vector ops)
+- ![page 2 render (22 vector ops)](Unsloth Data Recipes - Unsloth Documentation.pdf_images/page-2-diagram.png) -- page 2 render (22 vector ops)
+- ![page 3 render (22 vector ops)](Unsloth Data Recipes - Unsloth Documentation.pdf_images/page-3-diagram.png) -- page 3 render (22 vector ops)
+- ![page 4 render (32 vector ops)](Unsloth Data Recipes - Unsloth Documentation.pdf_images/page-4-diagram.png) -- page 4 render (32 vector ops)
+- ![page 5 render (16 vector ops)](Unsloth Data Recipes - Unsloth Documentation.pdf_images/page-5-diagram.png) -- page 5 render (16 vector ops)
+- ![page 6 render (46 vector ops)](Unsloth Data Recipes - Unsloth Documentation.pdf_images/page-6-diagram.png) -- page 6 render (46 vector ops)
+- ![page 7 render (32 vector ops)](Unsloth Data Recipes - Unsloth Documentation.pdf_images/page-7-diagram.png) -- page 7 render (32 vector ops)
+- ![page 8 render (48 vector ops)](Unsloth Data Recipes - Unsloth Documentation.pdf_images/page-8-diagram.png) -- page 8 render (48 vector ops)
+- ![page 9 render (26 vector ops)](Unsloth Data Recipes - Unsloth Documentation.pdf_images/page-9-diagram.png) -- page 9 render (26 vector ops)
+- ![page 10 render (58 vector ops)](Unsloth Data Recipes - Unsloth Documentation.pdf_images/page-10-diagram.png) -- page 10 render (58 vector ops)
+- ![page 11 render (58 vector ops)](Unsloth Data Recipes - Unsloth Documentation.pdf_images/page-11-diagram.png) -- page 11 render (58 vector ops)

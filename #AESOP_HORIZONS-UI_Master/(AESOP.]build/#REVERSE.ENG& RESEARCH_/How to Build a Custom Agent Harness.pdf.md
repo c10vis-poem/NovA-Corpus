@@ -357,3 +357,36 @@ Events
 Subscribe
 Privacy policy
 Terms of service
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `How to Build a Custom Agent Harness.pdf_images/`)
+
+- ![embedded raster](How to Build a Custom Agent Harness.pdf_images/image-0004.png) -- embedded raster
+- ![embedded raster](How to Build a Custom Agent Harness.pdf_images/image-0011.png) -- embedded raster
+- ![embedded raster](How to Build a Custom Agent Harness.pdf_images/image-0012.png) -- embedded raster
+- ![embedded raster](How to Build a Custom Agent Harness.pdf_images/image-0043.png) -- embedded raster
+- ![embedded raster](How to Build a Custom Agent Harness.pdf_images/image-0045.png) -- embedded raster
+- ![embedded raster](How to Build a Custom Agent Harness.pdf_images/image-0067.png) -- embedded raster
+- ![embedded raster](How to Build a Custom Agent Harness.pdf_images/image-0075.jpg) -- embedded raster
+- ![embedded raster](How to Build a Custom Agent Harness.pdf_images/image-0083.jpg) -- embedded raster
+- ![embedded raster](How to Build a Custom Agent Harness.pdf_images/image-0088.jpg) -- embedded raster
+- ![embedded raster](How to Build a Custom Agent Harness.pdf_images/image-0110.png) -- embedded raster
+- ![embedded raster](How to Build a Custom Agent Harness.pdf_images/image-0112.png) -- embedded raster
+- ![embedded raster](How to Build a Custom Agent Harness.pdf_images/image-0113.png) -- embedded raster
+- ![embedded raster](How to Build a Custom Agent Harness.pdf_images/image-0114.png) -- embedded raster
+- ![embedded raster](How to Build a Custom Agent Harness.pdf_images/image-0116.png) -- embedded raster
+- ![embedded raster](How to Build a Custom Agent Harness.pdf_images/image-0117.png) -- embedded raster
+- ![embedded raster](How to Build a Custom Agent Harness.pdf_images/image-0118.jpg) -- embedded raster
+- ![embedded raster](How to Build a Custom Agent Harness.pdf_images/image-0186.png) -- embedded raster
+- ![embedded raster](How to Build a Custom Agent Harness.pdf_images/image-0187.png) -- embedded raster
+- ![embedded raster](How to Build a Custom Agent Harness.pdf_images/image-0189.png) -- embedded raster
+- ![embedded raster](How to Build a Custom Agent Harness.pdf_images/image-0190.png) -- embedded raster
+- ![page 1 render (62 vector ops)](How to Build a Custom Agent Harness.pdf_images/page-1-diagram.png) -- page 1 render (62 vector ops)
+- ![page 3 render (80 vector ops)](How to Build a Custom Agent Harness.pdf_images/page-3-diagram.png) -- page 3 render (80 vector ops)
+- ![page 4 render (6 vector ops)](How to Build a Custom Agent Harness.pdf_images/page-4-diagram.png) -- page 4 render (6 vector ops)
+- ![page 6 render (40 vector ops)](How to Build a Custom Agent Harness.pdf_images/page-6-diagram.png) -- page 6 render (40 vector ops)
+- ![page 7 render (52 vector ops)](How to Build a Custom Agent Harness.pdf_images/page-7-diagram.png) -- page 7 render (52 vector ops)
+- ![page 8 render (60 vector ops)](How to Build a Custom Agent Harness.pdf_images/page-8-diagram.png) -- page 8 render (60 vector ops)
+- ![page 9 render (84 vector ops)](How to Build a Custom Agent Harness.pdf_images/page-9-diagram.png) -- page 9 render (84 vector ops)
+- ![page 10 render (134 vector ops)](How to Build a Custom Agent Harness.pdf_images/page-10-diagram.png) -- page 10 render (134 vector ops)

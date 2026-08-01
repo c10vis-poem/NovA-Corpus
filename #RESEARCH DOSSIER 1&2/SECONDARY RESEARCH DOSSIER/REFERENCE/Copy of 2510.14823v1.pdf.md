@@ -1432,3 +1432,53 @@ FraQAT
 to Gemma2 2B IT model. Therefore, proving FraQAT can be applied to Language Models as well as
 Vision Models.
 16
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `Copy of 2510.14823v1.pdf_images/`)
+
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0083.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0084.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0085.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0086.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0087.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0088.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0471.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0473.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0474.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0475.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0476.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0477.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0478.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0479.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0480.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0481.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0482.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0483.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0484.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0485.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0486.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0487.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0488.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0489.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0490.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0491.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0492.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0494.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0495.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0496.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0497.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0498.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0499.png) -- embedded raster
+- ![embedded raster](Copy of 2510.14823v1.pdf_images/image-0559.png) -- embedded raster
+- ![page 3 render (8 vector ops)](Copy of 2510.14823v1.pdf_images/page-3-diagram.png) -- page 3 render (8 vector ops)
+- ![page 4 render (268 vector ops)](Copy of 2510.14823v1.pdf_images/page-4-diagram.png) -- page 4 render (268 vector ops)
+- ![page 5 render (8 vector ops)](Copy of 2510.14823v1.pdf_images/page-5-diagram.png) -- page 5 render (8 vector ops)
+- ![page 7 render (92 vector ops)](Copy of 2510.14823v1.pdf_images/page-7-diagram.png) -- page 7 render (92 vector ops)
+- ![page 9 render (132 vector ops)](Copy of 2510.14823v1.pdf_images/page-9-diagram.png) -- page 9 render (132 vector ops)
+- ![page 11 render (54 vector ops)](Copy of 2510.14823v1.pdf_images/page-11-diagram.png) -- page 11 render (54 vector ops)
+- ![page 12 render (248 vector ops)](Copy of 2510.14823v1.pdf_images/page-12-diagram.png) -- page 12 render (248 vector ops)
+- ![page 13 render (210 vector ops)](Copy of 2510.14823v1.pdf_images/page-13-diagram.png) -- page 13 render (210 vector ops)
+- ![page 14 render (16 vector ops)](Copy of 2510.14823v1.pdf_images/page-14-diagram.png) -- page 14 render (16 vector ops)
+- ![page 15 render (218 vector ops)](Copy of 2510.14823v1.pdf_images/page-15-diagram.png) -- page 15 render (218 vector ops)
+- ![page 16 render (14 vector ops)](Copy of 2510.14823v1.pdf_images/page-16-diagram.png) -- page 16 render (14 vector ops)

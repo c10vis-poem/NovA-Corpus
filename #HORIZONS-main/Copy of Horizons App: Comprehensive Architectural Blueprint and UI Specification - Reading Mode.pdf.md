@@ -149,3 +149,11 @@ App Compilation: Finalizing strategies for asset bundling and app-wide binary co
 
 Strict Manual Mode: Evaluation of a purely manual loading model where no default models are
 active without user-initiated "plug-ins."
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `Copy of Horizons App: Comprehensive Architectural Blueprint and UI Specification - Reading Mode.pdf_images/`)
+
+- ![page 2 render (22 vector ops)](Copy of Horizons App: Comprehensive Architectural Blueprint and UI Specification - Reading Mode.pdf_images/page-2-diagram.png) -- page 2 render (22 vector ops)
+- ![page 3 render (88 vector ops)](Copy of Horizons App: Comprehensive Architectural Blueprint and UI Specification - Reading Mode.pdf_images/page-3-diagram.png) -- page 3 render (88 vector ops)
+- ![page 4 render (40 vector ops)](Copy of Horizons App: Comprehensive Architectural Blueprint and UI Specification - Reading Mode.pdf_images/page-4-diagram.png) -- page 4 render (40 vector ops)

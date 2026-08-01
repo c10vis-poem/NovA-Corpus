@@ -411,3 +411,124 @@ Events
 This site uses cookies to deliver its
 service and to analyze traffic. By browsing
 this site, you accept the privacy policy.
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/`)
+
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0005.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0018.png) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0019.png) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0024.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0028.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0032.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0036.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0039.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0043.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0046.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0082.png) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0083.png) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0086.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0089.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0092.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0095.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0119.png) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0120.png) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0121.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0124.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0127.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0130.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0154.png) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0155.png) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0156.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0159.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0162.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0165.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0187.png) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0188.png) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0190.png) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0191.png) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0192.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0195.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0198.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0201.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0222.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0225.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0228.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0231.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0234.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0237.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0259.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0262.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0265.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0268.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0271.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0292.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0295.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0298.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0301.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0304.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0307.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0310.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0331.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0334.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0337.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0340.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0343.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0346.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0349.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0352.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0373.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0376.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0379.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0382.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0385.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0408.png) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0409.png) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0413.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0416.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0419.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0422.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0445.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0448.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0451.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0454.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0485.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0488.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0491.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0494.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0497.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0519.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0522.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0525.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0528.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0531.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0534.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0557.png) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0558.png) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0559.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0562.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0565.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0568.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0635.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0638.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0641.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0644.jpg) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0852.png) -- embedded raster
+- ![embedded raster](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/image-0853.png) -- embedded raster
+- ![page 1 render (94 vector ops)](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/page-1-diagram.png) -- page 1 render (94 vector ops)
+- ![page 2 render (50 vector ops)](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/page-2-diagram.png) -- page 2 render (50 vector ops)
+- ![page 3 render (42 vector ops)](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/page-3-diagram.png) -- page 3 render (42 vector ops)
+- ![page 4 render (28 vector ops)](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/page-4-diagram.png) -- page 4 render (28 vector ops)
+- ![page 5 render (30 vector ops)](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/page-5-diagram.png) -- page 5 render (30 vector ops)
+- ![page 6 render (40 vector ops)](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/page-6-diagram.png) -- page 6 render (40 vector ops)
+- ![page 7 render (44 vector ops)](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/page-7-diagram.png) -- page 7 render (44 vector ops)
+- ![page 8 render (74 vector ops)](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/page-8-diagram.png) -- page 8 render (74 vector ops)
+- ![page 9 render (76 vector ops)](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/page-9-diagram.png) -- page 9 render (76 vector ops)
+- ![page 10 render (80 vector ops)](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/page-10-diagram.png) -- page 10 render (80 vector ops)
+- ![page 11 render (66 vector ops)](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/page-11-diagram.png) -- page 11 render (66 vector ops)
+- ![page 12 render (96 vector ops)](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/page-12-diagram.png) -- page 12 render (96 vector ops)
+- ![page 13 render (108 vector ops)](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/page-13-diagram.png) -- page 13 render (108 vector ops)
+- ![page 14 render (82 vector ops)](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/page-14-diagram.png) -- page 14 render (82 vector ops)
+- ![page 15 render (70 vector ops)](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/page-15-diagram.png) -- page 15 render (70 vector ops)
+- ![page 16 render (58 vector ops)](How to use Unsloth as an API endpoint - Unsloth Documentation.pdf_images/page-16-diagram.png) -- page 16 render (58 vector ops)

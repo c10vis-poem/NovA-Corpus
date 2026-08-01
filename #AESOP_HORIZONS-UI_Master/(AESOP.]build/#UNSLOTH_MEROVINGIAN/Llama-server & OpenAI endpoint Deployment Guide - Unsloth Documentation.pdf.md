@@ -148,3 +148,58 @@ this site, you accept the privacy policy.
 This site uses cookies to deliver its
 service and to analyze traffic. By browsing
 this site, you accept the privacy policy.
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/`)
+
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0005.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0014.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0021.png) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0022.png) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0027.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0031.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0035.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0038.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0041.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0045.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0048.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0067.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0070.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0073.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0076.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0079.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0082.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0096.png) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0097.png) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0098.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0101.png) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0102.png) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0103.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0106.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0109.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0112.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0126.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0129.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0132.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0135.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0138.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0141.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0163.png) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0164.png) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0165.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0168.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0171.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0174.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0233.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0236.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0239.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0242.jpg) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0414.png) -- embedded raster
+- ![embedded raster](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/image-0415.png) -- embedded raster
+- ![page 1 render (122 vector ops)](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/page-1-diagram.png) -- page 1 render (122 vector ops)
+- ![page 2 render (96 vector ops)](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/page-2-diagram.png) -- page 2 render (96 vector ops)
+- ![page 3 render (48 vector ops)](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/page-3-diagram.png) -- page 3 render (48 vector ops)
+- ![page 4 render (72 vector ops)](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/page-4-diagram.png) -- page 4 render (72 vector ops)
+- ![page 5 render (52 vector ops)](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/page-5-diagram.png) -- page 5 render (52 vector ops)
+- ![page 6 render (58 vector ops)](Llama-server & OpenAI endpoint Deployment Guide - Unsloth Documentation.pdf_images/page-6-diagram.png) -- page 6 render (58 vector ops)

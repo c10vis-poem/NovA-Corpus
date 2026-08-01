@@ -504,3 +504,35 @@ Create and test a Python package on multiple Python versions.
 By GitHub Actions
 Configure
 More workflows
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/`)
+
+- ![embedded raster](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/image-0012.jpg) -- embedded raster
+- ![embedded raster](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/image-0017.jpg) -- embedded raster
+- ![embedded raster](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/image-0025.png) -- embedded raster
+- ![embedded raster](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/image-0027.png) -- embedded raster
+- ![embedded raster](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/image-0028.png) -- embedded raster
+- ![embedded raster](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/image-0029.png) -- embedded raster
+- ![embedded raster](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/image-0030.png) -- embedded raster
+- ![embedded raster](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/image-0031.png) -- embedded raster
+- ![embedded raster](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/image-0134.png) -- embedded raster
+- ![embedded raster](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/image-0135.png) -- embedded raster
+- ![embedded raster](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/image-0136.png) -- embedded raster
+- ![embedded raster](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/image-0320.png) -- embedded raster
+- ![embedded raster](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/image-0321.png) -- embedded raster
+- ![embedded raster](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/image-0325.png) -- embedded raster
+- ![embedded raster](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/image-0326.png) -- embedded raster
+- ![page 1 render (346 vector ops)](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/page-1-diagram.png) -- page 1 render (346 vector ops)
+- ![page 2 render (138 vector ops)](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/page-2-diagram.png) -- page 2 render (138 vector ops)
+- ![page 3 render (144 vector ops)](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/page-3-diagram.png) -- page 3 render (144 vector ops)
+- ![page 4 render (166 vector ops)](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/page-4-diagram.png) -- page 4 render (166 vector ops)
+- ![page 5 render (74 vector ops)](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/page-5-diagram.png) -- page 5 render (74 vector ops)
+- ![page 6 render (424 vector ops)](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/page-6-diagram.png) -- page 6 render (424 vector ops)
+- ![page 7 render (128 vector ops)](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/page-7-diagram.png) -- page 7 render (128 vector ops)
+- ![page 8 render (96 vector ops)](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/page-8-diagram.png) -- page 8 render (96 vector ops)
+- ![page 9 render (104 vector ops)](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/page-9-diagram.png) -- page 9 render (104 vector ops)
+- ![page 10 render (136 vector ops)](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/page-10-diagram.png) -- page 10 render (136 vector ops)
+- ![page 11 render (158 vector ops)](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/page-11-diagram.png) -- page 11 render (158 vector ops)
+- ![page 12 render (82 vector ops)](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/page-12-diagram.png) -- page 12 render (82 vector ops)

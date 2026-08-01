@@ -266,3 +266,14 @@ Report an Issue on GitHub
 Open a Discussion on GitHub
 License
 qcom-build-utils is licensed under the BSD-3-Clause License. See LICENSE.txt for the full license text.
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `qcom-build-utils.pdf_images/`)
+
+- ![page 1 render (26 vector ops)](qcom-build-utils.pdf_images/page-1-diagram.png) -- page 1 render (26 vector ops)
+- ![page 2 render (84 vector ops)](qcom-build-utils.pdf_images/page-2-diagram.png) -- page 2 render (84 vector ops)
+- ![page 3 render (104 vector ops)](qcom-build-utils.pdf_images/page-3-diagram.png) -- page 3 render (104 vector ops)
+- ![page 4 render (80 vector ops)](qcom-build-utils.pdf_images/page-4-diagram.png) -- page 4 render (80 vector ops)
+- ![page 5 render (204 vector ops)](qcom-build-utils.pdf_images/page-5-diagram.png) -- page 5 render (204 vector ops)
+- ![page 6 render (134 vector ops)](qcom-build-utils.pdf_images/page-6-diagram.png) -- page 6 render (134 vector ops)

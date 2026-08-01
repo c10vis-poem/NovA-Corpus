@@ -253,3 +253,32 @@ Recipes
 D O W N L O A D O U R L A T E S T
 Free Build Plan
 D O W N L O A D N O W
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `Cedar Planter Bench Plans - Handmade Weekly.pdf_images/`)
+
+- ![embedded raster](Cedar Planter Bench Plans - Handmade Weekly.pdf_images/image-0007.png) -- embedded raster
+- ![embedded raster](Cedar Planter Bench Plans - Handmade Weekly.pdf_images/image-0009.png) -- embedded raster
+- ![embedded raster](Cedar Planter Bench Plans - Handmade Weekly.pdf_images/image-0019.png) -- embedded raster
+- ![embedded raster](Cedar Planter Bench Plans - Handmade Weekly.pdf_images/image-0027.png) -- embedded raster
+- ![embedded raster](Cedar Planter Bench Plans - Handmade Weekly.pdf_images/image-0028.png) -- embedded raster
+- ![embedded raster](Cedar Planter Bench Plans - Handmade Weekly.pdf_images/image-0074.png) -- embedded raster
+- ![embedded raster](Cedar Planter Bench Plans - Handmade Weekly.pdf_images/image-0088.jpg) -- embedded raster
+- ![embedded raster](Cedar Planter Bench Plans - Handmade Weekly.pdf_images/image-0095.png) -- embedded raster
+- ![embedded raster](Cedar Planter Bench Plans - Handmade Weekly.pdf_images/image-0096.png) -- embedded raster
+- ![embedded raster](Cedar Planter Bench Plans - Handmade Weekly.pdf_images/image-0099.png) -- embedded raster
+- ![embedded raster](Cedar Planter Bench Plans - Handmade Weekly.pdf_images/image-0100.png) -- embedded raster
+- ![embedded raster](Cedar Planter Bench Plans - Handmade Weekly.pdf_images/image-0102.png) -- embedded raster
+- ![embedded raster](Cedar Planter Bench Plans - Handmade Weekly.pdf_images/image-0103.png) -- embedded raster
+- ![page 1 render (14 vector ops)](Cedar Planter Bench Plans - Handmade Weekly.pdf_images/page-1-diagram.png) -- page 1 render (14 vector ops)
+- ![page 3 render (6 vector ops)](Cedar Planter Bench Plans - Handmade Weekly.pdf_images/page-3-diagram.png) -- page 3 render (6 vector ops)
+- ![page 4 render (18 vector ops)](Cedar Planter Bench Plans - Handmade Weekly.pdf_images/page-4-diagram.png) -- page 4 render (18 vector ops)
+- ![page 5 render (16 vector ops)](Cedar Planter Bench Plans - Handmade Weekly.pdf_images/page-5-diagram.png) -- page 5 render (16 vector ops)
+- ![page 6 render (16 vector ops)](Cedar Planter Bench Plans - Handmade Weekly.pdf_images/page-6-diagram.png) -- page 6 render (16 vector ops)
+- ![page 13 render (14 vector ops)](Cedar Planter Bench Plans - Handmade Weekly.pdf_images/page-13-diagram.png) -- page 13 render (14 vector ops)
+- ![page 14 render (22 vector ops)](Cedar Planter Bench Plans - Handmade Weekly.pdf_images/page-14-diagram.png) -- page 14 render (22 vector ops)
+- ![page 15 render (24 vector ops)](Cedar Planter Bench Plans - Handmade Weekly.pdf_images/page-15-diagram.png) -- page 15 render (24 vector ops)
+- ![page 16 render (8 vector ops)](Cedar Planter Bench Plans - Handmade Weekly.pdf_images/page-16-diagram.png) -- page 16 render (8 vector ops)
+- ![page 17 render (24 vector ops)](Cedar Planter Bench Plans - Handmade Weekly.pdf_images/page-17-diagram.png) -- page 17 render (24 vector ops)
+- ![page 18 render (26 vector ops)](Cedar Planter Bench Plans - Handmade Weekly.pdf_images/page-18-diagram.png) -- page 18 render (26 vector ops)

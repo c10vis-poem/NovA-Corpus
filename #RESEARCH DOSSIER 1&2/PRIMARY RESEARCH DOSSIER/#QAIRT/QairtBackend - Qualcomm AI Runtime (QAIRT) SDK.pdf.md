@@ -663,3 +663,38 @@ or disclosures.
 Nothing in these materials is an offer to sell or license any of the services or materials
 referenced herein.
 Provide Feedback
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `QairtBackend - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/`)
+
+- ![embedded raster](QairtBackend - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0004.jpg) -- embedded raster
+- ![embedded raster](QairtBackend - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0310.png) -- embedded raster
+- ![embedded raster](QairtBackend - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0311.png) -- embedded raster
+- ![embedded raster](QairtBackend - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/image-0318.jpg) -- embedded raster
+- ![page 1 render (138 vector ops)](QairtBackend - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-1-diagram.png) -- page 1 render (138 vector ops)
+- ![page 2 render (224 vector ops)](QairtBackend - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-2-diagram.png) -- page 2 render (224 vector ops)
+- ![page 3 render (76 vector ops)](QairtBackend - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-3-diagram.png) -- page 3 render (76 vector ops)
+- ![page 4 render (120 vector ops)](QairtBackend - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-4-diagram.png) -- page 4 render (120 vector ops)
+- ![page 5 render (68 vector ops)](QairtBackend - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-5-diagram.png) -- page 5 render (68 vector ops)
+- ![page 6 render (80 vector ops)](QairtBackend - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-6-diagram.png) -- page 6 render (80 vector ops)
+- ![page 7 render (62 vector ops)](QairtBackend - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-7-diagram.png) -- page 7 render (62 vector ops)
+- ![page 8 render (64 vector ops)](QairtBackend - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-8-diagram.png) -- page 8 render (64 vector ops)
+- ![page 9 render (64 vector ops)](QairtBackend - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-9-diagram.png) -- page 9 render (64 vector ops)
+- ![page 10 render (58 vector ops)](QairtBackend - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-10-diagram.png) -- page 10 render (58 vector ops)
+- ![page 11 render (62 vector ops)](QairtBackend - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-11-diagram.png) -- page 11 render (62 vector ops)
+- ![page 12 render (76 vector ops)](QairtBackend - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-12-diagram.png) -- page 12 render (76 vector ops)
+- ![page 13 render (60 vector ops)](QairtBackend - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-13-diagram.png) -- page 13 render (60 vector ops)
+- ![page 14 render (54 vector ops)](QairtBackend - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-14-diagram.png) -- page 14 render (54 vector ops)
+- ![page 15 render (84 vector ops)](QairtBackend - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-15-diagram.png) -- page 15 render (84 vector ops)
+- ![page 16 render (60 vector ops)](QairtBackend - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-16-diagram.png) -- page 16 render (60 vector ops)
+- ![page 17 render (64 vector ops)](QairtBackend - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-17-diagram.png) -- page 17 render (64 vector ops)
+- ![page 18 render (70 vector ops)](QairtBackend - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-18-diagram.png) -- page 18 render (70 vector ops)
+- ![page 19 render (60 vector ops)](QairtBackend - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-19-diagram.png) -- page 19 render (60 vector ops)
+- ![page 20 render (74 vector ops)](QairtBackend - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-20-diagram.png) -- page 20 render (74 vector ops)
+- ![page 21 render (58 vector ops)](QairtBackend - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-21-diagram.png) -- page 21 render (58 vector ops)
+- ![page 22 render (66 vector ops)](QairtBackend - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-22-diagram.png) -- page 22 render (66 vector ops)
+- ![page 23 render (64 vector ops)](QairtBackend - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-23-diagram.png) -- page 23 render (64 vector ops)
+- ![page 24 render (72 vector ops)](QairtBackend - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-24-diagram.png) -- page 24 render (72 vector ops)
+- ![page 25 render (88 vector ops)](QairtBackend - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-25-diagram.png) -- page 25 render (88 vector ops)
+- ![page 26 render (22 vector ops)](QairtBackend - Qualcomm AI Runtime (QAIRT) SDK.pdf_images/page-26-diagram.png) -- page 26 render (22 vector ops)

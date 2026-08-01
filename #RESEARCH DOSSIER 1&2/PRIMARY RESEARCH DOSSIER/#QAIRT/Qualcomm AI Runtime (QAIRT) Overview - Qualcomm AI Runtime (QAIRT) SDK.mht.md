@@ -47,3 +47,9 @@ There are several additional runtimes which are either optimized for specific mo
 If these apply to your use case, you may need to follow the additional steps documented within to have your model execute in the proper environment:
 
 - [TFLite Delegate](https://docs.qualcomm.com/doc/80-63442-10/topic/index_TfLite.html)- Specifically optimized for TFLite model files.
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `Qualcomm AI Runtime (QAIRT) Overview - Qualcomm AI Runtime (QAIRT) SDK.mht_images/`)
+
+- ![https://cdn.cookielaw.org/logos/static/powered_by_logo.svg](Qualcomm AI Runtime (QAIRT) Overview - Qualcomm AI Runtime (QAIRT) SDK.mht_images/mht-image-001.svg) -- https://cdn.cookielaw.org/logos/static/powered_by_logo.svg
+- ![https://cdn.cookielaw.org/logos/b0a5f2cc-0b29-4907-89bf-3f6b380a03c8/019b2967-1f59-7929-8629-87bcc32af336/88f57162-c334-444d-87f4-6a565e8edc19/1280px-Qualcomm-Logo.svg.png](Qualcomm AI Runtime (QAIRT) Overview - Qualcomm AI Runtime (QAIRT) SDK.mht_images/mht-image-002.png) -- https://cdn.cookielaw.org/logos/b0a5f2cc-0b29-4907-89bf-3f6b380a03c8/019b2967-1f59-7929-8629-87bcc32af336/88f57162-c334-444d-87f4-6a565e8edc19/1280px-Qualcomm-Logo.svg.png

@@ -233,3 +233,85 @@ which is why the libs are built per DSP arch.
 - `_DUPLICATES_REVIEW/` (15 files) still needs a human delete pass.
 - Six `.EXCLUDED.md` stubs point at binaries not stored here.
 - Image/diagram extraction is unsolved.
+
+---
+
+## Session 22 handoff — 2026-08-01 (vault repair)
+
+### What was fixed
+
+- **`c10vis-poem／llama.cpp-npu`** was 44 bytes (a Drive "shortcut" object
+  containing only the repo URL) while the real README capture is a separate
+  345,481-byte PDF object in the same Drive folder. Pulled the real PDF via
+  `rclone` (MCP Drive's `download_file_content` kept getting declined this
+  session — `rclone copyto`/`backend copyid` is the reliable path for a
+  single targeted file when the MCP round-trip isn't cooperating) and
+  converted it: `#LLAMA CPP NPU/c10vis-poem／llama.cpp-npu.pdf.md`.
+- **GenieX README** — the vault's existing GitHub-page capture actually
+  already had the runtime table (checked; not broken). Also pulled the
+  live README + architecture diagram directly from the `c10vis-poem/GenieX`
+  fork via `git clone` as a second, always-current source: `#QAIRT_main/
+  #GenieX/README (c10vis-poem／GenieX fork).md` (+ `_images/`).
+- **`.migrate/process_folder.py`**: `real_ext()`'s magic-byte sniff didn't
+  cover `message/rfc822` (raw `.mht`), so any extensionless MHT capture
+  stayed unconverted forever. Added the case. Also fixed a real bug where
+  extensionless-but-sniffed files skipped the extension-fold step entirely
+  (`Foo` → `Foo.md` instead of `Foo.pdf.md`), defeating the collision-safety
+  the fold-in convention exists for. `convert_pdf()` now falls back to
+  `mutool convert -F text` when PyMuPDF isn't importable (no prebuilt wheel
+  for Termux/Android/cp314 — building it from source needs cmake/ninja,
+  which fail to bootstrap here). One stranded raw `.mht` found and converted:
+  `#QAIRT_main/#QAIRT/#QAIRT/Utilizing Qualcomm NPUs...LiteRT....mht(.md)`.
+  Full rescan confirmed zero remaining stranded raw PDF/MHT bytes.
+- **`.migrate/build_rag_index.py`**: the documented self-poisoning bug did
+  not reproduce on this checkout (`_index` exclusion already worked) —
+  verified stable at exactly **60 docs / 2,211 chunks** across three
+  consecutive rebuilds. Hardened the exclusion anyway (path-component
+  check instead of a `os.sep`-glued substring match) as defense in depth.
+- **Image/diagram extraction — solved.** New `.migrate/extract_images.py`,
+  no PyMuPDF dependency (unavailable here): `mutool extract` for embedded
+  rasters, `mutool draw -F trace` per page (counts `fill_path`/`stroke_path`
+  ops) to detect vector diagrams, then `mutool draw` renders any page over
+  threshold to PNG. `.mht` images come from walking MIME parts with
+  `Content-Type: image/*` (dropped entirely by the existing conversion,
+  which only ever reads the `text/html` part). Images land in a sibling
+  `<docname>_images/` folder; a `## Extracted images` section (idempotent —
+  won't double-append on rerun) gets appended to the `.md` with a relative
+  link + caption per image, so grep-by-caption reaches them. Run vault-wide:
+  **7,381 images extracted from 66 PDFs + 7 `.mht` files.** Confirmed
+  against both named targets: `Qualcomm AI Engine Direct SDK...pdf` page 3
+  (the stack diagram, 38 vector ops) rendered; `HTP - Qualcomm AI Runtime
+  (QAIRT) SDK.pdf` pulled ~42 embedded rasters (handoff estimate was ~39,
+  close enough — different tools count embedded XObjects slightly
+  differently); `backend (Markor).pdf` confirmed **zero embedded rasters,
+  10 vector-diagram pages** — exactly the "diagrams with no rasters" case
+  called out as the reason `get_images()` alone isn't enough.
+- **`_DUPLICATES_REVIEW/` (15 files) — 13 confirmed true duplicates, 2 were
+  not.** `4.docx`/`5.docx` under `#QAIRT_main/zqnn／qairt-System Design.../`
+  hashed to nothing live in that folder — turned out to be parts 4 and 5 of
+  a numbered conversation series (siblings 0,1,2,3,6,7,8,9 present, 4 and 5
+  silently missing). Confirmed unique content (FFI orchestrator pattern /
+  Android daemon architecture, matching neither each other nor any sibling)
+  and restored them to the live folder instead of leaving them quarantined.
+  The other 13 verified byte-identical to a still-present sibling and were
+  left in place for the operator's own delete pass (not auto-deleted).
+
+### Environment note for future sessions
+
+This session ran in Termux (Android/aarch64, Python 3.14) with no
+prebuilt PyPI wheels for `pymupdf`/`numpy`/`lxml`/etc. Working toolchain
+that doesn't need pip source builds: `pkg install pandoc mupdf-tools
+python-numpy libxml2 libxslt`, then `pip install rank_bm25 trafilatura`
+(numpy/lxml as binary `pkg`s first is what unblocks both of those). `mutool`
+(from `mupdf-tools`) stands in for PyMuPDF everywhere: text extraction,
+embedded-image extraction, and page rendering all shell out to it now in
+`process_folder.py` (fallback only) and `extract_images.py` (primary).
+
+### Open items carried forward
+
+- `_DUPLICATES_REVIEW/` (13 confirmed-true-duplicate files) still needs a
+  human delete pass — operator has the list, not auto-deleted.
+- Six `.EXCLUDED.md` stubs point at binaries not stored here.
+- Repo grew to ~1.6GB locally from the image extraction (not yet measured
+  post-push) — worth checking this doesn't collide with GitHub's repo-size
+  soft limits before pushing at scale again.

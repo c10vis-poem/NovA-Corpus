@@ -4056,3 +4056,9 @@ It is recommended to enable Monolithic LSTM when graph contains multi-step LSTM 
 - May increase execute time when depth size is large or time step size is not sufficiently large. 
 - **Hexagon NPU Runtime Driver Path:**Monolithic LSTM requires a compatible Hexagon NPU runtime driver.- **During preparation:**If the driver is outdated, the optimization will not be applied even if enabled.
 - **During execution:**If a context binary prepared with Monolithic LSTM is run with an outdated driver, execution will fail due to the unsupported feature.
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `HTP - Qualcomm AI Runtime (QAIRT) SDK.mht_images/`)
+
+- ![https://cdn.cookielaw.org/logos/static/powered_by_logo.svg](HTP - Qualcomm AI Runtime (QAIRT) SDK.mht_images/mht-image-001.svg) -- https://cdn.cookielaw.org/logos/static/powered_by_logo.svg
+- ![https://cdn.cookielaw.org/logos/b0a5f2cc-0b29-4907-89bf-3f6b380a03c8/019b2967-1f59-7929-8629-87bcc32af336/88f57162-c334-444d-87f4-6a565e8edc19/1280px-Qualcomm-Logo.svg.png](HTP - Qualcomm AI Runtime (QAIRT) SDK.mht_images/mht-image-002.png) -- https://cdn.cookielaw.org/logos/b0a5f2cc-0b29-4907-89bf-3f6b380a03c8/019b2967-1f59-7929-8629-87bcc32af336/88f57162-c334-444d-87f4-6a565e8edc19/1280px-Qualcomm-Logo.svg.png
