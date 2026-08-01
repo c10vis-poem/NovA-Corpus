@@ -315,3 +315,28 @@ embedded-image extraction, and page rendering all shell out to it now in
 - Repo grew to ~1.6GB locally from the image extraction (not yet measured
   post-push) — worth checking this doesn't collide with GitHub's repo-size
   soft limits before pushing at scale again.
+
+---
+
+## Session 22 addendum — 2026-08-01
+
+**The boot log was never unreachable.** `novus-boot.log` (~4 kB) sits in the
+on-device `HARNESS/` folder, not under `/sdcard/Android/data/<pkg>/`. Termux can
+read it. Session 21 concluded it was blocked by scoped storage because the
+documented path pointed into the carve-out. Check `HARNESS/` first.
+
+**Voice models are not in Drive** — only their documentation is, here at
+`#AESOP_HORIZONS-UI_Master/(AESOP.]build/##DEVICE-STT&TTS_/`. That folder holds
+`architecture.md` (the working spec: Kokoro TTS · Moonshine STT · Silero v5 VAD
+on one sherpa-onnx runtime, with exact HF sources and configs), `quickstart.md`,
+`operations.md`, `DaemonTtsClient.kt`, and fork captures for sherpa-onnx,
+silero-vad, kokoro-onnx and moonshine-tflite.
+
+**AESOP's repo does not match its wiki page.** `aesop-wiki.md` describes
+`llamad`, `aesopd` and `protocol/bridge-protocol.md`. The repo has six files:
+README, ARCHITECTURE, RESUME, `protocol/tiers.md`, `profiles/{nav,_example}.yaml`.
+No voice-engine, no bridge spec. AESOP is a **protocol** — four roles (query,
+executive, librarian, auditor), three memory types (declarative markdown =
+canonical · recall = OB1 vector · strategic = ReasoningBank), and tier contracts.
+`profiles/nav.yaml` names this project's app: `phone: tiers:[edge], client:
+omni-claw`.
