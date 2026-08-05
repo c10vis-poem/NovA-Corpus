@@ -20,8 +20,10 @@ protocol: AESOP XI — Agentic Executions Split Operations Protocol
 >
 > **Everything else in the corpus is a comparison against this.** No document
 > describes the system in isolation — it describes the system *relative to this
-> blueprint*. Every folder's `CLAUDE.md` opens with a State of the Union: what
-> you are supposed to have, then what you do have, then the delta.
+> blueprint*. Every folder's `CLAUDE.md` opens with a State of the Union **in this
+> same W5+H schema**, so target and status line up header for header: §1 here is
+> the target, the folder's W5+H is the status, and the gap between them reads off
+> the page. Same six headers is what makes them diffable.
 >
 > **Verification rule.** This document is verified against the **operator**, not
 > against the code. Code disagreeing with the blueprint is a gap in the code.
