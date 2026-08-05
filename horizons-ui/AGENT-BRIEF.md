@@ -130,6 +130,15 @@ code before acting on it.** A vault snapshot of this repo was found to predate t
 in-process STT work entirely, and a prior AI audit claimed a dozen components were
 "completely missing" that in fact existed and were manifest-registered.
 
+- **The daemon appears to suicide when no model is plugged in.** Operator
+  observation: it probes for a model at start, finds none, crashes. `CliffordService`
+  then relaunches it into the same empty state — a self-feeding crash loop. The fix
+  is **already documented** and may have regressed: **serve-first — bind `:8080`
+  first, load on a background thread, serve `503` until ready, never suicide on a
+  missing model.** *Alive ≠ ready.* **No model is the normal boot state**; the app
+  boots empty by design. See `canon/horizons-ui/WHAT-IT-IS.md` §11. Confirm from
+  `boot.log`: a repeating `[clifford]` start→exit→start with nothing plugged in.
+  **Check this early — it is cheap and it may be the ~90 s crash.**
 - **No inbound listener exists.** No `ServerSocket`, no Ktor. The Termux backend is
   absent. This is what blocks Termux getting mic/voice/WebView-OAuth. NPU access
   does *not* need it — the app-spawned daemon already binds `:8080` under the app's

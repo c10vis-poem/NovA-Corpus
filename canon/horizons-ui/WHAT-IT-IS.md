@@ -240,3 +240,63 @@ like an instruction to build a blocker. It is not. See Rule 7a and
 - The remaining folder files not yet mined: `GENIEX-DAEMON-PLAN.md`, `Horizons.txt`,
   `I have created.txt`, `openwiki.md`, the 81 KB Gemini duel doc (which the operator
   notes retracts its own central claim), and docs 1–3 in the numbered sequence.
+
+---
+
+## 11 · The daemon lifecycle contract — "alive ≠ ready"
+
+**Operator observation (2026-08-05):** the daemon still looks for a model the
+instant it starts, tries to size it up, finds nothing, and crashes out.
+
+That is a **regression against a fix that is already documented.**
+`GENIEX-DAEMON-PLAN.md` states the crash-loop fix explicitly:
+
+> **The crash-loop fix** — serve-first: bind `:8080` immediately, load the model
+> on a background thread, serve `/health` 503 until ready, **never suicide on a
+> bad/missing model.** GenieX's launcher must preserve this **"alive ≠ ready"**
+> property so the watchdog never thrashes.
+
+### The contract, in order
+
+1. **Bind the port first.** `:8080` opens **before** any model work begins.
+2. **Load on a background thread.** Never on the accept loop, never at start.
+3. **Serve `503` until ready.** Port open + not ready is a *valid, healthy state.*
+4. **Never suicide on a bad or missing model.** No model is the **normal boot
+   state** — the app boots empty by design and the user is the loader. A daemon
+   that dies without a model has misread an empty workbench as a fault.
+5. **Readiness is a probe, not an assumption.** `GET /v1/models` → 200 once the
+   model is registered. Port open but not 200 means **loading**, not **dead**.
+
+### Why violating it is worse than one crash
+
+`CliffordService` is a watchdog: FGS, `START_STICKY`, exponential backoff,
+5-strike relaunch. If the daemon exits because no model is plugged in, the
+watchdog **relaunches it into the same empty state** — which exits again. That is
+a self-feeding crash loop, and it costs battery and log volume on every cycle.
+
+This compounds the diagnostics loop already found and fixed in
+[`CRASH-ANALYSIS-2026-07-31.md`](CRASH-ANALYSIS-2026-07-31.md): crash → bigger log
+→ heavier boot → more crashes. **A daemon that suicides on no-model plus a
+watchdog that relaunches it is a second, independent crash loop feeding the same
+log.** It is a strong candidate for the unexplained ~90 s first crash, and unlike
+LMK it would leave evidence.
+
+### The anti-pattern, concretely
+
+```kotlin
+// WRONG — hard throw on missing model
+if (!modelFile.exists()) throw IllegalArgumentException("Target binary not found.")
+```
+
+Found in the July-3rd APK material. Under Rule 7a this is the same failure class as
+the `AssetCheck` blocker: the *absence of a loaded model is not an error*, it is
+Tuesday. The **Monitor** reports it as a red light; the **daemon** must not die of it.
+
+### How to confirm on device
+
+`boot.log` lines are tagged `[main]` / `[clifford]`. A repeating `[clifford]`
+start → exit → start pattern with no model plugged in **confirms this**, and
+distinguishes it from an LMK kill — LMK leaves no trace, this leaves a rhythm.
+
+**Status:** `⬜ unverified against live code.` The fix is documented; whether it is
+implemented, or was implemented and regressed, has not been checked.
