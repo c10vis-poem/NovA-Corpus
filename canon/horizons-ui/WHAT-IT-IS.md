@@ -16,9 +16,10 @@ scope: the end product — what this app is, what it does, and how a job moves t
 > [`../STATE-OF-EXISTENCE.md`](../STATE-OF-EXISTENCE.md) for that. Several
 > mechanisms described here have no code behind them.
 >
-> **Verification rule.** Verified against the operator. Where the source folder
-> conflicts with later operator statements, the later statement wins and the
-> conflict is recorded in §8 rather than silently resolved.
+> **Verification rule.** Verified against the operator. The source folder is
+> **grout** — it fills gaps and holds the tiles in place, and gets read *alongside*
+> the latest information rather than against it. Where it is older, the newer thing
+> simply wins; §8 notes the divergences without making a drama of them.
 
 ---
 
@@ -201,24 +202,37 @@ MØ[)u14R_ 11(
 
 ---
 
-## 8 · Conflicts with the source folder — recorded, not silently resolved
+## 8 · Grout — read alongside, not instead of
 
-The folder is a **summarization set, not a spec**, and parts of it are superseded.
-Later operator statements win.
+**Operator's framing, and the right one:** this material is **grout**. It is not
+the tile. It fills the gaps between what is settled and holds the whole thing in
+position. You read it **in juxtaposition with the latest information**, not as a
+competing authority.
 
-| Source says | Canon is | Note |
+So where it diverges from something newer, that is mostly just **age**, not a
+defect. Take it with a grain of salt, use the newer thing, and move on. No ceremony
+required.
+
+| Older here | Newer | |
 |---|---|---|
-| Settings **4:30**, Archives **7:30**, Horizons **Top-Left**, Chat "East of Monitor" | positions are **not discussed** — the home screen is **done** | Doc 4 is marked **`[NEEDS EDIT]`** by the operator himself |
-| Router is a **"10-amp fuse" gatekeeper** that "blows" and blocks | **The Router does not say no.** It attempts to close the circuit; failure is a circuit that didn't energise, never a lockout | **Rule 7a.** Compiling this literally produced the hardcoded `AssetCheck` list and the blocking `⚡ FUSE BOX` banner that broke custom runtimes |
-| "Four Rooms & Seven-Tile" | seven functional rooms; the four-room framing is superseded | |
-| Idle screensaver **5 minutes** | **3–5 minutes** | operator, later |
-| `greenLight` runs **five** checks (doc lists three, unfinished) | **four**, as in §4 | the five-check list in doc 4 is visibly truncated |
+| Settings 4:30, Archives 7:30, Horizons top-left, Chat "east of Monitor" | positions aren't discussed — the home screen is **done** | doc 4 is marked `[NEEDS EDIT]` by the operator anyway |
+| "Four Rooms & Seven-Tile" | seven functional rooms | earlier framing |
+| idle screensaver **5 min** | **3–5 min** | trivial |
+| `greenLight` "runs five checks" (lists three, truncated) | **four**, §4 | the newer list is the complete one |
 
-**The "10-amp fuse" is the single most dangerous line in that folder.** It reads
-like an instruction to build a blocker. It is not. See Rule 7a and
+### The one that isn't just age
+
+**"The Router is a 10-amp fuse that blows and blocks."**
+
+This one is worth flagging, not because the metaphor is wrong — it is the
+operator's own and it is a good one — but because **a previous agent compiled it
+literally**, producing the hardcoded `AssetCheck` list and the blocking
+`⚡ FUSE BOX` banner that broke custom runtimes and fine-tuned weights.
+
+The grout is fine. The reading was wrong. **The Router doesn't say no** — it
+attempts to close the circuit, and failure is a circuit that didn't energise, never
+a lockout. See Rule 7a and
 [`../aesop/PARAMETER-PACKET.md`](../aesop/PARAMETER-PACKET.md).
-
----
 
 ## 9 · Status ledger
 
@@ -227,8 +241,9 @@ like an instruction to build a blocker. It is not. See Rule 7a and
 - ✅ Visual treatments — corroborated by `HOME-REDESIGN-SPEC.md` and the locked GUI specs.
 - ⬜ Process architecture (§6) — **AI-sourced, unverified.** Principle sound,
   mechanisms are candidates.
-- ⛔ Tile positions from this folder — superseded. Home screen is done.
-- ⛔ Router-as-gatekeeper — **rejected** by the operator.
+- ◻ Tile positions from this folder — older. Home screen is done; not discussed.
+- ⛔ Router-as-gatekeeper — **rejected** by the operator. The metaphor is his and it
+  is fine; compiling it literally is what was wrong.
 - ⬜ **Nothing here is a build-state claim.** See `../STATE-OF-EXISTENCE.md`.
 
 ## 10 · Open
