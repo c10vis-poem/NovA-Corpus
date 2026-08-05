@@ -12,15 +12,26 @@ sources: HOME-REDESIGN-SPEC.md (§1, §2) · Gemini thread 2026-08-04/05 (operat
 > before writing, correcting, or citing any document that describes the app's
 > rooms.
 >
-> **Guiding principle.** This is a **layout and ownership map, not an
-> implementation status report.** Every room named here exists as a *position
-> with an assigned role*. Several of them have **no backing code at all** — see
+> **Guiding principle — THE SHIPPED HOME SCREEN IS THE AUTHORITY.**
+> `HomeGrid.kt` is not a thing to be corrected *by* this document. It is the
+> thing this document is trying to *describe accurately*. It is the one part of
+> the app that is actually right, and it took the operator **a month** of
+> hands-on iteration to get there.
+>
+> **Corrections flow one way only: document-ward.** If a document says `4:30` or
+> `2:30` and the screen says `4:00` and `2:00`, **the document is wrong.** Fix
+> the document. Never the screen. There is no circumstance in which this file, or
+> any file, licenses a change to `HomeGrid.kt` — that is an operator call and
+> nothing else.
+>
+> This is a **layout and ownership map, not an implementation status report.**
+> Several rooms named here have **no backing code at all** — see
 > `../STATE-OF-EXISTENCE.md` before assuming any of it runs.
 >
-> **Verification rule.** The layout is confirmed when two independent operator
-> sources agree. They do (below). Any document contradicting this one is wrong
-> and gets corrected — **except `HomeGrid.kt`, which is frozen** and is not
-> touched to satisfy this doc.
+> **Verification rule.** The layout is confirmed against **the shipped screen
+> first**, then the operator's written sources. Two independent operator sources
+> agree with the screen (below). Any document contradicting them gets corrected.
+> **`HomeGrid.kt` is never edited to satisfy a document.**
 
 ---
 
@@ -140,7 +151,8 @@ Top logo placement · bottom chat bar placement · bottom status nodes
 
 - ✅ Six-room + hub layout — **operator-confirmed twice, independently.**
 - ✅ Tile labels/slugs/prompts — operator-dictated verbatim.
-- ✅ Monitor = arcade cabinet, Router = stereo stack — direction captured.
+- ✅ Monitor = arcade cabinet, Router = stereo stack — **LOCKED visual specs**,
+  not "direction." Build order deferred; design settled.
 - ⛔ Four-room layout (Settings 4:30) — **superseded.** Still present in
   `Horizons-UI/CLAUDE.md`.
 - ⬜ Home forefront redesign — PENDING (see `HOME-REDESIGN-SPEC.md` §12).

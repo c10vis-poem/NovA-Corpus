@@ -1,15 +1,28 @@
 ---
-title: Monitor — Arcade Cabinet UI (visual + interaction direction)
-status: DIRECTION CAPTURED — not being built yet
+title: Monitor — Arcade Cabinet GUI (LOCKED visual specification)
+status: CANON — LOCKED visual specification. Build order deferred; design is not.
 scope: the Monitor / console tile only (operator-confirmed 2026-07-31)
 reference: upright arcade cabinet + CRT oscilloscope screen
 ---
 
 # Monitor — the Arcade Cabinet
 
+> **STATUS: LOCKED SPECIFICATION — NOT CONCEPTUAL.**
+> The operator supplied the reference image and said this is what it is going to
+> be. That makes it a **specification**, not a mood board, a direction, or an
+> option to be reinterpreted later.
+>
+> **Build order is deferred. The design is not.** "Not being built this minute" is
+> a sequencing call the operator made; it says nothing about whether the design is
+> settled. It is settled.
+>
+> Per **Rule 7b** (`../MASTER-BUILD-BLUEPRINT.md` §7): visual references are
+> literal build targets. Build this as described, with animations. Softening it
+> into "styling direction" is itself the failure this rule exists to stop.
+
 Visual/interaction direction for the **Monitor / console tile**, captured
-2026-07-31. **Not to be built yet** — same standing instruction as the
-Router spec: get it functioning first, the GUI redesign is its own session.
+2026-07-31. **Build order deferred** — get it functioning first; the GUI build is its own
+session. That is sequencing only. The design below is locked.
 
 Reference: a **neon upright arcade cabinet** (lit marquee header, CRT screen
 behind glass, instruction placard, control deck with joysticks and coloured

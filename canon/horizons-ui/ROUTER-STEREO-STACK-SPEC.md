@@ -1,16 +1,30 @@
 ---
-title: Router — Stereo Stack UI (visual + interaction direction)
-status: DIRECTION CAPTURED — not being built yet
+title: Router — Stereo Stack GUI (LOCKED visual specification)
+status: CANON — LOCKED visual specification. Build order deferred; design is not.
 scope: the Router tile only (operator-confirmed 2026-07-31)
 reference: Aiwa NSX-V20 style component hi-fi stack
 ---
 
 # Router — the Stereo Stack
 
+> **STATUS: LOCKED SPECIFICATION — NOT CONCEPTUAL.**
+> The operator supplied the reference image and said this is what it is going to
+> be. That makes it a **specification**, not a mood board, a direction, or an
+> option to be reinterpreted later.
+>
+> **Build order is deferred. The design is not.** "Not being built this minute" is
+> a sequencing call the operator made; it says nothing about whether the design is
+> settled. It is settled.
+>
+> Per **Rule 7b** (`../MASTER-BUILD-BLUEPRINT.md` §7): visual references are
+> literal build targets. Build this as described, with animations. Softening it
+> into "styling direction" is itself the failure this rule exists to stop.
+
 Visual/interaction direction for the **Router tile**, captured 2026-07-31.
-**Not to be built yet** — operator: *"Don't worry about building the whole
+**Build order deferred** — operator: *"Don't worry about building the whole
 graphical user interface right now, but this is what it's going to end up
-looking like."* Recorded so nothing gets built that contradicts it.
+looking like."* Recorded so nothing gets built that contradicts it. The deferral is about
+*when*, never about *whether*.
 
 Reference: a 90s Aiwa-style **component stereo stack** — CD deck on top,
 tuner/amplifier in the middle, dual cassette deck at the bottom. Retro

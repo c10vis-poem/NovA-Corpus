@@ -1,5 +1,10 @@
 # CANON TEMPLATE — the required shape of every document in `canon/`
 
+> **Scaffolding. Delete when the cleanup is done.** This exists to get the corpus
+> sorted once. It is not part of the system and shouldn't outlive the migration —
+> once the documents are right, they're right, and a document about how to write
+> documents is just overhead.
+
 > **Where this came from.** This template was **not designed**. It was extracted
 > from `HOME-REDESIGN-SPEC.md` (the Aiwa-CD-player / arcade-cabinet session),
 > which was already doing all of it before the rules were written. That document

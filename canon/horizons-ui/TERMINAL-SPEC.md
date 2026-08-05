@@ -1,15 +1,27 @@
 ---
-title: Terminal — UI direction (matrix cascade + quick-access prompts)
-status: DIRECTION CAPTURED — not being built yet
+title: Terminal — Matrix Cascade GUI (LOCKED visual specification)
+status: CANON — LOCKED visual specification. Build order deferred; design is not.
 scope: the Terminal tile only (operator-confirmed 2026-07-31)
 reference: c10vis-poem/fakesteak (cascading matrix background)
 ---
 
 # Terminal — Matrix Cascade
 
+> **STATUS: LOCKED SPECIFICATION — NOT CONCEPTUAL.**
+> The operator supplied the reference image and said this is what it is going to
+> be. That makes it a **specification**, not a mood board, a direction, or an
+> option to be reinterpreted later.
+>
+> **Build order is deferred. The design is not.** "Not being built this minute" is
+> a sequencing call the operator made; it says nothing about whether the design is
+> settled. It is settled.
+>
+> Per **Rule 7b** (`../MASTER-BUILD-BLUEPRINT.md` §7): visual references are
+> literal build targets. Build this as described, with animations. Softening it
+> into "styling direction" is itself the failure this rule exists to stop.
+
 Visual/interaction direction for the **Terminal tile**, captured 2026-07-31.
-**Not to be built yet** — same standing instruction as the Router and
-Monitor specs.
+**Build order deferred** — sequencing only. The design below is locked.
 
 Third of the three tile treatments captured this session:
 
