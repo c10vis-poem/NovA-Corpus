@@ -24,6 +24,7 @@ copy the files across. Do not start without them.
 
 | Document | What it gives you |
 |---|---|
+| `canon/horizons-ui/WHAT-IT-IS.md` | **What the app IS and DOES** — the end product. Start here. The three-step workflow, room ownership, `greenLight`'s four named checks, RouterConfig, the three failure faces. |
 | `canon/horizons-ui/ROUTER-STEREO-STACK-SPEC.md` | **Router GUI.** Aiwa-style component stereo stack. LOCKED spec, reference image supplied. |
 | `canon/horizons-ui/MONITOR-ARCADE-CABINET-SPEC.md` | **Monitor GUI.** Upright arcade cabinet, CRT oscilloscope screen. LOCKED spec. |
 | `canon/horizons-ui/TERMINAL-SPEC.md` | **Terminal GUI.** Matrix cascade. LOCKED spec. |
@@ -135,8 +136,9 @@ in-process STT work entirely, and a prior AI audit claimed a dozen components we
   UID and Termux shares loopback.
 - **STT was wired to `127.0.0.1:8091`, which nothing binds.** That made the voice
   loop fall back and look like a model problem. It isn't.
-- **`greenLight()` checks 2 of 4 boxes** (engine, assets). No arch/RAM check, no
-  handshake check.
+- **`greenLight()` checks 2 of 4 boxes.** The four it is *supposed* to check are
+  named in `WHAT-IT-IS.md` §4: **binary presence · exec bit · asset availability ·
+  model plugged in.** The exec-bit and handshake checks appear to be missing.
 - **`RouterPane.switchOn()` skips the gate entirely** when no `RuntimeDef` matches
   — so cloud/PWA/terminal configs never reach the Monitor.
 - **`temperature` is hardcoded** (`NpuClient:101`, `CloudLlmRuntime:122`). The
