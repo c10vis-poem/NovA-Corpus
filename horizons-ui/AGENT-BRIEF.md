@@ -5,6 +5,47 @@ touching anything. It is short on purpose.
 
 ---
 
+## 0 · What you are building — reference docs
+
+**You need these. They are NOT in the Horizons-UI repo** — they live in
+`c10vis-poem/OBSIDIAN-Master_Wiki`. Get that repo attached, or have the operator
+copy the files across. Do not start without them.
+
+### Read these — trustworthy
+
+| Document | What it gives you |
+|---|---|
+| `canon/horizons-ui/ROUTER-STEREO-STACK-SPEC.md` | **Router GUI.** Aiwa-style component stereo stack. LOCKED spec, reference image supplied. |
+| `canon/horizons-ui/MONITOR-ARCADE-CABINET-SPEC.md` | **Monitor GUI.** Upright arcade cabinet, CRT oscilloscope screen. LOCKED spec. |
+| `canon/horizons-ui/TERMINAL-SPEC.md` | **Terminal GUI.** Matrix cascade. LOCKED spec. |
+| `canon/horizons-ui/HOME-REDESIGN-SPEC.md` + `home-redesign-img/` (44 images) | Tile styling, colours, labels, icons, panel backgrounds, guardians — **in the operator's own words, with the reference images.** The model for how every spec should read. |
+| `canon/horizons-ui/CRASH-ANALYSIS-2026-07-31.md` | What was wrong with the diagnostics and what got fixed. |
+| `canon/MASTER-BUILD-BLUEPRINT.md` | The whole system — where this app sits, the circuit, the memory stack, runtime paths. **Marked DRAFT**; structurally right, details still being confirmed. |
+| `canon/aesop/PARAMETER-PACKET.md` | The four parameter layers and the series circuit, in detail. |
+
+### Do NOT build from these — they describe different apps
+
+Both are still sitting in `horizons-ui/repo-docs/`. They are kept as history, not
+as instructions.
+
+| Document | Why it's poison |
+|---|---|
+| `FEATURE-SPEC.md` | Describes a **2×3 tile grid** with `ARTIFACTS` and a `ROUTER /route` slug. The tile was **renamed to ARCHIVES**, and the operator explicitly killed that slug: *"No /route at the bottom."* Wrong tile set, wrong arrangement. |
+| `HORIZONS_UI_ARCHITECTURE.md` | Describes orchestrating **Claude artifacts** — *"Artifact A can't talk to Artifact B"* — with four control tiers, a left status panel and a right audit queue. **This is a different application.** |
+| `horizons-architectural-blueprint-and-ui-spec.md` | Unverified. Treat as history until someone checks it. |
+| `horizons-ui/apk-snapshot/` | A **stale** source snapshot. Predates the in-process STT work and wires STT to a dead port. Useful for archaeology, useless as a reference for current state. |
+
+**This is the single biggest trap in this project.** Multiple documents describe
+different versions of the app as though each were current. If you build from the
+wrong one you will produce something that looks confidently correct and is wrong
+throughout — which is exactly what happened last time.
+
+**When documents disagree: the shipped code wins, then the operator's verbatim
+words, then everything else.** If you can't tell which is current, ask. Do not
+average them.
+
+---
+
 ## 1 · Hard stops
 
 **`HomeGrid.kt` is FROZEN.** Do not edit it. Not for a layout tweak, not for a
