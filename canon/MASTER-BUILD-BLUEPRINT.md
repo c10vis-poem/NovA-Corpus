@@ -703,16 +703,18 @@ not sampled.
 
 ---
 
-## 18 · Working constraint — Drive is read-only, not offline
+## 18 · Where the compiled documentation lands
 
-**Reads work. Writes don't.** Google One is past due for ~5 days, so nothing new
-can be *added* to Drive. Everything already there can still be read and copied.
-Verified this session by listing the tree.
+**Output goes to a device folder**, same as the models (§5). Not to Drive.
 
-What that means in practice:
+The repo is the transport: work is committed here, then pulled down into a clean
+device folder on the phone. Nothing has to be written back to Drive, so the
+billing state is irrelevant to the pipeline.
 
-- **The canon pass can pull straight from Drive.** No need to wait, and no need
-  for the operator to hand-copy material across.
-- **Output lands in this repo, not Drive.** Anything produced gets committed here;
-  Drive-side reorganisation waits, or the operator does it in the admin account.
-- Drive stays the source for material; this repo is the destination.
+**Drive is a source, not a destination.** Reads work fine (verified this session).
+The operator is restructuring and mostly *deleting* there in parallel.
+
+**Consequence — snapshot anything cited.** Because Drive is being pruned while
+this work is in progress, any Drive document used as a source gets **copied into
+this repo at the point it is used**. A citation to a Drive path that later gets
+deleted is a broken citation, and Rule 4 can't verify what isn't there.
