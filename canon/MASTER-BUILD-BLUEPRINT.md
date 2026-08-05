@@ -703,14 +703,16 @@ not sampled.
 
 ---
 
-## 18 · Working constraint — Drive is offline
+## 18 · Working constraint — Drive is read-only, not offline
 
-**Google One billing is past due; nothing can be added to or pulled from Google
-Drive for roughly five days.** Not a blocker — a sequencing fact:
+**Reads work. Writes don't.** Google One is past due for ~5 days, so nothing new
+can be *added* to Drive. Everything already there can still be read and copied.
+Verified this session by listing the tree.
 
-- **Everything stays in Obsidian / this repo in the meantime.** Do not plan work
-  that depends on Drive reads or writes.
-- Drive-side restructuring can be done by the operator in the admin account
-  independently, if it's worth doing before then.
-- The Drive-sourced material already listed in §17 was read *before* the lockout
-  and is available locally — it does not need re-fetching.
+What that means in practice:
+
+- **The canon pass can pull straight from Drive.** No need to wait, and no need
+  for the operator to hand-copy material across.
+- **Output lands in this repo, not Drive.** Anything produced gets committed here;
+  Drive-side reorganisation waits, or the operator does it in the admin account.
+- Drive stays the source for material; this repo is the destination.
