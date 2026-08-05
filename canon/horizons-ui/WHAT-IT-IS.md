@@ -202,37 +202,21 @@ MØ[)u14R_ 11(
 
 ---
 
-## 8 · Grout — read alongside, not instead of
+## 8 · Grout
 
-**Operator's framing, and the right one:** this material is **grout**. It is not
-the tile. It fills the gaps between what is settled and holds the whole thing in
-position. You read it **in juxtaposition with the latest information**, not as a
-competing authority.
+This material is **grout**, not tile. It fills gaps and holds things in position,
+and it gets read alongside the latest information. Where it's older — tile
+positions, "four rooms," a five-minute idle timer — the newer thing just wins. Use
+common sense; none of that needs adjudicating.
 
-So where it diverges from something newer, that is mostly just **age**, not a
-defect. Take it with a grain of salt, use the newer thing, and move on. No ceremony
-required.
+**The one worth knowing about:** the folder describes the Router as a *"10-amp fuse"
+that blows and blocks*. The metaphor is the operator's own and it's a good one — but
+a previous agent **compiled it literally** into a hardcoded `AssetCheck` list and a
+blocking `⚡ FUSE BOX` banner, which broke custom binaries and fine-tuned weights.
 
-| Older here | Newer | |
-|---|---|---|
-| Settings 4:30, Archives 7:30, Horizons top-left, Chat "east of Monitor" | positions aren't discussed — the home screen is **done** | doc 4 is marked `[NEEDS EDIT]` by the operator anyway |
-| "Four Rooms & Seven-Tile" | seven functional rooms | earlier framing |
-| idle screensaver **5 min** | **3–5 min** | trivial |
-| `greenLight` "runs five checks" (lists three, truncated) | **four**, §4 | the newer list is the complete one |
-
-### The one that isn't just age
-
-**"The Router is a 10-amp fuse that blows and blocks."**
-
-This one is worth flagging, not because the metaphor is wrong — it is the
-operator's own and it is a good one — but because **a previous agent compiled it
-literally**, producing the hardcoded `AssetCheck` list and the blocking
-`⚡ FUSE BOX` banner that broke custom runtimes and fine-tuned weights.
-
-The grout is fine. The reading was wrong. **The Router doesn't say no** — it
-attempts to close the circuit, and failure is a circuit that didn't energise, never
-a lockout. See Rule 7a and
-[`../aesop/PARAMETER-PACKET.md`](../aesop/PARAMETER-PACKET.md).
+The grout was fine. The reading was wrong. **The Router doesn't say no** — it
+attempts to close the circuit, and failure is a circuit that didn't energise, not a
+lockout. Rule 7a, and [`../aesop/PARAMETER-PACKET.md`](../aesop/PARAMETER-PACKET.md).
 
 ## 9 · Status ledger
 
