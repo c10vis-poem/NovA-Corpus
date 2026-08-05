@@ -91,7 +91,7 @@ three marks.
 
 ---
 
-## The six enforcement rules, applied here
+## The rules, applied here
 
 | Rule | How this template enforces it |
 |---|---|
@@ -101,35 +101,26 @@ three marks.
 | 4 · Mechanical verification | the verification rule names a *check*, not a reviewer's opinion |
 | 5 · Pending corpora, not discard | AI-sourced material cites its source and stays out of `canon/` |
 | 6 · Designed ≠ built | the status ledger; every row tagged |
-| **7 · Metaphor ≠ implementation** | see below |
+| **7 · Metaphor ≠ implementation** | behavioural vs visual — see below |
 
-### Rule 7 · Metaphor ≠ Implementation
+### Rule 7 · Metaphor ≠ Implementation — two kinds, opposite handling
 
-The operator's analogies — **fuse box, 10-amp fuse, breaker, Aiwa CD player,
-arcade cabinet, stereo stack** — are **interface and config-file design language.**
-They are not specifications for enforcement code.
-
-This rule exists because prior sessions violated it concretely:
-
-- **"10-amp fuse"** was compiled into a rigid, hardcoded four-item `AssetCheck` list.
-- **"Router"** was coded as an automated gatekeeper that threw red `⚡ FUSE BOX`
-  banners and *blocked* configurations that didn't match its pre-programmed
-  definitions — destroying the operator's ability to run custom binaries,
-  fine-tuned weights, or build-in-place assets.
-
-The corrected reading: the parameter packet **is just an editable text file**. The
-Router **is a slot** — it closes the circuit on command. If the loaded assets
-satisfy the requirements, the engine fires; if not, it fails naturally, **without
-the application throwing artificial brick walls or locking the operator out.**
+**Behavioural — never compile.** *Fuse box · 10-amp fuse · breaker · amperage.*
+These describe how the circuit behaves; they are config-file and interaction
+language. Prior sessions compiled "10-amp fuse" into a hardcoded four-item
+`AssetCheck` and turned the Router into a gatekeeper that threw red `⚡ FUSE BOX`
+banners and blocked anything non-standard — killing custom binaries and
+fine-tuned weights.
 
 > **Operator:** *"the 'fuse box' and '10-amp fuse' were never meant to be compiled
 > into restrictive UI gates, red warnings, or pre-execution blockers."*
 
-Rule 7 is Rule 6 one level earlier: **Rule 6 catches false reporting; Rule 7
-catches false interpretation.** The drift starts here.
+**Visual — build literally.** *Aiwa CD player · arcade cabinet · stereo stack.*
+Reference images were supplied with "this is what it's going to be." That is a
+**specification**. Build it as described, with animations. Softening these into
+"styling direction" is itself the failure.
 
-A canon document records a metaphor **as the operator said it**, in the operator's
-words, and never silently promotes it into a constraint.
+**The test:** behaviour → never compile. Appearance → build exactly.
 
 ---
 
