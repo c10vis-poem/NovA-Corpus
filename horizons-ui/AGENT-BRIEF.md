@@ -24,6 +24,7 @@ copy the files across. Do not start without them.
 
 | Document | What it gives you |
 |---|---|
+| `canon/horizons-ui/FEATURE-INVENTORY.md` | **Every feature, tagged.** The checklist form — 14 sections, ~120 rows, each with a build state. Use it to know what is wanted vs what exists. |
 | `canon/SOURCE-PRECEDENCE.md` | **Which source wins when two disagree.** One page. Read it before you resolve any contradiction — several documents here describe different apps. |
 | `canon/horizons-ui/WHAT-IT-IS.md` | **What the app IS and DOES** — the end product. Start here. The three-step workflow, room ownership, `greenLight`'s four named checks, RouterConfig, the three failure faces. |
 | `canon/horizons-ui/ROUTER-STEREO-STACK-SPEC.md` | **Router GUI.** Aiwa-style component stereo stack. LOCKED spec, reference image supplied. |

@@ -7,6 +7,10 @@ scope: the end product — what this app is, what it does, and how a job moves t
 
 # Horizons-UI — What It IS / What It DOES
 
+> Companion: **[`FEATURE-INVENTORY.md`](FEATURE-INVENTORY.md)** — the same system as a
+> tagged checklist, every feature with a build state. This doc is the prose; that
+> one is the list.
+
 > **What this is.** The end-product definition. If someone asks "what is Horizons,"
 > this answers it. Assembled from the operator's own curated summarization folder,
 > reconciled against existing canon.
