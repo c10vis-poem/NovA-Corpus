@@ -2504,3 +2504,29 @@ scripts/ad-hoc/regen-
 opencode-config.ts
 OpenCode-style API key (sk-...) written into the regenerated opencode.json. Falls
 back to OMNIROUTE_KEY when unset.
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `ENVIRONMENT (Markor) (1).pdf_images/`)
+
+- ![page 1 render (308 vector ops)](ENVIRONMENT (Markor) (1).pdf_images/page-1-diagram.png) -- page 1 render (308 vector ops)
+- ![page 2 render (538 vector ops)](ENVIRONMENT (Markor) (1).pdf_images/page-2-diagram.png) -- page 2 render (538 vector ops)
+- ![page 3 render (336 vector ops)](ENVIRONMENT (Markor) (1).pdf_images/page-3-diagram.png) -- page 3 render (336 vector ops)
+- ![page 4 render (426 vector ops)](ENVIRONMENT (Markor) (1).pdf_images/page-4-diagram.png) -- page 4 render (426 vector ops)
+- ![page 5 render (394 vector ops)](ENVIRONMENT (Markor) (1).pdf_images/page-5-diagram.png) -- page 5 render (394 vector ops)
+- ![page 6 render (396 vector ops)](ENVIRONMENT (Markor) (1).pdf_images/page-6-diagram.png) -- page 6 render (396 vector ops)
+- ![page 7 render (564 vector ops)](ENVIRONMENT (Markor) (1).pdf_images/page-7-diagram.png) -- page 7 render (564 vector ops)
+- ![page 8 render (398 vector ops)](ENVIRONMENT (Markor) (1).pdf_images/page-8-diagram.png) -- page 8 render (398 vector ops)
+- ![page 9 render (546 vector ops)](ENVIRONMENT (Markor) (1).pdf_images/page-9-diagram.png) -- page 9 render (546 vector ops)
+- ![page 10 render (364 vector ops)](ENVIRONMENT (Markor) (1).pdf_images/page-10-diagram.png) -- page 10 render (364 vector ops)
+- ![page 11 render (316 vector ops)](ENVIRONMENT (Markor) (1).pdf_images/page-11-diagram.png) -- page 11 render (316 vector ops)
+- ![page 12 render (566 vector ops)](ENVIRONMENT (Markor) (1).pdf_images/page-12-diagram.png) -- page 12 render (566 vector ops)
+- ![page 13 render (590 vector ops)](ENVIRONMENT (Markor) (1).pdf_images/page-13-diagram.png) -- page 13 render (590 vector ops)
+- ![page 14 render (524 vector ops)](ENVIRONMENT (Markor) (1).pdf_images/page-14-diagram.png) -- page 14 render (524 vector ops)
+- ![page 15 render (574 vector ops)](ENVIRONMENT (Markor) (1).pdf_images/page-15-diagram.png) -- page 15 render (574 vector ops)
+- ![page 16 render (158 vector ops)](ENVIRONMENT (Markor) (1).pdf_images/page-16-diagram.png) -- page 16 render (158 vector ops)
+- ![page 17 render (462 vector ops)](ENVIRONMENT (Markor) (1).pdf_images/page-17-diagram.png) -- page 17 render (462 vector ops)
+- ![page 18 render (388 vector ops)](ENVIRONMENT (Markor) (1).pdf_images/page-18-diagram.png) -- page 18 render (388 vector ops)
+- ![page 19 render (454 vector ops)](ENVIRONMENT (Markor) (1).pdf_images/page-19-diagram.png) -- page 19 render (454 vector ops)
+- ![page 20 render (518 vector ops)](ENVIRONMENT (Markor) (1).pdf_images/page-20-diagram.png) -- page 20 render (518 vector ops)
+- ![page 21 render (76 vector ops)](ENVIRONMENT (Markor) (1).pdf_images/page-21-diagram.png) -- page 21 render (76 vector ops)

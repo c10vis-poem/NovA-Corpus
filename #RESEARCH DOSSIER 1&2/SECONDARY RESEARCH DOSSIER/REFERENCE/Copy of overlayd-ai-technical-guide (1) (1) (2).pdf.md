@@ -329,3 +329,49 @@ privilege escalation through official Android APIs, native C++ performance
 optimization, modern JavaScript orchestration, and multimodal AI inference. The
 result is a system that appears to perform "magic" while being built on solid,
 explainable engineering principles.
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/`)
+
+- ![embedded raster](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/image-0011.png) -- embedded raster
+- ![embedded raster](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/image-0012.png) -- embedded raster
+- ![embedded raster](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/image-0013.png) -- embedded raster
+- ![embedded raster](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/image-0014.png) -- embedded raster
+- ![embedded raster](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/image-0016.png) -- embedded raster
+- ![embedded raster](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/image-0017.png) -- embedded raster
+- ![embedded raster](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/image-0018.png) -- embedded raster
+- ![embedded raster](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/image-0019.png) -- embedded raster
+- ![embedded raster](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/image-0022.png) -- embedded raster
+- ![embedded raster](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/image-0023.png) -- embedded raster
+- ![embedded raster](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/image-0024.png) -- embedded raster
+- ![embedded raster](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/image-0025.png) -- embedded raster
+- ![embedded raster](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/image-0073.png) -- embedded raster
+- ![embedded raster](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/image-0074.png) -- embedded raster
+- ![embedded raster](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/image-0091.png) -- embedded raster
+- ![embedded raster](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/image-0092.png) -- embedded raster
+- ![embedded raster](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/image-0108.png) -- embedded raster
+- ![embedded raster](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/image-0109.png) -- embedded raster
+- ![embedded raster](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/image-0110.png) -- embedded raster
+- ![embedded raster](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/image-0127.png) -- embedded raster
+- ![embedded raster](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/image-0128.png) -- embedded raster
+- ![embedded raster](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/image-0129.png) -- embedded raster
+- ![embedded raster](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/image-0137.png) -- embedded raster
+- ![embedded raster](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/image-0138.png) -- embedded raster
+- ![embedded raster](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/image-0139.png) -- embedded raster
+- ![embedded raster](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/image-0154.png) -- embedded raster
+- ![embedded raster](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/image-0155.png) -- embedded raster
+- ![embedded raster](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/image-0156.png) -- embedded raster
+- ![embedded raster](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/image-0164.png) -- embedded raster
+- ![embedded raster](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/image-0165.png) -- embedded raster
+- ![page 1 render (8 vector ops)](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/page-1-diagram.png) -- page 1 render (8 vector ops)
+- ![page 3 render (14 vector ops)](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/page-3-diagram.png) -- page 3 render (14 vector ops)
+- ![page 4 render (18 vector ops)](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/page-4-diagram.png) -- page 4 render (18 vector ops)
+- ![page 5 render (46 vector ops)](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/page-5-diagram.png) -- page 5 render (46 vector ops)
+- ![page 6 render (74 vector ops)](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/page-6-diagram.png) -- page 6 render (74 vector ops)
+- ![page 7 render (10 vector ops)](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/page-7-diagram.png) -- page 7 render (10 vector ops)
+- ![page 8 render (14 vector ops)](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/page-8-diagram.png) -- page 8 render (14 vector ops)
+- ![page 9 render (62 vector ops)](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/page-9-diagram.png) -- page 9 render (62 vector ops)
+- ![page 11 render (132 vector ops)](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/page-11-diagram.png) -- page 11 render (132 vector ops)
+- ![page 12 render (40 vector ops)](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/page-12-diagram.png) -- page 12 render (40 vector ops)
+- ![page 13 render (18 vector ops)](Copy of overlayd-ai-technical-guide (1) (1) (2).pdf_images/page-13-diagram.png) -- page 13 render (18 vector ops)

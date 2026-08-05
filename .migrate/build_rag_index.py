@@ -21,7 +21,8 @@ from rank_bm25 import BM25Okapi
 def load_chunks(rag_root):
     chunks = []
     for path in sorted(glob.glob(os.path.join(rag_root, "**", "*.jsonl"), recursive=True)):
-        if f"{os.sep}_index{os.sep}" in path:
+        rel_parts = os.path.normpath(os.path.relpath(path, rag_root)).split(os.sep)
+        if "_index" in rel_parts:
             continue
         with open(path, encoding="utf-8") as f:
             for line in f:

@@ -19,7 +19,8 @@ def real_ext(path):
     ext = os.path.splitext(path)[1].lower()
     if ext:
         return ext
-    # extensionless files: sniff type
+    # extensionless files: sniff type by magic bytes (Drive exports arrive
+    # with no extension at all, so dispatching on extension alone strands them)
     try:
         out = subprocess.run(["file", "--mime-type", "-b", path], capture_output=True, text=True, timeout=10).stdout.strip()
     except Exception:
@@ -28,6 +29,8 @@ def real_ext(path):
         return ".pdf"
     if "wordprocessingml" in out:
         return ".docx"
+    if out == "message/rfc822":
+        return ".mht"  # MHTML page saves (email module reads these directly)
     if out.startswith("text/"):
         return ".txt"
     return ""
@@ -37,12 +40,31 @@ def convert_docx(src, dst_md):
     return r.returncode == 0
 
 def convert_pdf(src, dst_md, title):
+    text = None
     try:
         import fitz
         doc = fitz.open(src)
         text = "\n\n".join(page.get_text() for page in doc)
         doc.close()
-    except Exception as e:
+    except ImportError:
+        # PyMuPDF isn't installable on every platform (no prebuilt wheel, e.g.
+        # Termux/Android) -- fall back to mutool (mupdf-tools), a native
+        # binary that extracts equivalent plain text.
+        tmp_txt = dst_md + ".tmp.txt"
+        try:
+            r = subprocess.run(["mutool", "convert", "-F", "text", "-o", tmp_txt, src],
+                                capture_output=True, text=True, timeout=120)
+            if r.returncode == 0:
+                with open(tmp_txt, encoding="utf-8", errors="replace") as f:
+                    text = f.read()
+        except Exception:
+            text = None
+        finally:
+            if os.path.exists(tmp_txt):
+                os.remove(tmp_txt)
+    except Exception:
+        text = None
+    if text is None:
         return False
     with open(dst_md, "w") as f:
         f.write(f"# {title}\n\n{text}")
@@ -103,11 +125,13 @@ def process(src_root, dupes_root, dest_root):
 
             ext = real_ext(src)
             base, orig_ext = os.path.splitext(fn)
+            fold_ext = orig_ext
             if not orig_ext and ext:
                 base = fn  # keep whole name as base if no ext originally
+                fold_ext = ext  # sniffed extension -- still needs folding in below
             # always fold the source extension into the converted name so a
             # same-named .pdf and .mht (etc.) in one folder can't collide
-            md_name = f"{base}{orig_ext}.md" if orig_ext else f"{base}.md"
+            md_name = f"{base}{fold_ext}.md" if fold_ext else f"{base}.md"
 
             if ext in DOC_EXTS:
                 dst = unique_dst(used_paths, dest_root, rel_dir, md_name)

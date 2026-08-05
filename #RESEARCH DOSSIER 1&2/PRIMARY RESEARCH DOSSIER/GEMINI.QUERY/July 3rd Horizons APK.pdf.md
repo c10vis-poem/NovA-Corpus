@@ -428,3 +428,14 @@ your release binaries directly using Hugging Face   GitHub API bearer tokens?
 [https://www.reddit.com](https://www.reddit.com/r/androiddev/comments/813j9j/how_do_you_us
 e_package_added_permission_with_the/) 
  
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `July 3rd Horizons APK.pdf_images/`)
+
+- ![embedded raster](July 3rd Horizons APK.pdf_images/image-0409.png) -- embedded raster
+- ![embedded raster](July 3rd Horizons APK.pdf_images/image-0410.png) -- embedded raster
+- ![embedded raster](July 3rd Horizons APK.pdf_images/image-0415.png) -- embedded raster
+- ![embedded raster](July 3rd Horizons APK.pdf_images/image-0416.png) -- embedded raster
+- ![page 6 render (12 vector ops)](July 3rd Horizons APK.pdf_images/page-6-diagram.png) -- page 6 render (12 vector ops)
+- ![page 10 render (6 vector ops)](July 3rd Horizons APK.pdf_images/page-10-diagram.png) -- page 10 render (6 vector ops)

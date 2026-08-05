@@ -189,3 +189,58 @@ GitHub Stars
 Off Grid AI — Your AI, your device, your data.
 No cloud. No data harvesting. Just AI that works anywhere.
 Join the Community on Slack
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `Off Grid AI.pdf_images/`)
+
+- ![embedded raster](Off Grid AI.pdf_images/image-0004.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0006.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0023.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0024.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0026.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0027.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0033.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0034.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0035.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0036.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0042.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0043.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0044.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0045.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0051.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0052.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0053.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0054.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0060.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0061.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0076.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0077.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0078.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0079.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0085.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0086.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0087.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0088.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0126.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0127.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0135.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0136.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0184.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0186.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0187.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0188.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0189.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0190.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0192.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0193.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0194.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0195.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0196.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0197.png) -- embedded raster
+- ![embedded raster](Off Grid AI.pdf_images/image-0199.jpg) -- embedded raster
+- ![page 1 render (138 vector ops)](Off Grid AI.pdf_images/page-1-diagram.png) -- page 1 render (138 vector ops)
+- ![page 2 render (138 vector ops)](Off Grid AI.pdf_images/page-2-diagram.png) -- page 2 render (138 vector ops)
+- ![page 3 render (188 vector ops)](Off Grid AI.pdf_images/page-3-diagram.png) -- page 3 render (188 vector ops)
+- ![page 4 render (134 vector ops)](Off Grid AI.pdf_images/page-4-diagram.png) -- page 4 render (134 vector ops)
+- ![page 5 render (20 vector ops)](Off Grid AI.pdf_images/page-5-diagram.png) -- page 5 render (20 vector ops)

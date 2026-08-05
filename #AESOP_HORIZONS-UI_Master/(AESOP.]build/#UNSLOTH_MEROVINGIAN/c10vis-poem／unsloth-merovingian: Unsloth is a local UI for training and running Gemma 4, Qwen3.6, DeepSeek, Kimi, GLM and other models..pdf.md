@@ -1,0 +1,538 @@
+# c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models.
+
+Watch
+0
+Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models.
+Apache License 2.0
+unsloth.ai/docs
+Code of conduct
+Contributing
+0 stars
+0 forks
+0 watching
+1 branch
+0 tags
+Activity
+Public repository · Forked from unslothai/unsloth
+1 Branch
+0 Tags
+Go to file
+Go to file
+Add file
+Code
+This branch is up to date with unslothai/unsloth:main .
+Contribute
+Sync fork
+danielhanchen and pre-commit-ci[bot] Bump install.sh / install.ps1 pin to unsloth>=2026.7.6 (unslothai#7621)
+7f27d8e · 11 hours ago
+.github
+CI: prove an interrupted install can neve…
+13 hours ago
+images
+images: use narrower Discord button a…
+2 months ago
+scripts
+Measure where Studio's startup time ac…
+yesterday
+studio
+Bump install.sh / install.ps1 pin to unsl…
+11 hours ago
+tests
+Studio: detect local MTP subdirectory d…
+11 hours ago
+unsloth
+Update _utils.py
+11 hours ago
+unsloth_cli
+unsloth start: harden coding-agent inst…
+16 hours ago
+.gitattributes
+Replace standalone Studio wording wit…
+2 weeks ago
+.gitignore
+Show release notes in the update popu…
+yesterday
+.pre-commit-ci.yaml
+pre-commit CI config (unslothai#3565)
+8 months ago
+.pre-commit-config.yaml
+[pre-commit.ci] pre-commit autoupdate …
+last month
+CHANGELOG.md
+Show release notes in the update popu…
+yesterday
+CODE_OF_CONDUCT.md
+Update CODE_OF_CONDUCT.md
+9 months ago
+CONTRIBUTING.md
+docs: repository cleanup (unslothai#56…
+last month
+COPYING
+Rename cli/ to unsloth_cli/ to fix names…
+4 months ago
+c10vis-poem
+unsloth-merovingian
+Code
+Pull requests
+Agents
+Actions
+Projects
+Security and quality
+Insights
+Settings
+Fork
+0
+T
+
+LICENSE
+Rename cli/ to unsloth_cli/ to fix names…
+4 months ago
+MANIFEST.in
+Show release notes in the update popu…
+yesterday
+README.md
+Studio: settings UI cleanup for Agents, …
+12 hours ago
+_changelog_build.py
+Show release notes in the update popu…
+yesterday
+build.sh
+Show release notes in the update popu…
+yesterday
+cli.py
+Rename cli/ to unsloth_cli/ to fix names…
+4 months ago
+install.ps1
+Bump install.sh / install.ps1 pin to unsl…
+11 hours ago
+install.sh
+Bump install.sh / install.ps1 pin to unsl…
+11 hours ago
+pyproject.toml
+Update pyproject.toml
+11 hours ago
+unsloth-cli.py
+feat(studio): add DoRA support to studi…
+last week
+Features • News • Quickstart • Notebooks • Documentation
+Unsloth Studio lets you run and train models locally.
+⚡ Get started
+macOS, Linux, WSL:
+curl -fsSL https://unsloth.ai/install.sh | sh
+Windows:
+README
+Code of conduct
+Contributing
+License
+
+Discord
+𝕏 (Twitter)
+Reddit
+Unsloth Studio (Beta) lets you run and train text, audio, embedding, vision models on Windows, Linux and macOS.
+Search + download + run models including GGUF, LoRA adapters, safetensors
+Export models: Save or export models to GGUF, 16-bit safetensors and other formats.
+Tool calling: Support for self-healing tool calling and web search
+Code execution: lets LLMs test code in Claude artifacts and sandbox environments
+API inference endpoint: Deploy and run local LLMs in Claude Code, Codex tools with Unsloth
+Auto set inference settings and customize chat templates.
+We work directly with teams behind gpt-oss, Qwen3, Llama 4, Mistral, Gemma 1-3, and Phi-4, where we’ve fixed
+bugs that improve model accuracy.
+Chat with images, audio, PDFs, code, DOCX and more. Connect API providers (OpenAI, Anthropic) or servers (vLLM,
+Ollama).
+Compare any two models side by side with the same prompt.
+OpenAI/Anthropic-compatible APIs: Serve local models through /v1/chat/completions , /v1/responses and
+/v1/messages .
+Connect local models to agents: Use unsloth start with Claude Code, Codex, Hermes and more.
+Web/PDF search can read PDF papers, manuals and other PDF results.
+GGUF hardware controls: Choose GPUs/layers, offload MoE experts, use multi-GPU or Tensor Parallelism.
+The opt-in MCP control endpoint lets AI clients manage models, training, recipes and exports.
+Train and RL 500+ models up to 2x faster with 70% less VRAM; MoE up to 12x faster.
+Train and run RL on AMD GPUs across Windows, WSL and Linux.
+Data Recipes: Auto-create datasets from PDF, CSV, DOCX etc. Edit data in a visual-node workflow.
+Reinforcement Learning uses 80% less VRAM for GRPO, FP8 and vision RL, with 7x longer contexts.
+Long-context training: 3x faster, 30% less VRAM and 500K+ context.
+Supports LoRA/QLoRA, full fine-tuning, RL, pretraining, 4-bit, 16-bit and FP8.
+Custom Triton and mathematical kernels built with PyTorch and Hugging Face.
+Observability: Monitor training live, track loss and GPU usage and customize graphs.
+Multi-GPU training is supported, with major improvements coming soon.
+Unsloth Start connects Claude Code, Codex and other agents to local models with one command.
+irm https://unsloth.ai/install.ps1 | iex
+Community:
+⭐ Features
+Inference
+Training
+🚀 Unsloth Start
+
+Start Unsloth, load a model, open your project folder, then run:
+Replace claude with any supported agent:
+Agent
+Command
+Claude Code
+unsloth start claude
+OpenAI Codex
+unsloth start codex
+Hermes Agent
+unsloth start hermes
+OpenClaw
+unsloth start openclaw
+OpenCode
+unsloth start opencode
+Claude Code, Codex and OpenCode can keep their current model and use Unsloth as a local subagent:
+Unsloth can be used in two ways: through Unsloth Studio, the web UI, or through Unsloth Core, the code-based version.
+Each has different requirements.
+Unsloth Studio (Beta) works on Windows, Linux, WSL and macOS.
+CPU: Supported for Chat and Data Recipes currently
+NVIDIA: Training works on RTX 30/40/50, Blackwell, DGX Spark, Station and more
+macOS: Training, MLX and GGUF inference are ALL supported.
+AMD: Training, RL, chat and deployment work on Windows, WSL and Linux. Read the AMD guide.
+Vulkan: GGUF inference is supported on compatible GPUs, including Intel GPUs. Vulkan accelerates GGUF inference
+only; training still requires a supported PyTorch or MLX backend.
+Multi-GPU: Available now, with a major upgrade on the way
+Use the same command to update.
+To force the Vulkan llama.cpp backend, set UNSLOTH_FORCE_VULKAN=1 before installing or updating. The setting selects
+the llama.cpp binary bundle, so setting it only when launching Studio cannot replace an existing CPU bundle:
+unsloth start claude
+unsloth start claude --as-subagent --model unsloth/model-GGUF:quant
+📥 Install
+Unsloth Studio (web UI)
+macOS, Linux, WSL:
+curl -fsSL https://unsloth.ai/install.sh | sh
+export UNSLOTH_FORCE_VULKAN=1
+curl -fsSL https://unsloth.ai/install.sh | sh
+
+Use the same command to update.
+To force the Vulkan llama.cpp backend, set the environment variable before running the installer or updater:
+Re-running the current installer replaces a previously selected CPU bundle when the backend differs. A separate Vulkan
+SDK is not required; the GPU driver must provide a working Vulkan runtime.
+For LAN or cloud access, add -H 0.0.0.0 (raw port only; add --cloudflare for a public URL). By default, Unsloth is
+accessible only locally.
+To reach Unsloth over HTTPS, use unsloth studio --secure . Unsloth stays bound to localhost and is reached only
+through a free Cloudflare tunnel, which publishes it at a public https://*.trycloudflare.com URL (it fails closed if the
+tunnel can't start, so the raw port is never exposed). This makes Unsloth reachable from the internet, so anyone with the
+link and API key can use it and run code: keep your API key private (see Remote access below).
+Use our Docker image unsloth/unsloth container. Run:
+To see developer, nightly and uninstallation etc. instructions, see advanced installation.
+Windows:
+irm https://unsloth.ai/install.ps1 | iex
+$env:UNSLOTH_FORCE_VULKAN=1
+irm https://unsloth.ai/install.ps1 | iex
+Launch
+unsloth studio -p 8888
+Docker
+docker run -d -e JUPYTER_PASSWORD="mypassword" \
+  -p 8888:8888 -p 8000:8000 -p 2222:22 \
+  -v $(pwd)/work:/workspace/work \
+  --gpus all \
+  unsloth/unsloth
+Developer, Nightly, Uninstall
+Unsloth Core (code-based)
+Linux, WSL:
+curl -LsSf https://astral.sh/uv/install.sh | sh
+uv venv unsloth_env --python 3.13
+source unsloth_env/bin/activate
+uv pip install unsloth --torch-backend=auto
+Windows:
+
+For Windows, pip install unsloth works only if you have PyTorch installed. Read our Windows Guide. You can use
+the same Docker image as Unsloth Studio.
+For RTX 50x, B200, 6000 GPUs: uv pip install unsloth --torch-backend=auto . Read our guides for: Blackwell and
+DGX Spark.
+To install Unsloth on AMD and Intel GPUs, follow our AMD Guide and Intel Guide.
+Train for free with our notebooks. You can use our new free Unsloth Studio notebook to run and train models for free in
+a web UI. Read our guide. Add dataset, run, then deploy your trained model.
+Model
+Free Notebooks
+Performance
+Memory use
+Gemma 4 (E2B)
+▶️ Start for free
+1.5x faster
+50% less
+Qwen3.5 (4B)
+▶️ Start for free
+1.5x faster
+60% less
+gpt-oss (20B)
+▶️ Start for free
+2x faster
+70% less
+Qwen3.5 GSPO
+▶️ Start for free
+2x faster
+70% less
+gpt-oss (20B): GRPO
+▶️ Start for free
+2x faster
+80% less
+Qwen3: Advanced GRPO
+▶️ Start for free
+2x faster
+70% less
+embeddinggemma (300M)
+▶️ Start for free
+2x faster
+20% less
+Mistral Ministral 3 (3B)
+▶️ Start for free
+1.5x faster
+60% less
+Llama 3.1 (8B) Alpaca
+▶️ Start for free
+2x faster
+70% less
+Llama 3.2 Conversational
+▶️ Start for free
+2x faster
+70% less
+Orpheus-TTS (3B)
+▶️ Start for free
+1.5x faster
+50% less
+See all our notebooks for: Kaggle, GRPO, TTS, embedding & Vision
+See all our models and all our notebooks
+See detailed documentation for Unsloth here
+AMD training: Train, run RL, chat and deploy on AMD GPUs across Windows, WSL and Linux. Guide
+GGUF hardware controls: Choose GPU/layer placement, offload MoE experts and use multi-GPU or Tensor
+Parallelism. #6414
+Local models for any agent: Use unsloth start with Claude Code, Codex, Hermes, OpenCode, OpenClaw and
+more through Unsloth's OpenAI- and Anthropic-compatible APIs. Guide
+winget install -e --id Python.Python.3.13
+winget install --id=astral-sh.uv  -e
+uv venv unsloth_env --python 3.13
+.\unsloth_env\Scripts\activate
+uv pip install unsloth --torch-backend=auto
+AMD, Intel:
+📒 Free Notebooks
+🦥 Unsloth News
+
+MCP control endpoint: Let compatible clients manage models, training, recipes, checkpoints and exports. #7191
+Local inference reliability: Resume long chats faster, recover stalled downloads and reuse existing GGUF files.
+#7204 • #6858 • #7209
+New models: Qwen-AgentWorld, Ornith, Kimi K2.7 Code and MiniMax M3
+GLM-5.2: Run Z.ai's 744B-parameter, 1M-context open model locally with Unsloth Dynamic GGUFs. Guide
+DeepSeek-V4: Run DeepSeek-V4-Flash locally with corrected multi-turn and tool-calling behavior. Guide
+DiffusionGemma: Run and fine-tune Google's diffusion language model with 1.8x faster inference in Unsloth Studio.
+Guide
+Qwen3.6: Run and train Qwen3.6 with MTP for 1.4-2.2x faster inference and NVFP4 quants for supported GPUs.
+Guide
+Gemma 4: Run and train Gemma 4 text, image and audio models with QAT, MTP, GGUF and MLX support. Guide
+MCP servers: Connect local models to files, apps, databases and external tools through Model Context Protocol.
+Guide
+Connections: Mix local models with API providers (OpenAI, Anthropic) or servers (vLLM, Ollama) in the same
+interface. Guide
+Introducing Unsloth Studio: our new web UI for running and training LLMs. Blog
+Train MoE LLMs 12x faster with 35% less VRAM - DeepSeek, GLM, Qwen and gpt-oss. Blog
+Embedding models: Unsloth now supports ~1.8-3.3x faster embedding fine-tuning. Blog • Notebooks
+New 7x longer context RL vs. all other setups, via our new batching algorithms. Blog
+New RoPE & MLP Triton Kernels & Padding Free + Packing: 3x faster training & 30% less VRAM. Blog
+500K Context: Training a 20B model with >500K context is now possible on an 80GB GPU. Blog
+FP8 & Vision RL: You can now do FP8 & VLM GRPO on consumer GPUs. FP8 Blog • Vision RL
+The below advanced instructions are for Unsloth Studio. For Unsloth Core advanced installation, view our docs.
+The developer install builds from the main branch, which is the latest (nightly) source.
+To install into an isolated location (its own virtual env, auth/ , studio.db , cache and llama.cpp build), set
+UNSLOTH_STUDIO_HOME and pass it again at launch:
+Then to update :
+📥 Advanced Installation
+Developer / Nightly / Experimental installs: macOS, Linux, WSL:
+git clone https://github.com/unslothai/unsloth
+cd unsloth
+./install.sh --local
+unsloth studio -p 8888
+UNSLOTH_STUDIO_HOME="$PWD/.studio" ./install.sh --local
+UNSLOTH_STUDIO_HOME="$PWD/.studio" unsloth studio -p 8888
+cd unsloth && git pull
+./install.sh --local
+unsloth studio -p 8888
+
+The developer install builds from the main branch, which is the latest (nightly) source.
+To install into an isolated location (its own virtual env, auth/ , studio.db , cache and llama.cpp build), set
+UNSLOTH_STUDIO_HOME and pass it again at launch:
+Then to update :
+By default unsloth studio binds to 127.0.0.1 (this machine only). To reach it from another device, pick one of:
+--secure (recommended): serve only through a free Cloudflare HTTPS link. Unsloth stays bound to localhost and
+the tunnel provides the public URL; it fails closed (does not start) if the tunnel can't come up, so the raw port is
+never exposed.
+-H 0.0.0.0 : bind the raw port on all network interfaces, reachable from anywhere on the network (subject to your
+firewall). It does not create a public internet URL; add --cloudflare to also publish an internet-reachable
+https://*.trycloudflare.com link even behind a firewall. Only use this on a network you trust.
+The Cloudflare tunnel is off by default: -H 0.0.0.0 exposes the raw port only, not a public internet URL. Pair the
+wildcard bind with --cloudflare ( unsloth studio -H 0.0.0.0 --cloudflare ) to also publish a public
+https://*.trycloudflare.com link, or prefer --secure (above), which keeps the raw port private. --cloudflare has
+no effect on a loopback bind.
+On a wildcard bind Unsloth works out the address to share by asking ifconfig.me for the public IP, then asks check-
+host.net whether that port is reachable so it can tell you if a firewall is in the way. Both contact a third party. Set
+UNSLOTH_STUDIO_DISABLE_PUBLIC_CHECK=1 to skip them; the banner then shows the LAN address and no reachability
+line.
+Developer / Nightly / Experimental installs: Windows PowerShell:
+git clone https://github.com/unslothai/unsloth.git
+cd unsloth
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\install.ps1 --local
+unsloth studio -p 8888
+$env:UNSLOTH_STUDIO_HOME="$PWD\.studio"; .\install.ps1 --local
+$env:UNSLOTH_STUDIO_HOME="$PWD\.studio"; unsloth studio -p 8888
+cd unsloth; git pull
+.\install.ps1 --local
+unsloth studio -p 8888
+Remote access: --secure (HTTPS tunnel) vs raw port
+unsloth studio --secure -p 8888
+unsloth studio -H 0.0.0.0 -p 8888
+
+The first time Unsloth is published on a public URL ( --secure or --cloudflare ) with the auto-generated admin
+password still in place, it asks for a new admin password in the terminal (masked input with confirmation) before the
+public link goes up. Without an attached terminal it warns instead and keeps the bootstrap deadline: Unsloth shuts
+down after UNSLOTH_STUDIO_BOOTSTRAP_TIMEOUT (default 1 hour) unless the password is changed in the web UI.
+For headless setups that cannot answer that prompt, set the initial admin password non-interactively with --password
+(only takes effect when no password is set yet; if one already exists it is a hard error, so rotate later with unsloth 
+studio reset-password ):
+A literal --password VALUE is visible in the process list and shell history, so prefer the UNSLOTH_STUDIO_PASSWORD env
+var or --password - (stdin) for automation. This applies to any launch (public or a headless -H 0.0.0.0 bind), and
+the password is set in the parent before the server binds, so it never reaches a re-executed child process.
+Server-side tools (web search, Python and terminal code execution) run as your user and are on by default. Anyone who
+can reach the server with the API key can run code on this machine, so keep your API key private and pass --disable-
+tools when exposing Unsloth.
+Installer options can be passed as environment variables. On macOS, Linux and WSL place the variable after the pipe so
+the shell passes it to sh ; on Windows set it with $env: before piping to iex .
+Skip PyTorch (GGUF-only mode):
+Skip the post-install prompt that starts Unsloth (useful for automated installs):
+Pin the Python version:
+Install to a custom location with UNSLOTH_STUDIO_HOME :
+unsloth studio --secure --password 'your-strong-password'        # visible in `ps`/history
+UNSLOTH_STUDIO_PASSWORD='your-strong-password' unsloth studio --secure   # via env var
+printf '%s\n' 'your-strong-password' | unsloth studio --secure --password -   # via stdin
+Advanced launch options
+curl -fsSL https://unsloth.ai/install.sh | UNSLOTH_NO_TORCH=1 sh
+$env:UNSLOTH_NO_TORCH=1; irm https://unsloth.ai/install.ps1 | iex
+curl -fsSL https://unsloth.ai/install.sh | UNSLOTH_SKIP_AUTOSTART=1 sh
+$env:UNSLOTH_SKIP_AUTOSTART=1; irm https://unsloth.ai/install.ps1 | iex
+curl -fsSL https://unsloth.ai/install.sh | UNSLOTH_PYTHON=3.12 sh
+$env:UNSLOTH_PYTHON='3.12'; irm https://unsloth.ai/install.ps1 | iex
+curl -fsSL https://unsloth.ai/install.sh | UNSLOTH_STUDIO_HOME=/abs/path sh
+
+On macOS, the installer defaults to the system certificate store ( UV_SYSTEM_CERTS=1 ) so uv trusts the CAs in your
+Keychain, needed behind TLS-inspecting proxies (Cisco Umbrella, Zscaler, etc.). Opt out with:
+Point the frontend build at a corporate npm mirror/proxy with UNSLOTH_NPM_REGISTRY (for the developer install behind a
+firewall that blocks registry.npmjs.org ):
+It is threaded as --registry into the Unsloth frontend npm / bun installs; the supply-chain locks (7-day min-release-
+age , exact version pins) stay in force.
+Cap Unsloth's native CPU thread pools on high-core hosts: UNSLOTH_CPU_THREADS=8 unsloth studio -p 8888 .
+The recommended way to fully remove Unsloth Studio is the matching uninstall script for your OS. It stops any running
+servers, removes the install dir, the launcher data dir, the desktop shortcut, and any platform-specific entries (macOS
+.app bundle + Launch Services on Mac; Start Menu, HKCU\Software\Unsloth registry key and user PATH entries on
+Windows):
+MacOS, WSL, Linux: curl -fsSL 
+https://raw.githubusercontent.com/unslothai/unsloth/main/scripts/uninstall.sh | sh
+Windows (PowerShell): irm 
+https://raw.githubusercontent.com/unslothai/unsloth/main/scripts/uninstall.ps1 | iex
+If you only want to drop the install dir and keep the launcher/shortcut for a later reinstall, you can instead run rm -rf 
+~/.unsloth/studio (Mac/Linux/WSL) or Remove-Item -Recurse -Force "$HOME\.unsloth\studio" (Windows). The
+model cache at ~/.cache/huggingface is not touched by any of these.
+For more info, see our docs.
+You can delete old model files either from the bin icon in model search or by removing the relevant cached model folder
+from the default Hugging Face cache directory. By default, HF uses:
+MacOS, Linux, WSL: ~/.cache/huggingface/hub/
+Windows: %USERPROFILE%\.cache\huggingface\hub\
+Type
+Links
+Discord
+Join Discord server
+$env:UNSLOTH_STUDIO_HOME='C:\path'; irm https://unsloth.ai/install.ps1 | iex
+curl -fsSL https://unsloth.ai/install.sh | UV_SYSTEM_CERTS=0 sh
+UNSLOTH_NPM_REGISTRY=https://artifactory.example.com/api/npm/npm/ ./install.sh --local
+$env:UNSLOTH_NPM_REGISTRY='https://artifactory.example.com/api/npm/npm/'; .\install.ps1 --local
+Uninstall
+Deleting model files
+💚 Community and Links
+
+Type
+Links
+r/unsloth Reddit
+Join Reddit community
+📚 Documentation & Wiki
+Read Our Docs
+Twitter (aka X)
+Follow us on X
+🔮 Our Models
+Unsloth Catalog
+✍️ Blog
+Read our Blogs
+You can cite the Unsloth repo as follows:
+If you trained a model with 🦥Unsloth, you can use this cool sticker!   
+Unsloth uses a dual-licensing model of Apache 2.0 and AGPL-3.0. The core Unsloth package remains licensed under
+Apache 2.0, while certain optional components, such as the Unsloth Studio UI are licensed under the open-source
+license AGPL-3.0.
+This structure helps support ongoing Unsloth development while keeping the project open source and enabling the
+broader ecosystem to continue growing.
+Releases
+No releases published
+Create a new release
+Packages
+No packages published
+Publish your first package
+Contributors
+No contributors
+Languages
+Citation
+@software{unsloth,
+  author = {Daniel Han, Michael Han and Unsloth team},
+  title = {Unsloth},
+  url = {https://github.com/unslothai/unsloth},
+  year = {2023}
+}
+License
+Thank You to
+
+Python 70.8%
+TypeScript 23.4%
+Shell 1.9%
+PowerShell 1.7%
+Rust 1.4%
+CSS 0.5%
+Other 0.3%
+Suggested workflows
+Based on your tech stack
+SLSA Generic generator
+Generate SLSA3 provenance for your existing release workflows
+By Open Source Security Foundation (OpenSSF)
+Configure
+Publish Python Package
+Publish a Python Package to PyPI on release.
+By GitHub Actions
+Configure
+Python package
+Create and test a Python package on multiple Python versions.
+By GitHub Actions
+Configure
+More workflows
+
+## Extracted images
+
+(pulled from the source doc by `.migrate/extract_images.py` -- Markdown conversion drops these; see `c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/`)
+
+- ![embedded raster](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/image-0012.jpg) -- embedded raster
+- ![embedded raster](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/image-0017.jpg) -- embedded raster
+- ![embedded raster](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/image-0025.png) -- embedded raster
+- ![embedded raster](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/image-0027.png) -- embedded raster
+- ![embedded raster](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/image-0028.png) -- embedded raster
+- ![embedded raster](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/image-0029.png) -- embedded raster
+- ![embedded raster](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/image-0030.png) -- embedded raster
+- ![embedded raster](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/image-0031.png) -- embedded raster
+- ![embedded raster](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/image-0134.png) -- embedded raster
+- ![embedded raster](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/image-0135.png) -- embedded raster
+- ![embedded raster](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/image-0136.png) -- embedded raster
+- ![embedded raster](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/image-0320.png) -- embedded raster
+- ![embedded raster](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/image-0321.png) -- embedded raster
+- ![embedded raster](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/image-0325.png) -- embedded raster
+- ![embedded raster](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/image-0326.png) -- embedded raster
+- ![page 1 render (346 vector ops)](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/page-1-diagram.png) -- page 1 render (346 vector ops)
+- ![page 2 render (138 vector ops)](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/page-2-diagram.png) -- page 2 render (138 vector ops)
+- ![page 3 render (144 vector ops)](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/page-3-diagram.png) -- page 3 render (144 vector ops)
+- ![page 4 render (166 vector ops)](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/page-4-diagram.png) -- page 4 render (166 vector ops)
+- ![page 5 render (74 vector ops)](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/page-5-diagram.png) -- page 5 render (74 vector ops)
+- ![page 6 render (424 vector ops)](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/page-6-diagram.png) -- page 6 render (424 vector ops)
+- ![page 7 render (128 vector ops)](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/page-7-diagram.png) -- page 7 render (128 vector ops)
+- ![page 8 render (96 vector ops)](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/page-8-diagram.png) -- page 8 render (96 vector ops)
+- ![page 9 render (104 vector ops)](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/page-9-diagram.png) -- page 9 render (104 vector ops)
+- ![page 10 render (136 vector ops)](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/page-10-diagram.png) -- page 10 render (136 vector ops)
+- ![page 11 render (158 vector ops)](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/page-11-diagram.png) -- page 11 render (158 vector ops)
+- ![page 12 render (82 vector ops)](c10vis-poem／unsloth-merovingian: Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models..pdf_images/page-12-diagram.png) -- page 12 render (82 vector ops)
