@@ -578,6 +578,157 @@ type are frontmatter tags, never folders.
 
 ---
 
+## 12.1 · Build map — order of construction
+
+What gets built, in what order, and what each thing unblocks. Read down; nothing
+below a row starts before the rows above it are real.
+
+```
+  PHASE 0 · PROVE THE PARTS                        blocks everything
+  ├── voice stack in a Sherpa host app  ─────────┐  §8.2
+  │     └─ answers Whisper vs Moonshine          │
+  ├── read crash.log on device                   │  §3.6
+  │     └─ answers the first-crash trigger       │
+  └── verify live repo state vs. the docs        │  Rule 0 + Rule 4
+                                                 ▼
+  PHASE 1 · THE APK'S FOUR JOBS                    the app's whole remit
+  ├── screen timeout / sleep + wake              │  §3.6
+  ├── permissions                                │
+  ├── browser — WebView, OAuth, download-to-vault│  §3.2
+  └── WebSockets — loopback bridges              │  §9
+                                                 ▼
+  PHASE 2 · THE CIRCUIT                            makes the workbench work
+  ├── parameter packet as a plain file           │  §5
+  ├── RuntimeDef shaped to the four layers       │  §5
+  ├── switchOn() consults the Monitor            │  §4
+  │     └─ closes the no-RuntimeDef bypass       │
+  └── Archives stores + restores verified profiles  §5
+                                                 ▼
+  PHASE 3 · ON-DEVICE EXECUTION                    the point of the thing
+  ├── models load from the device folder         │  §5
+  ├── NPU manager harness (in-APK)               │  §9.1
+  │     └─ dual-model context switch, OOM catch  │
+  ├── recovery daemon ── restores from Archives  │  §5
+  └── voice layer ported in from Phase 0         │  §8
+                                                 ▼
+  PHASE 4 · THE MESH                               off-device
+  ├── inbound listener  ── Termux gets mic/OAuth │  §9
+  ├── OmniRoute gateway ── OB1 + mem0 behind it  │  §6
+  ├── node interconnect ── READ THE DOCS FIRST   │  §1.1
+  └── nanoagent on Node Gamma                    │  §1.1
+                                                 ▼
+  PHASE 5 · THE GUI BUILD                          design already locked
+  ├── Router  ── Aiwa CD player, animated        │  §3.3
+  ├── Monitor ── arcade cabinet                  │  §3.4
+  └── Terminal ── matrix cascade                 │  §3.5
+                                                 ▼
+  PHASE 6 · EVOLUTION                              operator-undefined
+  ├── Red Agent auditor                          │  §10
+  └── recursive training flywheel                │  §11
+```
+
+**The home screen appears nowhere in this map. It is done.**
+
+---
+
+## 12.2 · Action chart — how one request moves through the system
+
+Trace of a single voice request, end to end. Every arrow is a handoff; every box
+is owned by exactly one component.
+
+```
+  USER speaks
+     │
+     ▼
+  ┌────────────┐   silence 500–800ms
+  │ SILERO VAD │──────────────────────┐
+  └────────────┘                      ▼
+                              ┌──────────────┐
+                              │     STT      │  device folder → by path
+                              └──────┬───────┘
+                                     │ text
+                                     ▼
+                              ┌──────────────┐
+                              │  ROUTER hub  │  which runtime?
+                              └──┬────────┬──┘
+                                 │        │
+                    on-device ◄──┘        └──► cloud
+                         │                       │
+                         ▼                       ▼
+                 ┌──────────────┐        ┌──────────────┐
+                 │ NPU MANAGER  │        │  http_fetch  │
+                 │ in-APK       │        │  agent tool  │
+                 │ ping-pong    │        └──────┬───────┘
+                 │ 2 models     │               │
+                 └──┬────────┬──┘               │
+                    │        │ OOM              │
+                    │        ▼                  │
+                    │  ┌──────────────┐         │
+                    │  │  RECOVERY    │         │
+                    │  │  DAEMON      │         │
+                    │  └──────┬───────┘         │
+                    │         │ restore         │
+                    │         ▼                 │
+                    │  ┌──────────────┐         │
+                    │  │   ARCHIVES   │         │
+                    │  └──────────────┘         │
+                    │                           │
+                    └──────────┬────────────────┘
+                               │ tokens
+                               ▼
+                        ┌──────────────┐
+                        │ AGENT LOOP   │  tool call?
+                        └──┬────────┬──┘
+                           │        │
+                      no ◄─┘        └─► yes ─► TOOL ─► result ─┐
+                           │                                   │
+                           │◄──────────────────────────────────┘
+                           ▼
+                    ┌──────────────┐
+                    │  KOKORO TTS  │──► AudioTrack ──► USER hears
+                    └──────────────┘
+                           ▲
+                           │ barge-in: cancel queue, clear buffer,
+                           └──────────── reopen VAD
+```
+
+**Memory runs alongside, not inline:** every turn writes episodic state to mem0
+and reads structural context from OB1 — both through **Omni Route**, never
+directly (Rule 3).
+
+---
+
+## 12.3 · Flip chart — what happens when the operator throws the switch
+
+```
+  TERMINAL forges packet ──► file on disk
+                                  │
+  SETTINGS supplies assets/keys ──┤
+                                  ▼
+                          ROUTER ── operator flips
+                                  │
+                                  ▼
+                          ┌───────────────┐
+                          │    MONITOR    │  LIVE check, at flip time
+                          │  greenLight() │  (a series switch has
+                          └───┬───────┬───┘   no memory)
+                              │       │
+                        pass ─┘       └─ fail
+                              │            │
+                              ▼            ▼
+                    circuit closes    circuit does not close
+                    daemon runs       ── NO brick wall
+                              │       ── NO red banner
+                              ▼       ── NO lockout
+                    ARCHIVES stores   the operator sees why
+                    verified profile  and changes the packet
+```
+
+**The Router never refuses.** It attempts. Failure is a circuit that didn't
+energise, not an application saying no.
+
+---
+
 ## 13 · Configurations
 
 | Setting | Value |

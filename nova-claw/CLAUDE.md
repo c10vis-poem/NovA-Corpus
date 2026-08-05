@@ -1,23 +1,51 @@
 # CLAUDE.md — NovA-Claw — daemons and runtimes
 
+> **THIS IS WHERE WE'RE AT.** Read this first. It is the State of the Union for
+> this folder: what you are supposed to have, what you actually have, and the gap
+> between them.
+
+## Gospel
+
+**[`../canon/MASTER-BUILD-BLUEPRINT.md`](../canon/MASTER-BUILD-BLUEPRINT.md)** is
+the target. It is the W5+H universal building blueprint — who, what, where, when,
+why, how — plus the build map, the action charts, and the file architecture.
+
+**Everything in this folder is a comparison against it.** Nothing here describes
+the system in isolation. If this folder and the blueprint disagree, the blueprint
+is the target and this folder is the status.
+
+## Where we're at — NovA-Claw — daemons and runtimes
+
 The Omni Claw definition: daemons, runtimes, tool-skills, and the repo fork asset list.
 
-## Before you read anything in this folder
+| | |
+|---|---|
+| **Supposed to have** | see the blueprint sections that cover this domain |
+| **Actually have** | see [`../canon/STATE-OF-EXISTENCE.md`](../canon/STATE-OF-EXISTENCE.md) — the one ledger that says what is built |
+| **Delta** | anything in the first column not tagged `built-verified` in the second |
 
-1. **`../canon/STATE-OF-EXISTENCE.md` first.** It is the only document that says
-   whether a thing is built. Everything here describes design; most of it is not
-   running code.
-2. **`../canon/TEMPLATE.md`** defines what canon is and the seven enforcement
-   rules, including **Rule 6 (Designed != Built)** and **Rule 7 (Metaphor !=
-   Implementation)**.
-3. Nothing in this folder outranks `canon/`. If a document here contradicts
-   canon, canon wins and the contradiction gets recorded, not silently resolved.
+⬜ **Not yet filled in for this folder.** The blueprint is still DRAFT and the
+"actually have" audit has not been run against live code. Do not infer a status
+that isn't written here.
 
-## Writing into this folder
+## The kit
 
-- One axis on disk: this tree is organised by **domain**. Format tier and corpus
-  type are frontmatter tags, never folders.
-- Four-artifact convention: `name.pdf` (original, untouched) + `name.md` (cleaned)
-  + `name.jsonl` (only when large/structured) + `skills.md` (routes the folder).
-  **Same basename = same document** is the join key the audit runs on.
-- Never promote a metaphor into a constraint (Rule 7).
+Every folder carries four files. This is the second one.
+
+| File | Holds |
+|---|---|
+| `README.md` | what this folder is, for a human |
+| `CLAUDE.md` | **this file** — where we're at, for an agent |
+| `llm_wiki.md` | machine-facing index, generated not hand-written |
+| `skill_manifest.json` | structured metadata |
+
+## Working rules
+
+- **Read everything, completely, before acting** (Rule 0).
+- **One axis on disk** — this tree is organised by **domain**. Format tier and
+  corpus type are frontmatter tags, never folders.
+- **Four-artifact documents** — `name.pdf` + `name.md` + `name.jsonl` (when large)
+  + `skills.md`. **Same basename = same document** is the join key the audit runs.
+- **Never promote a metaphor into a constraint** (Rule 7) — but visual references
+  supplied with a picture *are* literal specs, and get built exactly.
+- **Verify mechanically** (Rule 4). Your own report is not evidence.

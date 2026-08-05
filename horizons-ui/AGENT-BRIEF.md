@@ -1,5 +1,14 @@
 # Horizons-UI — Agent Brief
 
+> **Derived document.** The gospel is
+> [`../canon/MASTER-BUILD-BLUEPRINT.md`](../canon/MASTER-BUILD-BLUEPRINT.md) —
+> the W5+H universal blueprint, the build map (§12.1), the action chart (§12.2),
+> and the flip chart (§12.3). **Read the blueprint first.** This brief only adds
+> what an agent working the *app repo specifically* needs on top of it: the hard
+> stops, the traps, and which local documents lie.
+>
+> Where this brief and the blueprint disagree, the blueprint wins.
+
 Hand this to any agent working on `c10vis-poem/Horizons-UI`. Read it fully before
 touching anything. It is short on purpose.
 
