@@ -176,6 +176,14 @@ them diffable.
    specifics don't justify discarding a document; promotion to canon requires verification
 6. **Designed ≠ Built** — every component tagged `built-verified` / `built-unverified` /
    `designed-only` / `absent`
+7. **Metaphor ≠ Implementation** — the operator's analogies (fuse box, 10-amp fuse, breaker,
+   Aiwa CD player, arcade cabinet, stereo stack) are **interface and config-file design
+   language**, not specifications for enforcement code. Prior sessions compiled "10-amp fuse"
+   into a hardcoded four-item `AssetCheck` and "Router" into a gatekeeper that threw red
+   `⚡ FUSE BOX` banners and blocked non-standard setups — breaking the ability to run custom
+   binaries and fine-tuned weights. Rule 7 is Rule 6 one level earlier: **Rule 6 catches false
+   reporting, Rule 7 catches false interpretation.** A canon document records a metaphor as the
+   operator said it and never silently promotes it into a constraint. See `canon/TEMPLATE.md`.
 
 **§1 Core Architecture Matrix (W5+H)** — corrections vs. the Gemini original: Horizons-UI is the
 lifecycle root; OB1 is a protocol spanning both cores, not a storage tier under one branch; Reasoning
