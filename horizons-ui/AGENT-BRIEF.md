@@ -24,6 +24,7 @@ copy the files across. Do not start without them.
 
 | Document | What it gives you |
 |---|---|
+| `canon/SOURCE-PRECEDENCE.md` | **Which source wins when two disagree.** One page. Read it before you resolve any contradiction — several documents here describe different apps. |
 | `canon/horizons-ui/WHAT-IT-IS.md` | **What the app IS and DOES** — the end product. Start here. The three-step workflow, room ownership, `greenLight`'s four named checks, RouterConfig, the three failure faces. |
 | `canon/horizons-ui/ROUTER-STEREO-STACK-SPEC.md` | **Router GUI.** Aiwa-style component stereo stack. LOCKED spec, reference image supplied. |
 | `canon/horizons-ui/MONITOR-ARCADE-CABINET-SPEC.md` | **Monitor GUI.** Upright arcade cabinet, CRT oscilloscope screen. LOCKED spec. |
@@ -50,9 +51,11 @@ different versions of the app as though each were current. If you build from the
 wrong one you will produce something that looks confidently correct and is wrong
 throughout — which is exactly what happened last time.
 
-**When documents disagree: the shipped code wins, then the operator's verbatim
-words, then everything else.** If you can't tell which is current, ask. Do not
-average them.
+**When documents disagree, use `canon/SOURCE-PRECEDENCE.md`.** Short version: the
+shipped code wins, then the operator's line-by-line spec corrections, then the
+master plan, then the locked visual specs, then everything else. **Grade, don't
+average** — never blend two versions into a third that neither says. If you can't
+tell which is current, ask.
 
 ---
 

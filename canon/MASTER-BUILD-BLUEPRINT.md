@@ -826,6 +826,10 @@ populated with invented architecture.
 
 ## 17 · Sources this draft was assembled from
 
+> Precedence when they disagree: **[`SOURCE-PRECEDENCE.md`](SOURCE-PRECEDENCE.md)**.
+> The spec-by-spec PDFs (§2 there) are the most accurate material and the base for
+> chiselling any new spec.
+
 Listed so the joint canon pass has something concrete to check, accept, or reject
 section by section. **Rule 0 applies to that pass**: the sources get read in full,
 not sampled.
