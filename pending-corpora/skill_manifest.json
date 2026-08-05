@@ -1,0 +1,19 @@
+{
+  "name": "pending-corpora",
+  "title": "Pending corpora \u2014 unverified",
+  "description": "Experimental and AI-sourced material. Kept and mined under Rule 5, promoted to canon only with verification.",
+  "kind": "corpus-section",
+  "canon_ref": "../canon/STATE-OF-EXISTENCE.md",
+  "template_ref": "../canon/TEMPLATE.md",
+  "build_state": "n/a \u2014 sections do not carry build state; see canon_ref",
+  "conventions": {
+    "axis": "domain",
+    "document_artifacts": [
+      "original",
+      ".md",
+      ".jsonl",
+      "skills.md"
+    ],
+    "join_key": "shared basename"
+  }
+}
