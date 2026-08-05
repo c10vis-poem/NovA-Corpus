@@ -314,16 +314,32 @@ bolted on — they belong to a layer.
   flushes the corrupted buffer, restores from the latest verified Archives
   snapshot.
 
-### Zero-TTL
+### Model residency — external device folder, no TTL
 
-Models are **pinned** — no time-to-live, no auto-eviction, `mmap` from storage.
-The dual-NPU orchestrator ping-pongs context between the two on-device models
-**without teardown**. Voice stays hot; there is no cold start.
+**DECIDED (operator).** Time-to-live is gone. Models do not live in the app and
+the app does not manage their lifetime.
 
-**Constraint:** the NPU budget carries the **two text/tensor models**. The voice
-layer is not added on top of it.
+- Weights sit in their **own clean embedded device folder**, loaded by absolute
+  path at runtime. Nothing large ships inside the APK.
+- Swapping a model is **drag-and-drop** into that folder. No recompile, no
+  rebuild, no reinstall.
+- The APK stays thin — it bundles the native execution libraries only
+  (`libsherpa-onnx-jni.so`, `libonnxruntime.so`, ~20 MB) and reads everything else
+  off the filesystem. It behaves like a media player reading a file off local
+  storage: the player stays fixed, the media lives wherever you put it.
 
----
+**What the app is then actually responsible for:**
+
+1. **Screen timeout** (and the sleep/wake handler)
+2. **Permissions**
+3. **The browser** — WebView, OAuth popups, download-to-vault
+4. **WebSockets** — the loopback bridges
+
+That list is the whole job. Everything else is a path into the device folder.
+
+The **dual-NPU orchestrator** still ping-pongs context between the two on-device
+models without teardown. The constraint stands: the NPU budget carries the **two
+text/tensor models**, and the voice layer is not stacked on top of it.
 
 ## 6 · Memory stack
 
@@ -455,6 +471,30 @@ noted as available, **not** as a recommendation.
 
 ---
 
+### 8.2 · Interim path — prove the voice stack off-app first
+
+**Operator direction.** Rather than build the voice layer inside Horizons-UI to
+find out whether it works, stand it up first in an existing Sherpa-ONNX app that
+already accepts uploaded models — and possibly an uploaded runtime — and that
+exposes a scripting hook (the same hook used for dual-model podcast generation).
+
+Why this is the right order:
+
+- It tests the **models and the pipeline**, not the app's plumbing. If it fails
+  there, the problem is the models; if it works there, anything failing in
+  Horizons is Horizons.
+- It answers §8.1 empirically — Whisper base vs. Moonshine on CPU/GPU, measured on
+  the actual device, without an APK build cycle per attempt.
+- The scripting hook makes the dual-model turn-taking testable before the NPU
+  manager exists.
+- It matches the residency model above: the models already live in a device
+  folder, so **porting over is a path change, not a rewrite.**
+
+**To confirm on device:** whether that app accepts a custom runtime as well as
+custom models, and how much its scripting layer actually exposes.
+
+---
+
 ## 9 · Runtime paths
 
 | Path | Route |
@@ -466,25 +506,22 @@ noted as available, **not** as a recommendation.
 
 ---
 
-### 9.1 · Dual-agent memory tier + NPU watchdog — NEEDS DESIGN
+### 9.1 · NPU manager — harness inside the APK
 
-**Flagged by the operator as needing more attention than it has had.**
+**DECIDED (operator): harness inside the APK.** Not a separate out-of-process
+layer.
 
-Two on-device models take turns on the NPU. Something has to arbitrate that: hold
-the context-switch, catch OOM, and drive the recovery daemon. Call it the **NPU
-watchdog**. Its placement is **undecided**, and the choice is architectural:
+Two on-device models take turns on the NPU, so something has to hold the context
+switch, catch OOM, and drive recovery. In-process gives it direct access to the
+orchestrator and the runtime without an IPC hop, which is the point — the
+alternative bought isolation the app doesn't need and cost a lifecycle to manage.
 
-| Option | Means |
-|---|---|
-| **Layer outside the APK** | separate process/daemon. Survives app death; needs its own IPC, lifecycle, and permissions |
-| **Harness inside the APK** | in-process. Direct access to the runtime and the orchestrator; dies with the app; competes for the same process budget |
+It dies with the app. That is acceptable: the app boots empty by design, and
+recovery restores from a verified profile rather than from a resident process.
 
-This is coupled to the **dual-agent memory tier** — the phone-side split that is
-the reason mem0's dual-agent architecture lives on Node Alpha. The watchdog and
-that tier are the same design problem approached from two sides.
-
-**Do not pick one in a document.** It gets decided deliberately, and the decision
-is recorded here when it is made.
+**Still open:** the **dual-agent memory tier** on the phone — the split that is
+the reason mem0's dual-agent architecture lives on Node Alpha. It is coupled to
+the manager but is not resolved by this decision.
 
 ## 10 · Red Agent Auditor
 
@@ -605,23 +642,28 @@ Qwen3.5-9B path; other model families ship their own runtimes.
 
 ## 16 · Open — named, never quietly filled in
 
-**Nearest priority: a working voice agent on the phone.** The node build-out
-follows it, not the other way round.
+**Nearest priority: a working voice agent on the phone**, proved off-app first
+(§8.2). The node build-out follows it, not the other way round.
 
-1. **NPU watchdog placement** — layer outside the APK, or harness inside it (§9.1).
-   Coupled to the dual-agent memory tier.
-2. **STT: Whisper base vs. Moonshine** — measure on CPU/GPU on device (§8.1). And
+**Decided this session — no longer open:** NPU manager is a **harness inside the
+APK** (§9.1). Model residency is an **external device folder with no TTL** (§5).
+
+1. **STT: Whisper base vs. Moonshine** — measure on CPU/GPU on device (§8.1). And
    the prior question of whether STT belongs on a contended NPU at all.
+2. **Dual-agent memory tier** on the phone — coupled to the NPU manager but not
+   resolved by that decision (§9.1).
 3. **Node Gamma agent** — in-house nanoagent sized to what the OS leaves; cloud
    pairing depending on how it performs (§1.1).
-4. OmniRoute built-in memory: local cache / offline fallback, or disabled per request?
-5. Red Agent MoA scope, and disagreement resolution.
-6. `discovery/` folder name.
-7. NovA-Claw + Novus-Agenti: one repo or two.
-8. `global-documentation-vault/` weight — Git LFS or its own repo.
-9. `nodes/` internal layout — **existing interconnect documentation must be read in
+4. **Sherpa host app capability** — does it accept a custom *runtime* as well as
+   custom models, and how far does its scripting layer reach (§8.2)?
+5. OmniRoute built-in memory: local cache / offline fallback, or disabled per request?
+6. Red Agent MoA scope, and disagreement resolution.
+7. `discovery/` folder name.
+8. NovA-Claw + Novus-Agenti: one repo or two.
+9. `global-documentation-vault/` weight — Git LFS or its own repo.
+10. `nodes/` internal layout — **existing interconnect documentation must be read in
    full first** (§1.1). Do not reconstruct it from summaries.
-10. Packet serialisation format (JSON / YAML / key=value). Any satisfies canon.
+11. Packet serialisation format (JSON / YAML / key=value). Any satisfies canon.
 
 **Recursive-training and Red-Agent internal flows are operator-undefined.** The
 sections above state their role in the mesh. Their internals are **not** to be
@@ -658,3 +700,17 @@ not sampled.
   is provably stale (no in-process STT, wired to a dead `:8091`) and cannot serve
   as the reference.
 - **Everything in `pending-corpora/`**, which has not been triaged against canon.
+
+---
+
+## 18 · Working constraint — Drive is offline
+
+**Google One billing is past due; nothing can be added to or pulled from Google
+Drive for roughly five days.** Not a blocker — a sequencing fact:
+
+- **Everything stays in Obsidian / this repo in the meantime.** Do not plan work
+  that depends on Drive reads or writes.
+- Drive-side restructuring can be done by the operator in the admin account
+  independently, if it's worth doing before then.
+- The Drive-sourced material already listed in §17 was read *before* the lockout
+  and is available locally — it does not need re-fetching.
