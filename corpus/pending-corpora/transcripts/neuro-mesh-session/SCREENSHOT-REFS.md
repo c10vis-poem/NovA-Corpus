@@ -215,6 +215,147 @@ LOCAL MESH NETWORK ROUTING : Ad-Hoc Peer-to-Peer Topology Linked over Tailscale
 
 ---
 
+---
+
+### Pages 53 (cont.) · red-agent-auditor/, node-beta-jetson/, node-gamma-rubik-pi/, global-documentation-vault/ (Gemini folder tree)
+
+```
+├── red-agent-auditor/        # AIR-GAPPED EXCLUSIONARY PERIMETER
+│   ├── README.md             # Zero-trust audit procedures and check steps
+│   ├── skill_manifest.json   # Trace verification and script parser routines
+│   ├── llm_wiki.md           # Logic checking trace maps
+│   ├── security-perimeter/   # Out-of-band script validation environments
+│   └── nope_data_bank.json   # Exploit profiles, invalid logic loop matrices
+│
+├── node-beta-jetson/         # PERSISTENT TENSOR COMPUTE HOST LAYERS
+│   ├── README.md             # OS flashing, CUDA kernel allocation metrics
+│   ├── skill_manifest.json   # Vector hosting and remote execution parameters
+│   └── llm_wiki.md           # NVMe storage usage benchmarks
+│
+├── node-gamma-rubik-pi/      # DISPLAY ENVIRONMENT SERVER LAYERS
+│   ├── README.md             # Hardware ribbon setup and UI rendering paths
+│   ├── skill_manifest.json   # Dual-monitor scaling and window mapping skills
+│   └── llm_wiki.md           # Qualcomm SoC telemetry tracking registers
+│
+└── global-documentation-vault/   # CORE RESOURCE & SDK ENCYCLOPEDIA
+    ├── unsloth-docs/         # Unsloth fine-tuning optimization specs
+    ├── qairt-docs/           # Qualcomm AI Runtime SDK reference libraries
+    ├── google-dev-docs/      # Android media and assistant system documentation
+    ├── llama-docs/           # Llama server configuration manual sets
+    └── master_blueprint.txt  # Global ground-truth validation index
+```
+
+---
+
+### Pages ~73 · Skill Construction & Dataset Loading Protocol (Gemini — structure only)
+
+"To guarantee zero-failure data ingestion, every curated document and new tool definition added to the repository must follow this sequence before model integration:"
+
+1. **Skill Definition Phase** — skills must be written as discrete, modular files. No tool configuration may mix operational categories.
+2. **Validation Schema Requirement** — every capability layout requires an associated JSON check file defining strict parameter input expectations and verifiable JSON-RPC output structures.
+
+---
+
+### Pages ~73 · Repo Initialization Bash Script (Gemini-generated — reference only)
+
+```bash
+#!/usr/bin/env bash
+# AESOP XI: DISCRETE WORKSPACE & MULTI-REPO BOOTSTRAP HARNESS
+# Sets up isolated folders and manifests to enforce single-agent scopes.
+set -euo pipefail
+
+REPOS=(
+  "horizons-ui-v1.2"
+  "termux-building-skills"
+  "file-management-and-skills"
+  "obsidian-vault-new"
+  "nova-claw-runtime"
+  "node-beta-jetson"
+  "node-gamma-rubik-pi"
+)
+
+for repo in "${REPOS[@]}"; do
+  if [ ! -d "../$repo" ]; then
+    echo "⚠️ Target layer subdirectory '$repo' missing. Generating clean context environment..."
+    mkdir -p "../$repo"
+  fi
+  if [ -f "../$repo/agent_manifest.json" ]; then
+    echo "✅ Layer boundary validated for: $repo"
+  else
+    echo "❌ BOUNDARY ERROR: Layer manifest file missing in $repo. Generating structural baseline..."
+    echo '{"assigned_agent": "UNASSIGNED", "security_clearance": "ISOLATED"}' > "../$repo/agent_manifest.json"
+  fi
+done
+
+echo "🎉 [TERMUX WORKSPACE] System sanitization audit sequence complete."
+```
+
+---
+
+### OPERATOR TURN — Voice layer / NPU pathway (CANON — verbatim, ~page 73)
+
+> "yeah I'd like to address the voice layer my APK already ships on device with an stt / TTS layer
+> that's running a o n n x/o r t through a llama server. this also allows the model inside of my
+> t-e-r-mux to utilize the qairt modelpath that allows a gguf model to run through llama to
+> ggml to kotlin kernel and l i b r c run times to land directly on the npu through the HT P SDK
+> net pathway I said that pathway will only be utilized when my on device models or my on-device
+> agent through the Horizons UI is offloaded and the APK is running bare metal"
+
+**Parsed (operator's confirmed architecture):**
+- STT/TTS already ships in APK via ONNX/ORT through a llama server (in-process)
+- NPU pathway chain: `GGUF → llama → ggml → Kotlin kernel → librc runtimes → Hexagon HTP SDK → NPU`
+- HTP SDK pathway is CONDITIONAL — only when:
+  - On-device models are offloaded, AND
+  - APK is running bare metal (no hosted model fallback)
+- Termux can access this same QAIRT ModelPath/HTP pathway for heavy inference
+
+**Aligns with CLAUDE.md:** "LLM inference runs via an uploadable daemon binary, not in-process"
+(daemon = llama server; voice layer runs in-process; HTP pathway only on bare-metal offload)
+
+---
+
+### Pages ~73 · The Technical Enterprise "Stack" Diagram of AESOP XI (Gemini ASCII)
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│          LOCAL P2P EDGE FABRIC (Ad-Hoc Network)              │
+│  ┌─────────────────────┐    ┌─────────────────────────────┐  │
+│  │ Smartphone Node     │◄──►│ Dev Board Nodes             │  │
+│  │ (Query models,      │    │ (Heavy Inference, Tools)    │  │
+│  │  Ambient)           │    │                             │  │
+│  └─────────────────────┘    └─────────────────────────────┘  │
+└──────────────────────────────────────────────────────────────┘
+                        │ (Executions & Logs)
+                        ▼
+┌──────────────────────────────────────────────────────────────┐
+│       AESOP XI COGNITIVE MEMORY & CONTEXT                    │
+│  ┌──────────────────────────┐  ┌────────────────────────┐   │
+│  │ Episodic / Spatial       │  │ Structural Knowledge   │   │
+│  │ (mem0, Omni Route)       │  │ (OB1, LLM Wiki Graph)  │   │
+│  └──────────────────────────┘  └────────────────────────┘   │
+└──────────────────────────────────────────────────────────────┘
+                        │ (Raw Interaction Traces)
+                        ▼
+┌──────────────────────────────────────────────────────────────┐
+│         ISOLATED ADVERSARIAL AUDIT (Security)                │
+│  ┌──────────────────────────────────────────────────────┐    │
+│  │       Red Agent Auditor + Nope Data Bank Guardrail   │    │
+│  └──────────────────────────────────────────────────────┘    │
+└──────────────────────────────────────────────────────────────┘
+                        │ (Sanitized & Edited Scripts)
+                        ▼
+┌──────────────────────────────────────────────────────────────┐
+│        CLOUD AUTOMATED DATA FLYWHEEL (Evolution)             │
+│  ┌──────────────────────────────────────────────────────┐    │
+│  │    GCP Cloud Bucket Storage (.jsonl / Condensed MD)  │    │
+│  │                      ▼                               │    │
+│  │    Recursive KAG / Model Self-Fine-Tuning Loop       │    │
+│  └──────────────────────────────────────────────────────┘    │
+└──────────────────────────────────────────────────────────────┘
+```
+
+---
+
 ## Master Validation Checksums Registry (Gemini-generated — structure only)
 
 | DIRHASH | VALIDATION |
