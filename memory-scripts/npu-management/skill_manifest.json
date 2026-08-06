@@ -1,0 +1,7 @@
+{
+  "folder": "memory-scripts/npu-management",
+  "description": "NPU load/unload and TOPS allocation management scripts",
+  "repo": null,
+  "skills": [],
+  "status": "skeleton"
+}

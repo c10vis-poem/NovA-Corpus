@@ -1,0 +1,7 @@
+{
+  "folder": "memory-scripts/housekeeping",
+  "description": "Housekeeping scripts — log rotation, temp file cleanup, stale cache pruning",
+  "repo": null,
+  "skills": [],
+  "status": "skeleton"
+}

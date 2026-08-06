@@ -1,0 +1,7 @@
+{
+  "folder": "agent-frameworks/nova-code-review-graph",
+  "description": "Knowledge graph code review agent — Tree-sitter, SQLite graph, MCP context",
+  "repo": "c10vis-poem/nova-code-review-graph",
+  "skills": [],
+  "status": "skeleton"
+}

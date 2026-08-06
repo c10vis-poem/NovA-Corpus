@@ -1,0 +1,7 @@
+{
+  "folder": "models/meta-llama",
+  "description": "Model registry for meta-llama — weights, quantization configs, runtime manifests",
+  "repo": null,
+  "skills": [],
+  "status": "skeleton"
+}

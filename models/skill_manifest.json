@@ -1,0 +1,7 @@
+{
+  "folder": "models",
+  "description": "Model registry organized by provider — weights, quantization, runtime manifests",
+  "repo": null,
+  "skills": [],
+  "status": "skeleton"
+}

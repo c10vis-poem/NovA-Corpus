@@ -1,0 +1,7 @@
+{
+  "folder": "models/google",
+  "description": "Model registry for google — weights, quantization configs, runtime manifests",
+  "repo": null,
+  "skills": [],
+  "status": "skeleton"
+}

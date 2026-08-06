@@ -1,0 +1,7 @@
+{
+  "folder": "memory-scripts/jsonl-compression",
+  "description": "JSONL compression scripts — compact and merge JSONL chunks for KAG pipeline",
+  "repo": null,
+  "skills": [],
+  "status": "skeleton"
+}

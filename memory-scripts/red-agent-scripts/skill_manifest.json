@@ -1,0 +1,7 @@
+{
+  "folder": "memory-scripts/red-agent-scripts",
+  "description": "Scripts the red-agent-auditor runs during its sandboxed audit pass",
+  "repo": null,
+  "skills": [],
+  "status": "skeleton"
+}

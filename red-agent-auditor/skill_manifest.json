@@ -1,0 +1,7 @@
+{
+  "folder": "red-agent-auditor",
+  "description": "Sandboxed auditor — intercepts at secretary→editor handoff, runs system audit with same tools",
+  "repo": "red-agent-auditor",
+  "skills": [],
+  "status": "designed-only"
+}

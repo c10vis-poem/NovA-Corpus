@@ -1,0 +1,7 @@
+{
+  "folder": "novus-agenti",
+  "description": "Phone-side agent (Razr Ultra) — runtime manifests, device integration, API registry",
+  "repo": "c10vis-poem/novus-agenti",
+  "skills": [],
+  "status": "skeleton"
+}

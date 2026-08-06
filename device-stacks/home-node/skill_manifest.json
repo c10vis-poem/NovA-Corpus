@@ -1,0 +1,11 @@
+{
+  "folder": "home-node",
+  "description": "Home compute node — Jetson Orin Nano Super + Rubik Pi 3 (DragonWing). Workstation replacement build.",
+  "hardware": {
+    "jetson": "Orin Nano Super — 8GB RAM, 512GB DDR4 SSD, ~67 TOPS",
+    "rubik_pi_3": "DragonWing chipset — 8GB RAM, ~128GB SSD, ~14 TOPS",
+    "connection": "high-speed data cable (wired) + Tailscale mesh"
+  },
+  "skills": [],
+  "status": "skeleton"
+}

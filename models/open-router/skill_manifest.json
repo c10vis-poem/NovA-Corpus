@@ -1,0 +1,7 @@
+{
+  "folder": "models/open-router",
+  "description": "Model registry for open-router — weights, quantization configs, runtime manifests",
+  "repo": null,
+  "skills": [],
+  "status": "skeleton"
+}
