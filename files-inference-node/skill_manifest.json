@@ -1,0 +1,7 @@
+{
+  "folder": "files-inference-node",
+  "description": "Secretary node — compiles manifests, processes logs, strips/compresses, pushes to cloud KAG pipeline",
+  "repo": "files-inference-node",
+  "skills": [],
+  "status": "designed-only"
+}
