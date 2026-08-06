@@ -34,6 +34,8 @@ copy the files across. Do not start without them.
 | `canon/horizons-ui/CRASH-ANALYSIS-2026-07-31.md` | What was wrong with the diagnostics and what got fixed. |
 | `canon/MASTER-BUILD-BLUEPRINT.md` | The whole system — where this app sits, the circuit, the memory stack, runtime paths. **Marked DRAFT**; structurally right, details still being confirmed. |
 | `canon/aesop/PARAMETER-PACKET.md` | The four parameter layers and the series circuit, in detail. |
+| `canon/horizons-ui/UX-RULES.md` | **NEW 2026-08-06.** Cross-tile UX rules: no typing outside Terminal/browser, long-press → help popup, zoom on Home/Monitor, inset cropping on every room except Home, cross-tile Router pathways. |
+| `canon/horizons-ui/CLOCK-FACE.md` | Room layout and ownership. Read before writing anything that names rooms or clock positions. |
 
 ### Do NOT build from these — they describe different apps
 
@@ -74,10 +76,18 @@ wrong.** Fix the document. Never the screen.
 **Do not push `main`.** Do not use `--no-verify`, `push --force`, or `reset --hard`
 without asking first.
 
-**Base branch trap.** `main` does **not** contain the working home screen. Run
-`git branch -a` before choosing a base. The correct base is
-`RELEASE-correct-home-screen-984b0610`. There is more real work on unmerged
-branches in this repo than on `main`.
+**Base branch — verified 2026-08-06.** `main` **does** contain the frozen
+HomeGrid (blob `618cf4b6`). The older warning in this brief that said "main
+does not contain the working home screen, base off `RELEASE-correct-home-screen-984b0610`"
+is **stale — basing off RELEASE now discards 9 commits of work on `main`.**
+Verify with:
+
+```
+git rev-parse origin/main:horizons/src/main/java/com/horizons/ui/HomeGrid.kt
+```
+
+If it prints `618cf4b6…`, `main` is correct. If it prints anything else,
+the freeze has been broken and this is a Rule 1 stop — report and wait.
 
 ---
 
@@ -125,6 +135,20 @@ specs. Build them exactly. Do not soften them into "styling direction."
 
 > Behaviour → never compile it. Appearance → build it exactly.
 
+### The no-typing rule (operator 2026-08-06)
+
+> *"Nothing in settings or archives or router should have any typing involved.
+> You should be pushing buttons, selecting from a list of choices."*
+
+**Rule.** Free-text entry is only permitted in **Terminal** and in the
+**browser**. Everywhere else — Settings, Archives, Router, Chat controls,
+Monitor faceplate, Horizons — is 100% picker/button-driven. Loading a model,
+choosing a runtime, tuning a parameter, picking a provider, selecting a
+voice: all pickers.
+
+Adding a text field to Settings or Router or Archives is a Rule violation
+regardless of what it does. Fix the UI, not the rule. Full spec: [[../canon/horizons-ui/UX-RULES]].
+
 ---
 
 ## 4 · Known gaps — VERIFY BEFORE TRUSTING ANY OF THIS
@@ -134,6 +158,25 @@ code before acting on it.** A vault snapshot of this repo was found to predate t
 in-process STT work entirely, and a prior AI audit claimed a dozen components were
 "completely missing" that in fact existed and were manifest-registered.
 
+- **Suspected root cause of "app can't find backend" — SAF picker scope.**
+  Operator observation 2026-08-06: files in `/storage/emulated/0/LeGRAND_REPOSITORY/MODELS/`
+  and `/HARNESS/` are non-hidden, standard internal storage, visible to any file
+  manager. If Horizons only reads from `context.filesDir` and doesn't launch
+  `ACTION_OPEN_DOCUMENT` / `ACTION_OPEN_DOCUMENT_TREE` to reach outside scoped
+  storage, the model and runtime files are structurally invisible to it
+  regardless of what the daemon does with the path it never gets. **Check this
+  before chasing the daemon-suicide theory** — grep for `ACTION_OPEN_DOCUMENT`,
+  `ACTION_OPEN_DOCUMENT_TREE`, `ContentResolver.openInputStream`, `filesDir`. If
+  loading only happens against `filesDir`, this is the bug. See
+  [[../canon/STATE-OF-EXISTENCE]] §4.
+- **Executions model needs Termux to open — hard blocker (operator 2026-08-06).**
+  The Qwen 3.5-0.8B QAIRT precompiled bundle from Qualcomm — the designated
+  executions model per [[../canon/MASTER-BUILD-BLUEPRINT]] §9.2 — ships as a
+  GitHub release-assets JSON. The **only tool on the device that can unpack
+  and load it is Termux**. So Terminal's Termux `RUN_COMMAND_SERVICE`
+  integration is not "someday when we get to it" — it is a **hard blocker
+  for the executions model to load at all**, and therefore for anything the
+  Router tries to plate on that side to fire. Prioritise accordingly.
 - **The daemon appears to suicide when no model is plugged in.** Operator
   observation: it probes for a model at start, finds none, crashes. `CliffordService`
   then relaunches it into the same empty state — a self-feeding crash loop. The fix
@@ -163,9 +206,12 @@ in-process STT work entirely, and a prior AI audit claimed a dozen components we
   `cd /sdcard/Android/data/com.horizons/files/diag && tail -40 crash.log`.
   Stack trace present ⇒ JVM exception. Empty but the app died ⇒ killed from
   outside, and no trace will ever appear.
-- **Two launcher icons** — `.MainActivity` and `.uilocal.LocalHomeActivity` both
-  carry MAIN/LAUNCHER and run different code. Test the tile icon. Removing the
-  second entry is a pending operator call.
+- **Two launcher icons — RESOLVED (operator 2026-08-06).** `.uilocal.LocalHomeActivity`
+  is the old stale overlay from ~4 months ago; **remove it.** `.MainActivity` is
+  the remaining launcher and needs to be wired up as the real Android
+  `VoiceInteractionService` system-assistant (currently manifest-registered but
+  the runtime logic is not wired). See [[../canon/horizons-ui/FEATURE-INVENTORY]]
+  §15H.
 
 ---
 

@@ -119,3 +119,34 @@ cabinet's contents.
   ignition — that lives in the Router (the stereo). Buttons here navigate
   and inspect; they do not energize a runtime.
 - The seven-tile home and its geometry are unaffected.
+
+## Zoom (operator 2026-08-06)
+
+> *"The entire app should have a zoom function on the home screen and the
+> monitor. If that's too difficult to do, perhaps utilizing the device
+> assistant to have a zoom press-to-zoom function in the floating tile —
+> that would probably be an easy way to do it."*
+
+- The Monitor face and its CRT screen support **pinch-to-zoom** as the
+  first choice. The oscilloscope, browser, greenLight readout, and
+  instruction placard all scale.
+- **Fallback** (if native pinch is prohibitive on the CRT canvas): a
+  **press-to-zoom** control on the Floating Live Tile that scales the
+  current Monitor face. Same behavior, different trigger.
+- Zoom state is per-face — zooming the CRT doesn't zoom the marquee /
+  placard / control deck chrome around it.
+- See [[UX-RULES]] for the app-wide zoom rule.
+
+## Inset cropping (operator 2026-08-06)
+
+> *"Everything besides the home screen needs to be cropped to allow space
+> for the notifications and gestures bars."*
+
+The Monitor cabinet respects **status-bar and gesture-navigation insets** —
+the marquee never runs under the notification bar, the coin door never
+runs under the gesture pill. Only the home screen is allowed to draw
+edge-to-edge; every other room, this one included, applies inset padding
+via `WindowInsets.systemBars`. See [[UX-RULES]] for the app-wide rule.
+
+This also fixes the operator's on-device observation that the top and
+bottom of Monitor content have been getting clipped by system UI.

@@ -224,7 +224,7 @@ State: `built-unverified`.
 | 13.1 | **GOAT** — `// GOAT_SAYS_NO`, synthesized sawtooth bleat w/ vibrato + tremolo, on handshake failure | `built-unverified` |
 | 13.2 | 7 banner taps → `// GOAT_UNLOCKED` | `built-unverified` |
 | 13.3 | **ASCII 404 CAT** — browser-scoped connection failure / dropped websocket | `designed-only` |
-| 13.4 | **CHONK** — 3–5 min idle screensaver from `/storage/emulated/0/Download/` | `partial` |
+| 13.4 | **CHONK** — **2 min** idle screensaver from `/storage/emulated/0/Download/` (operator 2026-08-06; supersedes "3–5 min") | `partial` |
 | 13.5 | Failure surfaces as a **banner, not a crash** | `built-unverified` |
 
 ## 14 · CROSS-CUTTING
@@ -242,11 +242,111 @@ State: `built-unverified`.
 
 ---
 
+## 15 · 2026-08-06 additions and corrections
+
+Operator briefing this session added a substantial layer of behaviour that
+cuts across the existing sections. Captured here as a delta rather than
+rewritten in place, so the audit trail stays legible. Where these
+extend an existing row, the old row number is cited.
+
+### 15A · Router (extends §7)
+
+| # | Feature | State |
+|---|---|---|
+| 15A.1 | **Animated CD tray & carousel** — press eject → tray slides out, carousel spins on swipe/button | `designed-only` |
+| 15A.2 | **Tap-a-disc fine-tune popup** — green Aiwa-face overlay: `Model_ / Engine_ / Runtime_ / Config._`, `[load] swap [save] edit (#)` | `designed-only` |
+| 15A.3 | **Dual-cassette role split** — Left well = Browse Settings/Archives, Right well = Load/Activate. Supersedes "well A = RUNNING / well B = SLEEPING" from 7.2 | `designed-only` |
+| 15A.4 | **Multi-load in the Load well** — several runtimes plated at once, swap between them without unloading | `designed-only` |
+| 15A.5 | **Execution-mode swap** — double-agent (NPU ping-pong) / single chatbot / MoA / cloud connector / **terminal agent** | `designed-only` |
+| 15A.6 | **Tuner deck: max tokens** control | `absent` |
+| 15A.7 | **Tuner deck: hardware target selector** (`npu`/`hybrid`/`gpu`/`cpu`) | `absent` |
+| 15A.8 | **Tuner deck: cloud-vs-local first-class toggle** | `absent` |
+| 15A.9 | **DSP panel extended to STT** — VAD sensitivity, silence-threshold ms, hard-max audio (extends 7.9 which was TTS-only) | `absent` |
+| 15A.10 | **Cross-tile pathways** — all six tiles push to Router, not the subset in older diagrams | `partial` |
+| 15A.11 | **Overflow-bounce** — Router full → item returns to origin tile + GOAT face | `absent` |
+| 15A.12 | **Router hotkey per pushed item** — on/off toggle for pushed sessions/hooks/scripts right on the Router face | `absent` |
+
+### 15B · Terminal (extends §4)
+
+| # | Feature | State |
+|---|---|---|
+| 15B.1 | **CRT-oscilloscope panel treatment** on the black console — green graticule, live amber waveform trace, bezel + speaker corners | `designed-only` |
+| 15B.2 | **Configures models & fine-tunes parameters** in Terminal (supersedes "defines only" reading) | `absent` |
+| 15B.3 | **Push-to-Router from Terminal** — prepared config plates directly | `absent` |
+| 15B.4 | **View Archives / move Settings-vault files → Archives** without leaving Terminal | `absent` |
+| 15B.5 | **Termux `RUN_COMMAND_SERVICE` access** — closes the "Termux backend absent" gap in §12.9 | `absent` |
+| 15B.6 | **Describe → agent-drafts → user-confirms → live-run → auto-fix** command flow (LLM-Hub reference pattern) | `absent` |
+| 15B.7 | **Port-over to Router** — when Router is idle, Terminal-hosted agent becomes the on-device agent with the full voice stack | `designed-only` |
+| 15B.8 | **Live in-app user manual** — chaptered, scripted so a help-agent walks the user through | `absent` |
+| 15B.9 | **Manual chapter TOC** — README/intro · Home · Tiles · Launching · Push from Chat · Configure/fine-tune Router · Configure Terminal · Modify Terminal · Monitor · Browser · Failback · Choose runtimes · Optimise for device · Packaging & optimised stacks | `absent` |
+| 15B.10 | **Provider picker in Terminal** — local / OpenAI / Anthropic / OpenRouter / SambaNova / custom | `absent` |
+
+### 15C · Monitor (extends §1)
+
+| # | Feature | State |
+|---|---|---|
+| 15C.1 | **Zoom on Monitor face** — pinch primary, Floating Tile press-to-zoom fallback | `absent` |
+| 15C.2 | **Inset cropping** — status bar and gesture nav insets respected on the cabinet | `absent` |
+| 15C.3 | **Provider picker in Monitor's sandboxed browser** — same picker reachable in Terminal | `absent` |
+
+### 15D · Settings (extends §3)
+
+| # | Feature | State |
+|---|---|---|
+| 15D.1 | **SAF picker must reach paths outside `context.filesDir`** — this is the suspected root cause of "app can't find backend": non-hidden `/storage/emulated/0/LeGRAND_REPOSITORY/…` paths must be pickable. Upgrades 3.3. | `partial (suspected broken)` |
+| 15D.2 | **Traditional app settings** — font, light/dark theme (wallpaper already speced at 3.8) | `absent` |
+
+### 15E · Voice (extends §8)
+
+| # | Feature | State |
+|---|---|---|
+| 15E.1 | **Stack stays sherpa-onnx** — no change. WhisperKit is `c10vis-llm-hub`'s reference; not adopted by Horizons. Kokoro TTS + Silero VAD + (Whisper base or Moonshine) via sherpa. | `unchanged` |
+| 15E.2 | **On-device failure** — voice not running on operator's device; suspected **Android accessibility / permissions** issue, not stack choice. Needs on-device diagnosis, not re-architecture. | `blocked-on-device-diag` |
+| 15E.3 | **Whisper base & Moonshine both live on Mer0vin8ian HF** — `sherpa-onnx-whisper-base.en`, `moonshine-streaming-small-onnx` / `moonshine-streaming-small`. §8.1 open question resolves on-device with **our** forks, not upstream. | `available` |
+
+### 15F · Cross-cutting UX (see [[UX-RULES]])
+
+| # | Feature | State |
+|---|---|---|
+| 15F.1 | **No typing outside Terminal / browser** — Settings, Archives, Router, Monitor chrome are 100% picker-driven | `spec` |
+| 15F.2 | **Long-press → plain-language help popup** on any control | `absent` |
+| 15F.3 | **Zoom on Home + Monitor** (pinch primary, Live-Tile fallback) | `absent` |
+| 15F.4 | **Inset cropping on every room except Home** | `absent` |
+| 15F.5 | **External-agent detection notification** — app detects a running CLI + compatible agent (e.g. Claude Code) and points user to the Terminal tile | `absent` |
+| 15F.6 | **Your-fork-first** — any asset with a `Mer0vin8ian`/`c10vis-poem` fork uses the fork, not upstream. Fine-tuning pushes through operator repos. | `standing rule` |
+
+### 15G · Two-model NPU pairing (extends §7.6 / §11)
+
+| # | Feature | State |
+|---|---|---|
+| 15G.1 | **Executions model = Qwen3.5-0.8B, QAIRT precompiled build from Qualcomm** — routes through `qairt` runtime (NPU only, max performance) per [[../MASTER-BUILD-BLUEPRINT]] §9 / §9.2. Vision + language capable. Operator's own assessment: best small model available. | `designated` |
+| 15G.1a | **Distribution: GitHub release-assets JSON, Termux-required to unpack** (operator 2026-08-06). Termux access (15B.5) becomes a **hard blocking dependency** for the executions model — no Termux, no execution. | `blocked on 15B.5` |
+| 15G.1b | **On-device `Qwen3.5-2B-Q4_0.gguf` (1.21 GB) is NOT this model** — that's a separate 2B GGUF in `/LeGRAND_REPOSITORY/MODELS/`. Different file, different purpose. Don't conflate. | `note` |
+| 15G.2 | **Query-side pairing** — 9B or Gemma-4-12B, TBD. Combined footprint target ~6.95 GB reported operator-side (needs cross-check against Q4_0 sizes on device). | `open` |
+
+### 15H · Launcher tile (extends §12)
+
+| # | Feature | State |
+|---|---|---|
+| 15H.1 | **Old duplicate launcher tile** (`.uilocal.LocalHomeActivity` MAIN/LAUNCHER) — **removed.** Was a stale overlay from ~4 months ago that did nothing. | `resolved — remove pending` |
+| 15H.2 | **`.MainActivity` / `VoiceInteractionService`** — the remaining launcher becomes the real Android system-assistant. Wire it up (currently manifest-registered but not functional). | `absent (must-wire)` |
+
+### 15I · Commercial / packaging (new)
+
+| # | Feature | State |
+|---|---|---|
+| 15I.1 | **Tiered packages by hardware** — free plug-and-play tier (small quick-select model) vs. paid premium (heavy models). Back burner, but wiring must not preclude it. | `future` |
+| 15I.2 | **Manual links out to optimised-stack repos** per hardware tier | `future` |
+
+---
+
 ## Status ledger
 
 - ✅ Enumeration — from the operator's feature-by-feature session, corrections applied.
+- ✅ 2026-08-06 additions consolidated in §15 (this session).
 - ⬜ **Every `built-unverified` row is one device session from resolution.**
 - ⬜ 11.3 (serve-first) is the highest-value single check — cheap, and it may be the crash.
+- ⬜ 15D.1 (SAF picker scope) is the highest-value new check — likely explains the operator's "app can't find backend" report.
 - ⛔ 7.5-as-blocker and 11.7 (zero-TTL) — superseded or rejected; listed so nobody rebuilds them.
 
 ## Open

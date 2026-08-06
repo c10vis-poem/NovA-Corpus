@@ -69,7 +69,8 @@ at the screen, read the placard, hit a button).
 
 Beyond the wheel: the **Floating Horizons Live Tile** (always-on overlay —
 screen-vision capture, mic trigger, live meta-prompting) and the **sleep handler**
-(3–5 min idle → the chonk screensaver).
+(**2 min** idle → the chonk screensaver — operator 2026-08-06; supersedes
+older "3–5 min" language).
 
 > **Operator:** *"Don't forget about the crash log / easter egg goat pop up and
 > the screen timeout guardian chonk."*
@@ -168,3 +169,18 @@ Top logo placement · bottom chat bar placement · bottom status nodes
 - Exact tile card style ("wrong style") is still unpinned — `HOME-REDESIGN-SPEC.md` §13.
 - Horizons prompt line: operator offered `$_version.s` **or** `$_.home`; `$_.home`
   taken as cleanest, not explicitly ratified.
+
+## 7 · Not on the wheel — the launcher-tile question (2026-08-06)
+
+The Android launcher currently exposes **two** activities with `MAIN/LAUNCHER`:
+`.MainActivity` and `.uilocal.LocalHomeActivity`. Neither is a room on the
+clock face — they are OS entry points, not tiles inside the app.
+
+**Operator (2026-08-06):** the old `.uilocal.LocalHomeActivity` tile "needs
+to go away." The remaining `.MainActivity` launcher is where the
+`VoiceInteractionService` system-assistant integration wires up (currently
+manifest-registered but not functional). See
+[[FEATURE-INVENTORY]] §15H.
+
+Nothing about this changes the clock face itself. Recorded here so the next
+reader doesn't confuse a launcher-side change for a room-layout change.
