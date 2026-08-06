@@ -1,0 +1,7 @@
+{
+  "folder": "unsloth",
+  "description": "Unsloth fine-tuning — LoRA/QLoRA recipes, dataset prep, quantized model export",
+  "repo": null,
+  "skills": [],
+  "status": "skeleton"
+}

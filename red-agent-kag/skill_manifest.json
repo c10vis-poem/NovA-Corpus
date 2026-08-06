@@ -1,0 +1,7 @@
+{
+  "folder": "red-agent-kag",
+  "description": "Red-agent-auditor + recursive KAG + MoE/MoA configs for the audited knowledge loop",
+  "repo": "red-agent-auditor",
+  "skills": [],
+  "status": "skeleton"
+}

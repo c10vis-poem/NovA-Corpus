@@ -1,0 +1,7 @@
+{
+  "folder": "memory-scripts/inference-scripts",
+  "description": "Peer-server to home-node inference scripts — IPC, WebSocket bridges, API routing",
+  "repo": null,
+  "skills": [],
+  "status": "skeleton"
+}

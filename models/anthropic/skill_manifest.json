@@ -1,0 +1,7 @@
+{
+  "folder": "models/anthropic",
+  "description": "Model registry for anthropic — weights, quantization configs, runtime manifests",
+  "repo": null,
+  "skills": [],
+  "status": "skeleton"
+}

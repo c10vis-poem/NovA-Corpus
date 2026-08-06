@@ -1,0 +1,7 @@
+{
+  "folder": "ecc",
+  "description": "Built-in MCP server — error correction and context continuity across agent handoffs",
+  "repo": null,
+  "skills": [],
+  "status": "skeleton"
+}

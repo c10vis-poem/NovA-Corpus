@@ -1,0 +1,7 @@
+{
+  "folder": "device-stacks/custom-mcps",
+  "description": "Per-node custom MCP configs — device-specific tool wiring beyond built-ins",
+  "repo": null,
+  "skills": [],
+  "status": "skeleton"
+}

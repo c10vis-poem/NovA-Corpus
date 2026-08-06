@@ -1,0 +1,7 @@
+{
+  "folder": "device-stacks",
+  "description": "Physical device layer — Razr Ultra (phone), Jetson+Rubik Pi 3 (home node), per-node MCPs",
+  "repo": null,
+  "skills": [],
+  "status": "skeleton"
+}
