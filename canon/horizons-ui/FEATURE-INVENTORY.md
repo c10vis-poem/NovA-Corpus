@@ -150,7 +150,7 @@ immediately after it was produced. Applied here, not preserved as-was:
 | 8.1 | **Silero VAD** — continuous endpointing, 500–800 ms trailing silence | `absent` (forked, not wired) |
 | 8.2 | STT in-process on the sherpa AAR | `built-unverified` |
 | 8.3 | **Whisper base vs Moonshine** — undecided, measure on CPU/GPU | `open` |
-| 8.4 | **Kokoro TTS** in-process, streaming PCM → `AudioTrack` | `built-unverified` |
+| 8.4 | **Kokoro TTS** in-process, streaming PCM → `AudioTrack` | `built-unverified` — see STATE-OF-EXISTENCE §3a: a native `exit(-1)` in init (missing lang param) was found and patched 2026-08-06 late |
 | 8.5 | **Barge-in** — cancel TTS queue, clear buffer, reopen VAD | `designed-only` |
 | 8.6 | Hard max audio length (~60 s) so noise can't hang the stream | `absent` |
 | 8.7 | Floating mic tile initiates capture | `designed-only` |
@@ -249,6 +249,16 @@ cuts across the existing sections. Captured here as a delta rather than
 rewritten in place, so the audit trail stays legible. Where these
 extend an existing row, the old row number is cited.
 
+> **2026-08-06 late — read before trusting any `designed-only` row below as
+> "in progress."** Every row in this §15 is a specification captured the
+> night the operator described it. A later session that same night built
+> real code — but none of it touched Router, Monitor, or Terminal visuals
+> or interaction. What shipped instead was boot-stability and file-import
+> work (see STATE-OF-EXISTENCE §3a/§4a). The CD tray, tap-a-disc popup,
+> dual-cassette split, oscilloscope panel, and zoom below are **still
+> exactly as undescribed-in-code as they were the moment they were
+> written down.** Don't infer progress from the existence of this section.
+
 ### 15A · Router (extends §7)
 
 | # | Feature | State |
@@ -294,6 +304,7 @@ extend an existing row, the old row number is cited.
 | # | Feature | State |
 |---|---|---|
 | 15D.1 | **SAF picker must reach paths outside `context.filesDir`** — this is the suspected root cause of "app can't find backend": non-hidden `/storage/emulated/0/LeGRAND_REPOSITORY/…` paths must be pickable. Upgrades 3.3. | `partial (suspected broken)` |
+| 15D.1a | **Storage scanner mitigation (2026-08-06 late)** — new `StorageScanner.kt` walks common roots (`LeGRAND_REPOSITORY`, `Download`, `Documents`, sdcard root) via `MANAGE_EXTERNAL_STORAGE` + direct `java.io.File`, **not SAF**. One-tap import copies a found file into `filesDir`, where the existing loader already works. Ships in Horizons-UI PR #35. Sidesteps 15D.1 rather than fixing it — the grep 15D.1 calls for still hasn't been run. See STATE-OF-EXISTENCE §4a. | `built-unverified` |
 | 15D.2 | **Traditional app settings** — font, light/dark theme (wallpaper already speced at 3.8) | `absent` |
 
 ### 15E · Voice (extends §8)
@@ -301,7 +312,7 @@ extend an existing row, the old row number is cited.
 | # | Feature | State |
 |---|---|---|
 | 15E.1 | **Stack stays sherpa-onnx** — no change. WhisperKit is `c10vis-llm-hub`'s reference; not adopted by Horizons. Kokoro TTS + Silero VAD + (Whisper base or Moonshine) via sherpa. | `unchanged` |
-| 15E.2 | **On-device failure** — voice not running on operator's device; suspected **Android accessibility / permissions** issue, not stack choice. Needs on-device diagnosis, not re-architecture. | `blocked-on-device-diag` |
+| 15E.2 | **On-device failure** — voice not running on operator's device; suspected **Android accessibility / permissions** issue, not stack choice. Needs on-device diagnosis, not re-architecture. **Correction 2026-08-06 late:** a code-confirmed alternate cause now exists — Kokoro TTS init called native `exit(-1)` without a lang param, found and patched. This may explain the on-device failure better than an accessibility-permissions theory; re-check after the patched build is installed. | `blocked-on-device-diag` |
 | 15E.3 | **Whisper base & Moonshine both live on Mer0vin8ian HF** — `sherpa-onnx-whisper-base.en`, `moonshine-streaming-small-onnx` / `moonshine-streaming-small`. §8.1 open question resolves on-device with **our** forks, not upstream. | `available` |
 
 ### 15F · Cross-cutting UX (see [[UX-RULES]])
@@ -311,7 +322,7 @@ extend an existing row, the old row number is cited.
 | 15F.1 | **No typing outside Terminal / browser** — Settings, Archives, Router, Monitor chrome are 100% picker-driven | `spec` |
 | 15F.2 | **Long-press → plain-language help popup** on any control | `absent` |
 | 15F.3 | **Zoom on Home + Monitor** (pinch primary, Live-Tile fallback) | `absent` |
-| 15F.4 | **Inset cropping on every room except Home** | `absent` |
+| 15F.4 | **Inset cropping on every room except Home** | `absent` — **partial exception 2026-08-06 late:** `.systemBarsPadding()` added at the `MainActivity` panel-container level (Horizons-UI PR #35, commit `34cfac2`), which crops insets on every non-Home pane uniformly. Not per-room inset styling as speced, but the top/bottom clipping bug this row exists to prevent is addressed. |
 | 15F.5 | **External-agent detection notification** — app detects a running CLI + compatible agent (e.g. Claude Code) and points user to the Terminal tile | `absent` |
 | 15F.6 | **Your-fork-first** — any asset with a `Mer0vin8ian`/`c10vis-poem` fork uses the fork, not upstream. Fine-tuning pushes through operator repos. | `standing rule` |
 
@@ -344,9 +355,10 @@ extend an existing row, the old row number is cited.
 
 - ✅ Enumeration — from the operator's feature-by-feature session, corrections applied.
 - ✅ 2026-08-06 additions consolidated in §15 (this session).
+- ✅ 2026-08-06 late — 15D.1a storage-scanner mitigation and 15F.4 inset fix recorded; both `built-unverified`.
 - ⬜ **Every `built-unverified` row is one device session from resolution.**
 - ⬜ 11.3 (serve-first) is the highest-value single check — cheap, and it may be the crash.
-- ⬜ 15D.1 (SAF picker scope) is the highest-value new check — likely explains the operator's "app can't find backend" report.
+- ⬜ 15D.1 (SAF picker scope) is the highest-value new check — likely explains the operator's "app can't find backend" report. **Still not run as of 2026-08-06 late**, despite 15D.1a shipping a workaround around it.
 - ⛔ 7.5-as-blocker and 11.7 (zero-TTL) — superseded or rejected; listed so nobody rebuilds them.
 
 ## Open
@@ -354,3 +366,7 @@ extend an existing row, the old row number is cited.
 - Whether the tool count is 26 or the "22" of earlier documents — the prompt lists 26
   including `done`. Cosmetic, but the docs should agree.
 - Every `unverified` row in §11–§12 came from a stale snapshot, not live code.
+- **All of §15A/§15B/§15C** (Router CD tray, dual-cassette, Terminal oscilloscope,
+  Monitor zoom) — zero code as of 2026-08-06 late. Next session to pick this up
+  should start here if the operator's priority is the visual/interaction rebuild
+  rather than further boot-stability work.
