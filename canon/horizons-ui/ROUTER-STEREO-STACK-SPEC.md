@@ -54,37 +54,119 @@ Execute surface.
 
 ### Top deck — CD player = MODELS
 
-- Tap the **CD** button and the **disc tray slides out**, seen at the same
-  3/4 angle as the reference photo.
-- The tray holds a **rotating carousel** — spin through your models and swap
-  them by touch. (The reference unit is a **CD3** 3-disc changer, which is
-  exactly right: several models loaded, one engaged.)
+> **Operator (2026-08-06):** *"The changer in the router should be animated
+> and interactive so you can actually push the button up by the changer and
+> you'll watch it — you can see the deck come out and it could spin and you
+> hit the CD spot, you can load. When you hit the CDs, a little pop-up comes
+> and it looks like [the Aiwa green overlay reference] — you can fine-tune
+> it."*
+
+- The **CD/EJECT button is a real interactive control.** Press it and the
+  disc tray **physically slides out**, animated at the same 3/4 angle as the
+  reference photo. Not a modal, not a nav transition — the tray as a moving
+  object.
+- The tray holds a **rotating carousel** — a real spin animation, driven by
+  swipe or the changer button. (The reference unit is a **CD3** 3-disc
+  changer: several models loaded, one engaged.)
+- **Tap a disc in the carousel** → a **fine-tune popup** appears rendered
+  over the deck, matching the green LCD-style overlay in the operator's
+  reference image (`Model_ / Engine_ / Runtime_ / Config._`, each
+  `_(select)_`, with `[load] swap [save] edit` along the bottom, `(#)`
+  indicator). See §Fine-tune popup below.
 - Close the tray to commit.
 
 **Maps to:** plating a model on the Router. The disc left in the engaged
 position is `KEY_ACTIVE_MODEL`.
 
+#### Fine-tune popup (rendered over the CD deck)
+
+Per the operator's reference image (Aiwa faceplate with green terminal-style
+overlay). Four selectable rows, five actions:
+
+| Row | Selects |
+|---|---|
+| `Model_` | which weight file is engaged (same set as the carousel — this is the shortcut) |
+| `Engine_` | which native engine drives it (`llama_cpp`, `qairt`, cloud connector, terminal agent) |
+| `Runtime_` | which loaded runtime file (see cassette deck) executes it |
+| `Config._` | which archived parameter packet is applied |
+
+**Actions:** `[load]` · `swap` · `[save]` · `edit` · `(#)` numeric picker.
+
+**All picker-driven. No free-text entry** — per the workbench UX rule, the
+Router surface is button-and-list only (see [[UX-RULES]]). Text lives in
+Terminal and the browser.
+
+**Naming reconciliation.** These four rows are the *engaged-item shortcut
+face* of the four parameter layers in [[../aesop/PARAMETER-PACKET]] §2
+(Weights / Runtime / Engine / Communication). The popup uses the shorter
+Aiwa-face labels; the parameter packet on disk keeps the canonical four.
+`Model_` = the engaged Weights entry; `Config._` folds Communication and any
+Weights limits into one archived packet. The popup is a **UI over** the
+packet, not a rename of it.
+
 ### Middle deck — tuner / amplifier = RUNTIME PARAMETERS
 
 - Touch the middle panel and it **expands**.
-- Controls for **temperature**, **verbosity**, **core count**, and a **dial
-  to scroll through runtime options**. More dropdowns to come.
+- Controls for the Runtime-layer parameters that are currently open in the
+  packet: **temperature**, **verbosity**, **core count / thread bindings**,
+  **max tokens**, and a **dial to scroll through runtime options**.
+- **Hardware target selector** — `npu` / `hybrid` / `gpu` / `cpu`, matching
+  GenieX's `--device` aliases. If the loaded runtime advertises multiple
+  targets, all three are visibly offered. Currently hardcoded to `"Adreno
+  830"` in `HorizonsApplication:116` — that string is a lie on any device
+  that isn't a Razr Ultra and has to become device-agnostic; see
+  [[../STATE-OF-EXISTENCE]].
+- **Cloud-vs-local toggle** — first-class visible switch, not buried.
+- **DSP / voice panel** — pitch, speech speed, volume scale, voice-model
+  swap. **Extended tonight (operator 2026-08-06): STT tuning as well as
+  TTS.** VAD sensitivity, silence-threshold ms, hard-max audio length — the
+  Router is the one place these live for the user, not just Kokoro's TTS
+  side.
 - The **FM / AM band button swaps runtimes** — band = which runtime is live.
 - The LCD/VU area is the natural home for live status: green-light readout,
   tokens/sec, memory draw.
 
-**Maps to:** the engaged `RouterConfig` and its tunables.
+**Maps to:** the engaged `RouterConfig` and its tunables (Runtime layer of
+the parameter packet).
 
 ### Bottom deck — dual cassette = RUNTIME FILES
 
-- **Runtimes load as files, into the cassette wells.** "Files run in the
-  cassettes."
-- Dual well = two runtimes loaded at once, one playing and one on deck —
-  which lines up exactly with `RUNNING` vs `SLEEPING` / "on the deck". No new
-  concepts needed.
+> **Operator (2026-08-06):** *"The tape decks are where you can load your
+> files. One side will have where you can access settings and archives, and
+> one will be where you actually load them up. You can load multiple, and
+> you can swap between the double-agent query system or a single chatbot or
+> mixture of agents. That would also be where you can select the cloud
+> connector or terminal agent."*
 
-**Maps to:** `RuntimeDef` + the uploadable runtime binary. A cassette *is* a
-runtime definition: binary name, port, health path, args template.
+**Two wells, two distinct roles** — this supersedes the earlier "well A =
+RUNNING, well B = SLEEPING" reading:
+
+| Well | Role |
+|---|---|
+| **Left (Browse/Access)** | reaches into **Settings** (the vault) and **Archives** — browses what's landed, previews, pulls a verified profile back out |
+| **Right (Load/Activate)** | where a runtime actually **plates**. Holds multiple loaded runtimes, not just one — you swap between them without unloading |
+
+**Execution modes — swap between them from the Load well:**
+
+- **Double-agent query system** — the two-model NPU ping-pong (executions
+  model + query model taking turns; see [[../STATE-OF-EXISTENCE]] for the
+  current pairing)
+- **Single chatbot** — one model, no ping-pong
+- **Mixture of agents (MoA / MoE)** — the composite path from
+  [[../MASTER-BUILD-BLUEPRINT]] §1 (Novus-Agenti composite execution core)
+- **Cloud connector** — routes through the provider picker (OpenAI /
+  Anthropic / OpenRouter / SambaNova / custom — extensible list, not the
+  three-hardcoded shortlist the older docs implied)
+- **Terminal agent** — a Termux-staged process registered as a Router
+  runtime target (new tonight: promotes Terminal-hosted agents to a
+  first-class execution backend, not just a script-forging surface)
+
+**Maps to:** `RuntimeDef` + the uploadable runtime binary in the Load well;
+the Browse well is a live read into `SettingsPane` + `ArchiveStore` without
+leaving the Router.
+
+**RUNNING / SLEEPING** is still meaningful — it's the state of items in the
+Load well, not the identity of the wells themselves.
 
 ## Why this fits the existing data model
 
@@ -118,8 +200,52 @@ Worth designing in *before* the launcher is made runtime-agnostic
 (EXECUTIONS P1.3), since it is the same code path. Otherwise the launcher
 gets reopened a second time to retrofit the parameter channel.
 
+## Cross-tile pathways to the Router
+
+> **Operator (2026-08-06):** *"All six tiles should have a pathway to the
+> router."*
+
+All six clock-face tiles push to the Router — not just the subset drawn in
+the older circuit diagrams. Concretely: Chat pushes prompts and drafted
+runs; Settings hands over supplied assets/keys; Terminal forges packets and
+pushes them; Archives restores verified profiles; Horizons pushes its
+unlockable Easter-egg payload; Monitor dispatches on greenLight pass. The
+Router is the common sink.
+
+## Overflow — bounce, don't refuse
+
+> **Operator (2026-08-06):** *"If the router's device storage is full it'll
+> just load back into archives or settings or wherever it was pushed from,
+> and the 404 goat can pop up."*
+
+If the Router (or the device the Router is loading into) is full when
+something arrives, it **bounces back to the origin tile** (Archives,
+Settings, wherever it was pushed from) rather than failing hard. A failure
+face surfaces — GOAT for the bounce event. The Router still doesn't say
+*no*; overflow is a naturally failed close, and the packet is preserved at
+its source.
+
+## Router hotkey for pushed items
+
+> **Operator (2026-08-06):** *"If any sessions or hooks or scripts are
+> pushed to the router there should be a hotkey there so you can turn it on
+> or off."*
+
+Anything landed on the Router by push (a Terminal session, a hook, a
+script, a cloud connector) surfaces with its own **on/off hotkey right on
+the Router face**. No trip back to Terminal/Archives to disable it. The
+hotkey is a toggle, not a delete — the item stays plated, it just doesn't
+carry current until the hotkey flips.
+
 ## Related
 
-- Monitor tile: separate visual reference pending — do not assume it shares
-  this treatment.
+- [[MONITOR-ARCADE-CABINET-SPEC]] — the read-only checkpoint the Router
+  consults at flip time.
+- [[TERMINAL-SPEC]] — the mod garage that forges packets and now also hosts
+  the on-device agent that can port over to the Router.
+- [[UX-RULES]] — the workbench-wide rules (no typing outside Terminal /
+  browser, long-press-for-help, zoom, inset-cropping) that this Router
+  surface obeys.
+- [[../aesop/PARAMETER-PACKET]] — the four-layer packet the popup and tuner
+  are UIs over.
 - [[CRASH-ANALYSIS-2026-07-31]] — current boot-stability work.

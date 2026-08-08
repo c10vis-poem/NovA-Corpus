@@ -461,6 +461,11 @@ apply to them. Softening these into "styling direction" is itself the failure.
 **Whisper base vs. Moonshine is undecided.** Which performs better on **CPU/GPU**
 is the actual question, and it has not been measured. Recorded, not reconciled.
 
+**Both models live on the operator's HF** — `Mer0vin8ian/sherpa-onnx-whisper-base.en`
+and `Mer0vin8ian/moonshine-streaming-small-onnx` / `Mer0vin8ian/moonshine-streaming-small`.
+Under the your-fork-first rule (§14.5), measurement runs against **those** builds,
+not upstream.
+
 Underneath it sits a bigger question that keeps getting skipped: **why push STT
 onto the NPU at all?** The NPU budget already carries **two models taking turns**.
 Adding speech to that contention is a decision that needs justifying, not
@@ -470,6 +475,27 @@ A `parakeet-tdt-0.6b-v3-npu-mobile` bucket exists on HF as an NPU-targeted path 
 noted as available, **not** as a recommendation.
 
 **Resolution path:** measure both on CPU/GPU on the device. Not a design debate.
+
+### 8.3 · Voice not running on operator's device — accessibility diagnosis, not stack change
+
+> **Operator (2026-08-06):** *"We got our own — we're good on the voice. I just
+> don't know why it's not working on my device. I think it's more of an Android
+> accessibility issue."*
+
+**Spec.** The stack (sherpa-onnx + Kokoro + Silero + Whisper-or-Moonshine) is
+**not being reopened.** The current on-device failure is treated as an
+**Android accessibility / permissions problem** — needs on-device diagnosis
+(runtime `RECORD_AUDIO` grant, VoiceInteractionService activation, foreground
+service state), not a re-architecture.
+
+**Reference for style, not adoption.** `c10vis-poem/c10vis-llm-hub` ships
+**WhisperKit for Android** as its ASR framework. Horizons is **not** switching
+to WhisperKit — sherpa-onnx stays. LLM-Hub is referenced elsewhere in this
+blueprint for its Termux-agent interaction pattern (§Terminal spec), not its
+voice-engine choice.
+
+If §8.2's off-app proof-in-a-Sherpa-host-app path is still viable, it also
+sidesteps the on-device accessibility question by running outside Horizons.
 
 ---
 
@@ -524,6 +550,39 @@ recovery restores from a verified profile rather than from a resident process.
 **Still open:** the **dual-agent memory tier** on the phone — the split that is
 the reason mem0's dual-agent architecture lives on Node Alpha. It is coupled to
 the manager but is not resolved by this decision.
+
+### 9.2 · Two-model NPU pairing — executions model designated
+
+> **Operator (2026-08-06):** *"I have a Qwen 3.5 0.8B which sits at like 1.21 —
+> that thing is probably the best small model I have. It's got vision and language
+> capable. I'm going to use that for my executions model."*
+
+**Spec.** The **executions model** slot in the dual-NPU orchestrator is filled
+by `Mer0vin8ian/Qwen3.5-0.8B` (vision + language capable), specifically the
+**QAIRT precompiled build from Qualcomm** — `.bin` shards + `geniex.json`,
+routed through the `qairt` runtime pathway per §9 (NPU only, max
+performance).
+
+**Distribution & loading — Termux-required (operator 2026-08-06).** This
+QAIRT bundle ships as a **GitHub release-assets JSON**, and the only tool
+on the device that can unpack and load it is **Termux**. That makes the
+Termux access path in [[horizons-ui/TERMINAL-SPEC]] §Termux access a
+**hard dependency** for the executions model, not a nice-to-have. Without
+functional Termux integration, the executions model cannot be loaded at
+all — no Router flip closes.
+
+**Not to be confused with the 1.21 GB `Qwen3.5-2B-Q4_0.gguf` on device** —
+that's a separate 2B model in operator's `/LeGRAND_REPOSITORY/MODELS/`,
+not the executions model. Different parameter count, different file, different
+purpose.
+
+Query-side pairing is TBD — candidates: `Mer0vin8ian/Qwen3.5-9B-GGUF`
+(~5.38 GB Q4_0 on device) or `Mer0vin8ian/gemma-4-12B-it-qat-GGUF` (~6.72–6.98
+GB on device). Operator reported a ~6.95 GB combined footprint target; needs
+cross-check against actual Q4_0 sizes.
+
+Voice layer stays off the NPU (§8) — the two-model pairing is the whole NPU
+budget.
 
 ## 10 · Red Agent Auditor
 
@@ -774,6 +833,117 @@ Full open-source attribution renders in the **Horizons** room.
 
 ---
 
+## 14.5 · Your-fork-first — standing rule (operator 2026-08-06)
+
+> **Operator:** *"All these assets that we're using — any kind of facet of
+> architecture that we're building with — if I have it forked in my repo, or in
+> my HuggingFace, if I have a copy HuggingFace model with my brand on it, or
+> it's in my GitHub repo, we've got to use my version. Fine-tuning anything, we
+> push it through my repos."*
+
+**Rule.** For every asset the Horizons build depends on — model weights,
+forked framework, runtime, tokenizer, SDK — **if a `Mer0vin8ian` (HuggingFace)
+or `c10vis-poem` (GitHub) copy exists, the build points at it, not upstream.**
+Any fine-tuning work pushes through the operator's repos, not sideways to a
+new one.
+
+This generalises what was already precedent in [[horizons-ui/TERMINAL-SPEC]]
+(`c10vis-poem/fakesteak` for the matrix cascade, "per the standing preference
+for using own forked assets wherever possible") into a rule for everything in
+the stack.
+
+### The mapping — as of 2026-08-06
+
+**Weights (verified against `Mer0vin8ian` HF, 2026-08-06):**
+
+| Role | Operator's fork | Upstream equivalent |
+|---|---|---|
+| Executions model (§9.2) | `Mer0vin8ian/Qwen3.5-0.8B` | Qwen/Qwen 3.5-0.8B |
+| Query model candidate | `Mer0vin8ian/Qwen3.5-9B-GGUF` | Qwen/Qwen 3.5 9B |
+| Query model candidate | `Mer0vin8ian/gemma-4-12B-it-qat-GGUF` | google/gemma-4-12B |
+| Vision-language | `Mer0vin8ian/Gemma-4-E4B-it` · `gemma-4-E2B-it-ONNX` | google/gemma-4-E4B / E2B |
+| Nanoagent (§1.1) | `Mer0vin8ian/Granite-4.0-Micro` | ibm-granite/granite-4.0-micro |
+| Compact chat | `Mer0vin8ian/Phi-4-Mini-Instruct` | microsoft/Phi-4-Mini |
+| Keypoint vision | `Mer0vin8ian/Clovis-LiteHRNet` | HRNet keypoint models |
+
+**Voice stack (§8):**
+
+| Role | Operator's fork |
+|---|---|
+| TTS | `Mer0vin8ian/kokoro-en-v0_19` |
+| STT candidate — Whisper | `Mer0vin8ian/sherpa-onnx-whisper-base.en` |
+| STT candidate — Moonshine | `Mer0vin8ian/moonshine-streaming-small-onnx` · `moonshine-streaming-small` |
+
+**Runtime / SDK:**
+
+| Role | Operator's fork |
+|---|---|
+| Hexagon SDK (private) | `Mer0vin8ian/hexagon-sdk` |
+| Matrix cascade UI | `c10vis-poem/fakesteak` |
+| GenieX runtime bits | `c10vis-poem/GenieX` (operator's fork) |
+| AESOP protocol | `c10vis-poem/aesop` |
+
+Mapping table is authoritative for what to prefer *right now*. If the operator
+adds a new fork, it lands here.
+
+### On-device folders these get loaded from
+
+Non-hidden internal storage — no `MANAGE_EXTERNAL_STORAGE`, no `.hidden` prefix:
+
+- **Weights:** `/storage/emulated/0/LeGRAND_REPOSITORY/MODELS/`
+- **Runtime harness (GenieX, QNN-QAIRT, tokenizers, `hybrid_llama_qnn.pte`, etc.):**
+  `/storage/emulated/0/LeGRAND_REPOSITORY/HARNESS/`
+- **Google Dev references:** `/storage/emulated/0/GOOGLE_DEV/`
+
+The Settings SAF picker (see [[horizons-ui/FEATURE-INVENTORY]] §15D.1) has to
+reach these paths from a first tap. If it doesn't, the app can't find the
+backend regardless of what's plated — this is the leading suspect for the
+operator's on-device failure.
+
+---
+
+## 14.6 · Provider picker — commercial-grade, extensible
+
+> **Operator (2026-08-06):** *"This is going to be commercial-grade — should
+> be able to pick whatever provider or from a list of them, not just two."*
+
+**Spec.** The cloud connector is not two named providers. It is a **picker**
+over an extensible list — same first-run flow any CLI agent tool ships with.
+Minimum set: **local (on-device)**, **OpenAI**, **Anthropic**, **OpenRouter**,
+**SambaNova**, **custom endpoint**. Additions are configuration, not code.
+
+Reachable from **Terminal** and from the **Monitor sandboxed browser**
+(see [[horizons-ui/TERMINAL-SPEC]] and [[horizons-ui/MONITOR-ARCADE-CABINET-SPEC]]).
+Selection stored in the Communication layer of the parameter packet
+(see [[aesop/PARAMETER-PACKET]] §2).
+
+**OpenRouter clarification:** OpenRouter is a multi-provider aggregator that
+speaks OpenAI-compatible request shapes — it is **not routed through OpenAI**.
+Same `/v1/chat/completions` API contract, different backend infrastructure and
+different set of models available. The picker lists it as its own entry.
+
+---
+
+## 14.7 · Commercial tiering — back burner, wiring-compatible
+
+> **Operator (2026-08-06):** *"Before this thing ever goes to market it's going
+> to have to have pickers on it — fast selections. There's going to be nerfed
+> [tier] and you have to pay for like a premium package. Should come with the
+> small regular run-of-the-mill plug-and-play — you hit it, it starts
+> downloading. That's not today. That's one you can put on the back burner, but
+> something to consider when you're wiring this thing up."*
+
+**Spec.** Not built. **Wiring must not preclude it.** A **free tier** with a
+small quick-select model (plug-and-play, one-tap download); a **paid tier**
+gating the larger models and premium features. Reference implementation for
+the tier split: `c10vis-poem/c10vis-llm-hub`'s free/premium model.
+
+Manual (see [[horizons-ui/TERMINAL-SPEC]] §Live user manual) has a **Packaging
+& optimised stacks** chapter (Ch. N) that carries out-links to per-hardware
+optimised-stack repos.
+
+---
+
 ## 15 · Superseded
 
 Record of how the build arrived here — **not a ban list.** If one of these is the
@@ -795,28 +965,64 @@ Qwen3.5-9B path; other model families ship their own runtimes.
 
 ## 16 · Open — named, never quietly filled in
 
-**Nearest priority: a working voice agent on the phone**, proved off-app first
-(§8.2). The node build-out follows it, not the other way round.
+**Nearest priority (as of 2026-08-06): loading works end-to-end.** The app
+has to be able to find and load the operator's on-device backend
+(GenieX SDK, model weights in `/LeGRAND_REPOSITORY/…`, runtime files) before
+anything else matters. Voice, node build-out, everything downstream is
+blocked on that. See §14.5 for the on-device folder layout and §16.12 below.
 
-**Decided this session — no longer open:** NPU manager is a **harness inside the
+**Decided this session (2026-08-06) — no longer open:**
+- **Your-fork-first** rule with mapping table (§14.5).
+- **Provider picker** shape — extensible list, not two hardcoded providers (§14.6).
+- **Executions model** = `Mer0vin8ian/Qwen3.5-0.8B` (§9.2), with query-side
+  pairing still to confirm.
+- **UX rules** — no typing outside Terminal/browser, long-press help, zoom,
+  inset cropping ([[horizons-ui/UX-RULES]]).
+- **Router animated CD/carousel + tap-a-disc popup + dual-cassette role split
+  + execution-mode swap** ([[horizons-ui/ROUTER-STEREO-STACK-SPEC]]).
+- **Terminal: configures models & fine-tunes, Termux access, agent draft-run-fix
+  pattern, live manual, port-over to Router** ([[horizons-ui/TERMINAL-SPEC]]).
+- **Cross-tile Router pathways, overflow-bounce, Router hotkey** —
+  [[horizons-ui/ROUTER-STEREO-STACK-SPEC]].
+- **WhisperKit not being adopted** (§8.3) — sherpa-onnx stays.
+- **Old duplicate launcher tile removed; other becomes the real system assistant**
+  ([[horizons-ui/FEATURE-INVENTORY]] §15H).
+
+**Decided last session (2026-08-05):** NPU manager is a **harness inside the
 APK** (§9.1). Model residency is an **external device folder with no TTL** (§5).
 
-1. **STT: Whisper base vs. Moonshine** — measure on CPU/GPU on device (§8.1). And
-   the prior question of whether STT belongs on a contended NPU at all.
-2. **Dual-agent memory tier** on the phone — coupled to the NPU manager but not
+**Still open:**
+
+1. **STT: Whisper base vs. Moonshine** — measure on CPU/GPU on device (§8.1).
+   And the prior question of whether STT belongs on a contended NPU at all.
+   Both models available on `Mer0vin8ian` HF; measurement runs against those.
+2. **Voice on operator's device** — not running. Suspected Android
+   accessibility / permissions issue, not stack change (§8.3). Needs
+   on-device diagnosis.
+3. **Dual-agent memory tier** on the phone — coupled to the NPU manager but not
    resolved by that decision (§9.1).
-3. **Node Gamma agent** — in-house nanoagent sized to what the OS leaves; cloud
-   pairing depending on how it performs (§1.1).
-4. **Sherpa host app capability** — does it accept a custom *runtime* as well as
+4. **Node Gamma agent** — in-house nanoagent sized to what the OS leaves; cloud
+   pairing depending on how it performs (§1.1). Starting point:
+   `Mer0vin8ian/Granite-4.0-Micro` (§14.5).
+5. **Sherpa host app capability** — does it accept a custom *runtime* as well as
    custom models, and how far does its scripting layer reach (§8.2)?
-5. OmniRoute built-in memory: local cache / offline fallback, or disabled per request?
-6. Red Agent MoA scope, and disagreement resolution.
-7. `discovery/` folder name.
-8. NovA-Claw + Novus-Agenti: one repo or two.
-9. `global-documentation-vault/` weight — Git LFS or its own repo.
-10. `nodes/` internal layout — **existing interconnect documentation must be read in
-   full first** (§1.1). Do not reconstruct it from summaries.
-11. Packet serialisation format (JSON / YAML / key=value). Any satisfies canon.
+6. OmniRoute built-in memory: local cache / offline fallback, or disabled per request?
+7. Red Agent MoA scope, and disagreement resolution.
+8. `discovery/` folder name.
+9. NovA-Claw + Novus-Agenti: one repo or two.
+10. `global-documentation-vault/` weight — Git LFS or its own repo.
+11. `nodes/` internal layout — **existing interconnect documentation must be read in
+    full first** (§1.1). Do not reconstruct it from summaries.
+12. Packet serialisation format (JSON / YAML / key=value). Any satisfies canon.
+13. **Query-model half of the NPU pairing** (§9.2) — Qwen 3.5-9B vs Gemma-4-12B.
+    (0.8B-vs-2B file identity check closed 2026-08-06 — it's the 0.8B QAIRT
+    precompiled bundle from Qualcomm.)
+14. **CHONK timeout** — 2 min (operator 2026-08-06 caption) vs 3–5 min (older docs).
+    See [[horizons-ui/UX-RULES]] §6.
+15. **What replaces WhisperKit in `c10vis-llm-hub`** — in-app popup flags
+    WhisperKit as deprecated with a replacement TBD. **Not adopted by Horizons**
+    per §8.3; noted only so that when the replacement name surfaces, the
+    reference in §8.3 gets updated. Not a Horizons decision.
 
 **Recursive-training and Red-Agent internal flows are operator-undefined.** The
 sections above state their role in the mesh. Their internals are **not** to be

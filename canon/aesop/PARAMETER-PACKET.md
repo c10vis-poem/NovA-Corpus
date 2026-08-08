@@ -74,10 +74,10 @@ fine-tuning through the 6:00 Terminal** — not permissions, not OS capabilities
 
 | # | Layer | Carries |
 |---|---|---|
-| 1 | **Weights** | model paths, INT8/ONNX quantization limits, tensor file allocations |
-| 2 | **Runtime** | zero-TTL execution flags, RAM allocations, thread bindings |
-| 3 | **Engine** | native JNI/C++ layers (`libsherpa-onnx-jni.so`, `libllama.so`), VAD sensitivity |
-| 4 | **Communication** | IPC sockets, WebSocket bridges, API router endpoints |
+| 1 | **Weights** | model paths (absolute, off the device folder), INT8/ONNX quantization limits, tensor file allocations |
+| 2 | **Runtime** | zero-TTL execution flags, RAM allocations, thread bindings, **temperature, verbosity, cores, max tokens, hardware target** (`npu` / `hybrid` / `gpu` / `cpu` — matches GenieX `--device` aliases; if the loaded runtime advertises multiple, all are offered) |
+| 3 | **Engine** | native JNI/C++ layers (`libsherpa-onnx-jni.so`, `libllama.so`), VAD sensitivity, **STT tuning** (silence threshold ms, hard-max audio length), **TTS DSP** (pitch / speed / volume / voice-model swap) |
+| 4 | **Communication** | IPC sockets, WebSocket bridges, **API router endpoints and provider selection** (local / OpenAI / Anthropic / OpenRouter / SambaNova / custom — extensible list, not the older three-hardcoded shortlist) |
 
 > **Operator:** *"If any native logic needs tweaking, code refactoring, or custom
 > patch application, it is queried, modded, and pushed to the Router directly
@@ -90,9 +90,29 @@ fine-tuning through the 6:00 Terminal** — not permissions, not OS capabilities
 don't exist. These must become real `RuntimeDef` params BEFORE P1.3."*
 
 **Spec.** They are not four new ad-hoc fields to invent. **`temperature`,
-`verbosity`, and `cores` all belong under layer 2 — Runtime.** `RuntimeDef` should
-be shaped to the four canonical layers, so the launcher is written once against a
-stable taxonomy rather than reopened each time a parameter is discovered missing.
+`verbosity`, `cores`, `max_tokens`, and hardware target all belong under layer
+2 — Runtime.** Provider selection (OpenAI / Anthropic / OpenRouter / ...) belongs
+under layer 4 — Communication. `RuntimeDef` should be shaped to the four
+canonical layers, so the launcher is written once against a stable taxonomy
+rather than reopened each time a parameter is discovered missing.
+
+### Router fine-tune popup — UI over the packet, not a rename of it
+
+The Router's tap-a-disc fine-tune popup (see
+[[../horizons-ui/ROUTER-STEREO-STACK-SPEC]] §Fine-tune popup) uses the
+Aiwa-face labels `Model_ / Engine_ / Runtime_ / Config._`. Those are the
+**engaged-item shortcut face** of the four canonical layers here, not a
+replacement taxonomy:
+
+| Popup row | Canon layer |
+|---|---|
+| `Model_` | the engaged Weights entry (which weight file is active) |
+| `Engine_` | Engine (native engine driver: `llama_cpp`, `qairt`, cloud connector, terminal agent) |
+| `Runtime_` | Runtime (which loaded runtime file executes it) |
+| `Config._` | an archived parameter packet — folds Communication endpoints + any Weights limits into one restorable snapshot |
+
+The popup is a **UI over** the packet. The packet on disk keeps the
+canonical four-layer shape.
 
 ---
 
@@ -109,8 +129,9 @@ stable taxonomy rather than reopened each time a parameter is discovered missing
   native JNI thread hits OOM or crashes, it traps the exception, flushes the
   corrupted execution buffer, and **restores the runtime from the latest verified
   snapshot in the 8:00 Archives.**
-- **Sleep** — 3–5 min inactivity pauses active processing into a low-power state;
-  the chonk screensaver covers it; tap or floating-mic wakes it.
+- **Sleep** — **2 min** inactivity pauses active processing into a low-power state;
+  the chonk screensaver covers it; tap or floating-mic wakes it. (Operator
+  2026-08-06 — supersedes older "3–5 min".)
 
 The recovery daemon is **why Archives is a room and not a folder** — it is the
 restore source, so it is load-bearing in the execution path.
@@ -137,16 +158,25 @@ top of that budget.
 - ✅ Four layers (Weights / Runtime / Engine / Communication) — operator-dictated.
 - ✅ Launch + recovery daemons, Archives-as-restore-source — operator-stated.
 - ✅ Zero-TTL pinning + NPU budget constraint — operator-stated.
+- ✅ Runtime layer expanded with `max_tokens` + hardware target (operator 2026-08-06).
+- ✅ Communication layer expanded with provider picker (operator 2026-08-06).
+- ✅ Router popup ↔ four-layer mapping (operator 2026-08-06 reference image).
 - ⛔ `AssetCheck` four-item hardcoded list + `⚡ FUSE BOX` blocking banner —
   **rejected by the operator.** Rule 7 violation, kept here as the worked example.
 - ⛔ Router-as-hardened-gatekeeper — **explicitly rejected.**
 - ⬜ `RuntimeDef` reshaped to the four layers — **not built.**
-- ⬜ `temperature` / `verbosity` / `cores` as real Runtime params — **not built.**
+- ⬜ `temperature` / `verbosity` / `cores` / `max_tokens` / hardware target as
+  real Runtime params — **not built.**
+- ⬜ Provider picker in `RuntimeDef.Communication` — **not built.**
 - ⬜ Recovery daemon — **not built.**
 - ⬜ Zero-TTL pinning — **not built.**
 - ⬜ `RouterPane.switchOn()` consulting the Monitor instead of re-implementing the
   check — **not built.** It also **skips the gate entirely** when no `RuntimeDef`
   matches, so cloud/PWA/terminal configs bypass the Monitor today.
+- ⬜ Router hotkey for pushed sessions/hooks/scripts — **not built** (operator
+  2026-08-06).
+- ⬜ Overflow-bounce (Router full → return to origin tile + GOAT face) —
+  **not built** (operator 2026-08-06).
 
 ## 6 · Open / to-confirm
 
