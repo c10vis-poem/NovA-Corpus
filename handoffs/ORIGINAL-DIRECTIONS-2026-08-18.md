@@ -468,7 +468,7 @@ Nova Corpus — Device Stack
 
 **12:19:36**
 
-All 12 files in here https://drive.google.com/drive/folders/13MXxTKvdcbRSNSnWvx1RIo5S81_BTQur
+All 12 files in here [Drive folder link redacted]
 
 **12:21:24**
 
